@@ -217,7 +217,7 @@ Moves1:
 	move EFFECT_PROTECT,             0, FIGHTING,      100,  5,   0      ;DETECT
 	move EFFECT_MULTI_HIT,          25, GROUND,         80, 10,   0      ;BONE_RUSH
 	move EFFECT_LOCK_ON,             0, NORMAL,        100,  5,   0      ;LOCK_ON
-	move EFFECT_RAMPAGE,            90, DRAGON,        100, 15,   0      ;OUTRAGE
+	move EFFECT_RAMPAGE,           120, DRAGON,        100, 15,   0      ;OUTRAGE
 	move EFFECT_SANDSTORM,           0, ROCK,          100, 10,   0      ;SANDSTORM
 	move EFFECT_LEECH_HIT,          70, GRASS,         100, 10,   0      ;GIGA_DRAIN
 	move EFFECT_ENDURE,              0, NORMAL,        100, 10,   0      ;ENDURE
