@@ -3660,23 +3660,49 @@ BattleAnim_LockOn:
 	anim_ret
 
 BattleAnim_Outrage:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_2gfx BATTLE_ANIM_GFX_FIRE, BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_DRAGONBREATH
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING, $0, BG_EFFECT_USER, $20
 	anim_sound 0, 0, SFX_OUTRAGE
 	anim_wait 72
 	anim_incbgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING
 	anim_call BattleAnim_ShowMon_0
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
-	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 120, 72, $0
-	anim_wait 6
-	anim_sound 0, 1, SFX_COMET_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
-	anim_wait 6
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 152, 40, $0
-	anim_wait 16
+	anim_sound 6, 2, SFX_EMBER
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_BGPALS_INVERTED, $0, $4, $0
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $10
+.loop
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $38
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $10
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $2a
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $4
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $18
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $3b
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $1a
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $0a
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $1e
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $30
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $0
+	anim_obj BATTLE_ANIM_OBJ_RADIAL_FLAME, 48, 96, $24
+	anim_wait 4
+	anim_loop 2, .loop
+	anim_sound 6, 2, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 140, 44, $0
+	anim_wait 4
+	anim_sound 6, 2, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 60, $0
+	anim_wait 4
+	anim_sound 6, 2, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 140, 60, $0
+	anim_wait 4
+	anim_sound 6, 2, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 44, $0
+	anim_wait 32
 	anim_ret
 
 BattleAnim_Sandstorm:
