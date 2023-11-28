@@ -844,6 +844,11 @@ DEF NUM_BG_EFFECTS EQU 5 ; see wActiveBGEffects
 	const PAL_BATTLE_BG_6         ; 6
 	const PAL_BATTLE_BG_TEXT      ; 7
 
+; sentinel palette indices that denote "user" or "target" for battle pics
+; (anim_setbgpal applies them to the relevant obj palettes too)
+	const PAL_BATTLE_BG_USER       ; 8
+	const PAL_BATTLE_BG_TARGET     ; 9
+
 ; animation object palettes
 	const_def
 	const PAL_BATTLE_OB_ENEMY  ; 0
@@ -854,3 +859,39 @@ DEF NUM_BG_EFFECTS EQU 5 ; see wActiveBGEffects
 	const PAL_BATTLE_OB_GREEN  ; 5
 	const PAL_BATTLE_OB_BLUE   ; 6
 	const PAL_BATTLE_OB_BROWN  ; 7
+
+; custom bg/obj palettes (see gfx/battle_anims/custom.pal)
+; the first 6 matches PAL_BATTLE_OB_GRAY/YELLOW/...
+	const_def
+	const PAL_BTLCUSTOM_GRAY            ; 0
+	const PAL_BTLCUSTOM_YELLOW          ; 1
+	const PAL_BTLCUSTOM_RED             ; 2
+	const PAL_BTLCUSTOM_GREEN           ; 3
+	const PAL_BTLCUSTOM_BLUE            ; 4
+	const PAL_BTLCUSTOM_BROWN           ; 5
+	const PAL_BTLCUSTOM_PURPLE          ; 6
+	const PAL_BTLCUSTOM_ICE             ; 7
+	const PAL_BTLCUSTOM_FIRE            ; 8
+	const PAL_BTLCUSTOM_GLOBE           ; 9
+	const PAL_BTLCUSTOM_WATER           ; a
+	const PAL_BTLCUSTOM_BUBBLE          ; b
+	const PAL_BTLCUSTOM_DRAGONBREATH    ; c
+	const PAL_BTLCUSTOM_DRAGON_RAGE     ; d
+	const PAL_BTLCUSTOM_AURORA          ; e
+	const PAL_BTLCUSTOM_SPORE           ; f
+	const PAL_BTLCUSTOM_PEACH           ; 10
+	const PAL_BTLCUSTOM_LIGHT_SCREEN    ; 11
+	const PAL_BTLCUSTOM_MIRROR_COAT     ; 12
+	const PAL_BTLCUSTOM_HP_FIGHTING     ; 13
+	const PAL_BTLCUSTOM_HP_FLYING       ; 14
+	const PAL_BTLCUSTOM_HP_GROUND       ; 15
+	const PAL_BTLCUSTOM_HP_ROCK         ; 16
+	const PAL_BTLCUSTOM_HP_BUG          ; 17
+	const PAL_BTLCUSTOM_HP_DRAGON       ; 18
+	const PAL_BTLCUSTOM_HP_DARK         ; 19
+	const PAL_BTLCUSTOM_HP_STEEL        ; 1a
+	const PAL_BTLCUSTOM_HP_PSYCHIC      ; 1b
+	const PAL_BTLCUSTOM_HP_GHOST        ; 1c
+DEF NUM_CUSTOM_BATTLE_PALETTES EQU const_value
+
+DEF PAL_BTLCUSTOM_DEFAULT EQU -1
