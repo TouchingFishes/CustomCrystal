@@ -1726,10 +1726,11 @@ HandleWeather:
 
 	ld hl, wWeatherCount
 	dec [hl]
-	jr z, .ended
+	jp z, .ended
 
 	ld hl, .WeatherMessages
 	call .PrintWeatherMessage
+	call .PlayWeatherAnimation
 
 	ld a, [wBattleWeather]
 	cp WEATHER_SANDSTORM
@@ -1749,6 +1750,27 @@ HandleWeather:
 	call SetEnemyTurn
 	call .SandstormDamage
 	call SetPlayerTurn
+
+.PlayWeatherAnimation:
+	xor a ; uses one byte of ROM, compared to two for "ld a, 1"
+	ld [wNumHits], a
+	call SetPlayerTurn
+	ld hl, .WeatherAnimations
+	ld a, [wBattleWeather]
+	dec a
+	ld b, 0
+	ld c, a
+	add hl, bc
+	add hl, bc
+	ld e, [hl]
+	inc hl
+	ld d, [hl]
+	jp Call_PlayBattleAnim
+
+.WeatherAnimations:
+	dw ANIM_IN_RAIN
+	dw ANIM_IN_SUN
+	dw ANIM_IN_SANDSTORM
 
 .SandstormDamage:
 	ld a, BATTLE_VARS_SUBSTATUS3
@@ -1779,10 +1801,6 @@ HandleWeather:
 	ret z
 
 	call SwitchTurnCore
-	xor a
-	ld [wNumHits], a
-	ld de, ANIM_IN_SANDSTORM
-	call Call_PlayBattleAnim
 	call SwitchTurnCore
 	call GetEighthMaxHP
 	call SubtractHPFromUser
@@ -4415,11 +4433,11 @@ ItemRecoveryAnim:
 	call SwitchTurnCore
 	xor a
 	ld [wNumHits], a
-	if HIGH(RECOVER)
-		ld a, HIGH(RECOVER)
+	if HIGH(ANIM_HELD_ITEM_TRIGGER)
+		ld a, HIGH(ANIM_HELD_ITEM_TRIGGER)
 	endc
 	ld [wFXAnimID + 1], a
-	ld a, LOW(RECOVER)
+	ld a, LOW(ANIM_HELD_ITEM_TRIGGER)
 	ld [wFXAnimID], a
 	predef PlayBattleAnim
 	call SwitchTurnCore
