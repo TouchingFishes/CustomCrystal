@@ -1802,7 +1802,7 @@ HandleWeather:
 
 	call SwitchTurnCore
 	call SwitchTurnCore
-	call GetSixteenthMaxHP
+	call GetEighthMaxHP
 	call SubtractHPFromUser
 
 	ld hl, SandstormHitsText
