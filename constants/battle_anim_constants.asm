@@ -79,10 +79,10 @@ DEF BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const BATTLE_ANIM_OBJ_THUNDER_LEFT        ; 2e
 	const BATTLE_ANIM_OBJ_THUNDER_RIGHT       ; 2f
 	const BATTLE_ANIM_OBJ_THUNDER_WAVE        ; 30
-	const BATTLE_ANIM_OBJ_SPARKS_CIRCLE_BIG   ; 31
-	const BATTLE_ANIM_OBJ_THUNDERBOLT_BALL    ; 32
-	const BATTLE_ANIM_OBJ_SPARKS_CIRCLE       ; 33
-	const BATTLE_ANIM_OBJ_THUNDERSHOCK_BALL   ; 34
+	const BATTLE_ANIM_OBJ_THUNDERBOLT_SPARKS  ; 31
+	const BATTLE_ANIM_OBJ_THUNDERBOLT_CORE    ; 32
+	const BATTLE_ANIM_OBJ_THUNDERSHOCK_SPARKS ; 33
+	const BATTLE_ANIM_OBJ_THUNDERSHOCK_CORE   ; 34
 	const BATTLE_ANIM_OBJ_CLAMP               ; 35
 	const BATTLE_ANIM_OBJ_BITE                ; 36
 	const BATTLE_ANIM_OBJ_CUT_DOWN_LEFT       ; 37
@@ -218,7 +218,14 @@ DEF BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const BATTLE_ANIM_OBJ_PLAYERHEAD_1ROW     ; b9
 	const BATTLE_ANIM_OBJ_ENEMYFEET_2ROW      ; ba
 	const BATTLE_ANIM_OBJ_PLAYERHEAD_2ROW     ; bb
-	const BATTLE_ANIM_OBJ_RADIAL_FLAME        ; bc
+	const BATTLE_ANIM_OBJ_MEDIUM_HORN         ; bc
+	const BATTLE_ANIM_OBJ_RISING_BUBBLE       ; bd
+	const BATTLE_ANIM_OBJ_BUBBLE_SPLASH       ; be
+	const BATTLE_ANIM_OBJ_OCTAZOOKA_SMOKE     ; bf
+	const BATTLE_ANIM_OBJ_INK_SPLASH          ; c0
+	const BATTLE_ANIM_OBJ_DAZZLE              ; c1
+	const BATTLE_ANIM_OBJ_RADIAL_FLAME        ; c2
+
 DEF NUM_BATTLE_ANIM_OBJS EQU const_value
 
 ; DoBattleAnimFrame arguments (see engine/battle_anims/functions.asm)
@@ -303,7 +310,8 @@ DEF NUM_BATTLE_ANIM_OBJS EQU const_value
 	const BATTLE_ANIM_FUNC_ANCIENT_POWER             ; 4d
 	const BATTLE_ANIM_FUNC_ROCK_SMASH                ; 4e
 	const BATTLE_ANIM_FUNC_COTTON                    ; 4f
-	const BATTLE_ANIM_FUNC_RADIAL_MOVE_OUT           ; 50
+	const BATTLE_ANIM_FUNC_BUBBLE_SPLASH             ; 50
+	const BATTLE_ANIM_FUNC_RADIAL_MOVE_OUT           ; 51
 DEF NUM_BATTLE_ANIM_FUNCS EQU const_value
 
 ; BattleAnimFrameData indexes (see data/battle_anims/framesets.asm)
@@ -493,6 +501,12 @@ DEF NUM_BATTLE_ANIM_FUNCS EQU const_value
 	const BATTLE_ANIM_FRAMESET_PLAYERHEAD_1ROW       ; b6
 	const BATTLE_ANIM_FRAMESET_ENEMYFEET_2ROW        ; b7
 	const BATTLE_ANIM_FRAMESET_PLAYERHEAD_2ROW       ; b8
+	const BATTLE_ANIM_FRAMESET_MEDIUM_HORN           ; b9
+	const BATTLE_ANIM_FRAMESET_RECOVER               ; ba
+	const BATTLE_ANIM_FRAMESET_MINIMIZE              ; bb
+	const BATTLE_ANIM_FRAMESET_BUBBLE_SPLASH         ; bc
+	const BATTLE_ANIM_FRAMESET_SMOKE_PUFF            ; bd
+	const BATTLE_ANIM_FRAMESET_INK_SPLASH            ; be
 DEF NUM_BATTLE_ANIM_FRAMESETS EQU const_value
 
 ; BattleAnimOAMData indexes (see data/battle_anims/oam.asm)
@@ -713,6 +727,7 @@ DEF NUM_BATTLE_ANIM_FRAMESETS EQU const_value
 	const BATTLE_ANIM_OAMSET_D5
 	const BATTLE_ANIM_OAMSET_D6
 	const BATTLE_ANIM_OAMSET_D7
+	const BATTLE_ANIM_OAMSET_D8
 DEF NUM_BATTLE_ANIM_OAMSETS EQU const_value
 
 assert NUM_BATTLE_ANIM_OAMSETS <= FIRST_OAM_CMD, \
@@ -817,8 +832,10 @@ DEF NUM_BATTLE_BG_EFFECTS EQU const_value - 1
 	const BATTLE_ANIM_GFX_ANGELS     ; 25
 	const BATTLE_ANIM_GFX_WAVE       ; 26
 	const BATTLE_ANIM_GFX_AEROBLAST  ; 27
-	const BATTLE_ANIM_GFX_PLAYERHEAD ; 28
-	const BATTLE_ANIM_GFX_ENEMYFEET   ; 29
+	const BATTLE_ANIM_GFX_BEAM_LIGHT ; 28
+	const BATTLE_ANIM_GFX_SMOKE_PUFF ; 29
+	const BATTLE_ANIM_GFX_PLAYERHEAD ; 2a
+	const BATTLE_ANIM_GFX_ENEMYFEET  ; 2b
 DEF NUM_BATTLE_ANIM_GFX EQU const_value - 1
 
 ; battle_bg_effect struct members (see macros/ram.asm)
