@@ -27,7 +27,8 @@
 	dw BattleAnim_HeldItemTrigger
 	dw BattleAnim_InRain
 	dw BattleAnim_InSun
-	assert_table_length NUM_BATTLE_ANIMS
+	dw BattleAnim_InHail
+	assert_table_length NUM_BATTLE_ANIMS + 1
 BattleAnimations::
 	table_width 2, BattleAnimations
 	dw BattleAnim_Dummy
@@ -282,6 +283,32 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_DragonPulse
+	dw BattleAnim_FairyWind
+	dw BattleAnim_Hex
+	dw BattleAnim_ShockWave
+	dw BattleAnim_VoltTackle
+	dw BattleAnim_DevilsKiss
+	dw BattleAnim_PlayRough
+	dw BattleAnim_MoonBlast
+	dw BattleAnim_AerialAce
+	dw BattleAnim_ShadowPunch
+	dw BattleAnim_OminousWind
+	dw BattleAnim_RockTomb
+	dw BattleAnim_StoneEdge
+	dw BattleAnim_RockWrecker
+	dw BattleAnim_GunkShot
+	dw BattleAnim_BugBuzz
+	dw BattleAnim_MeteorMash
+	dw BattleAnim_SilverWind
+	dw BattleAnim_DrainPunch
+	dw BattleAnim_MagicalLeaf
+	dw BattleAnim_LeafBlade
+	dw BattleAnim_EnergyBall
+	dw BattleAnim_GrassWhistle
+	dw BattleAnim_FlashCannon
+	dw BattleAnim_DarkPulse
+	dw BattleAnim_Hail 
 	assert_table_length NUM_ATTACKS + 1
 
 BattleAnim_Dummy:
@@ -2083,6 +2110,31 @@ BattleAnim_Headbutt:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_DragonPulse:
+BattleAnim_FairyWind:
+BattleAnim_Hex:
+BattleAnim_ShockWave:
+BattleAnim_VoltTackle:
+BattleAnim_DevilsKiss:
+BattleAnim_PlayRough:
+BattleAnim_MoonBlast:
+BattleAnim_AerialAce:
+BattleAnim_ShadowPunch:
+BattleAnim_OminousWind:
+BattleAnim_RockTomb:
+BattleAnim_StoneEdge:
+BattleAnim_RockWrecker:
+BattleAnim_GunkShot:
+BattleAnim_BugBuzz:
+BattleAnim_MeteorMash:
+BattleAnim_SilverWind:
+BattleAnim_DrainPunch:
+BattleAnim_MagicalLeaf:
+BattleAnim_LeafBlade:
+BattleAnim_EnergyBall:
+BattleAnim_GrassWhistle:
+BattleAnim_FlashCannon:
+BattleAnim_DarkPulse:
 BattleAnim_Tackle:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_2Row
@@ -4912,3 +4964,20 @@ BattleAnim_ShowMon_1:
 	anim_incobj 1
 	anim_wait 1
 	anim_ret
+
+BattleAnim_Hail:
+BattleAnim_InHail:
+	anim_1gfx ANIM_GFX_ICE
+	anim_bgeffect ANIM_BG_WHITE_HUES, $0, $8, $0
+	anim_obj ANIM_OBJ_HAIL, 88, 0, $0
+	anim_wait 8
+	anim_obj ANIM_OBJ_HAIL, 72, 0, $1
+	anim_wait 8
+	anim_obj ANIM_OBJ_HAIL, 56, 0, $2
+.loop
+	anim_sound 0, 1, SFX_SHINE
+	anim_wait 8
+	anim_loop 8, .loop
+	anim_wait 8
+	anim_ret
+

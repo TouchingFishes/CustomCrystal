@@ -258,6 +258,67 @@ MoveDescriptions1:
 	dw BeatUpDescription
 .IndirectEnd::
 
+;==========================
+;	New Moves Start Here
+;==========================
+
+MoveDescriptions2:
+	dw DragonPulseDescription
+	dw FairyWindDescription
+	dw HexDescription
+	dw ShockWaveDescription
+	dw VoltTackleDescription
+	dw DevilsKissDescription
+	dw PlayRoughDescription
+	dw MoonBlastDescription
+	dw AerialAceDescription
+	dw ShadowPunchDescription
+	dw OminousWindsDescription
+	dw RockTombDescription
+	dw StoneEdgeDescription
+	dw RockWreckerDescription
+	dw GunkShotDescription
+	dw BugBuzzDescription
+	dw MeteorMashDescription
+	dw SilverWindDescription
+	dw DrainPunchDescription
+	dw MagicalLeafDescription
+	dw LeafBladeDescription
+	dw EnergyBallDescription
+	dw GrasswhistleDescription
+	dw FlashCannonDescription
+	dw DarkPulseDescription
+	dw HailDescription	
+;	dw IronDefenseDescription
+;	dw WillOWispDescription
+;	dw SheerColdDescription
+;	dw FrenzyPlantDescription
+;	dw BlastBurnDescription
+;	dw HydroCannonDescription
+;	dw OverheatDescription	
+;	dw NastyPlotDescription
+;	dw BulkUpDescription
+;	dw CalmMindDescription
+;	dw CosmicPowerDescription
+;	dw DragonDanceDescription
+;	dw MuddyWaterDescription
+;	dw BulletSeedDescription
+;	dw IceBallDescription
+;	dw SandTombDescription
+;	dw WishDescription
+;	dw EruptionDescription
+;	dw SoulBreakDescription
+;	dw FieryWrathDescription
+;	dw NightSlashDescription
+;	dw BugBiteDescription
+;	dw RockBlastDescription
+;	dw SuperpowerDescription
+;	dw AuraSphereDescription
+;	dw StrangeFumeDescription
+;	dw WaterPulseDescription
+
+.IndirectEnd::
+
 InvalidMoveDescription:
 	db "?@"
 
@@ -409,6 +470,7 @@ ThrashDescription:
 	db   "Works 2-3 turns"
 	next "and confuses user.@"
 
+VoltTackleDescription:
 DoubleEdgeDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
@@ -541,6 +603,8 @@ StrengthDescription:
 	db   "A powerful physi-"
 	next "cal attack.@"
 
+DevilsKissDescription:
+DrainPunchDescription:
 AbsorbDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
@@ -773,6 +837,9 @@ ClampDescription:
 	db   "Traps the foe for"
 	next "2-5 turns.@"
 
+ShockWaveDescription:
+AerialAceDescription: 
+MagicalLeafDescription:
 SwiftDescription:
 	db   "An attack that"
 	next "never misses.@"
@@ -1264,3 +1331,198 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+	
+;==========================
+;	New Moves Start Here
+;==========================
+	
+DragonPulseDescription:
+	db   "Attacks foe with"
+	next "a shock wave.@"
+
+FairyWindDescription:
+	db   "Heavenly wind"
+	next "that damages foes.@"
+	
+HexDescription:
+	db   "Damage doubles if"
+	next "foe has status.@"
+	
+PlayRoughDescription:
+	db   "An attack that may"
+	next "lower Attack.@"
+	
+MoonblastDescription:
+	db   "An attack that may"
+	next "lower Spcl.Atk.@"
+
+ShadowPunchDescription:
+	db   "A physical ghost"
+	next "attack.@"
+
+OminousWindsDescription:
+	db   "An attack that may"
+	next "raise all stats.@"
+	
+RockTombDescription:
+	db   "Rock attack that"
+	next "lowers SPEED.@"
+
+StoneEdgeDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@" 
+	
+RockWreckerDescription:
+	db   "1st turn: Attack"
+	next "2nd turn: Rest.@"
+	
+GunkShotDescription:
+	db   "An attack that may"
+	next "poison the foe.@"
+	
+BugBuzzDescription:
+	db   "An attack that may"
+	next "lower Spcl.Def.@"
+	
+MeteorMashDescription: 
+	db   "An attack that may"
+	next "raise Atk.@"
+	
+SilverWindDescription:
+	db   "An attack that may"
+	next "raise all stats.@"
+	
+LeafBladeDescription:
+	db   "A physical grass"
+	next "attack."
+	
+EnergyBallDescription:
+	db   "An attack that may"
+	next "lower Spcl.Def.@"
+	
+GrasswhistleDescription:
+	db   "May cause the foe"
+	next "to fall asleep.@"
+	
+FlashCannonDescription:
+	db   "An attack that may"
+	next "lower Spcl.Def.@"
+	
+DarkPulseDescription:
+	db   "A special dark"
+	next "type move.@"
+
+HailDescription:
+	db   "Inflicts damage"
+	next "every turn.@"
+
+
+	
+
+;IronDefenseDescription:
+;	db   "Sharply raises the"
+;	next "user's Def."	
+	
+;WillOWispDescription:
+;	db   "Burns foe with"
+;	next "sinister fire.@"
+
+;SheerColdDescription:
+;	db   "A ice-type,"
+;	next "one-hit KO attack.@"
+	
+;FrenzyPlantDescription:
+;	db   "1st turn: Attack"
+;	next "2nd turn: Rest.@"
+	
+;BlastBurnDescription:
+;	db   "1st turn: Attack"
+;	next "2nd turn: Rest.@"
+	
+;HydroCannonDescription:
+;	db   "1st turn: Attack"
+;	next "2nd turn: Rest.@"
+	
+;OverheatDescription:
+;	db   "Sharply lowers the"
+;	next "user's Spcl.Atk.@"
+	
+;NastyPlotDescription:
+;	db   "Sharply raises the"
+;	next "user's Spcl.Atk.@"
+	
+;BulkUpDescription:
+;	db   "Raises the user's"
+;	next "Atk and Def.@"
+	
+;CalmMindDescription:
+;	db   "Raises the user's"
+;	next "Sp.Atk and Sp.Def.@"
+	
+;CosmicPowerDescription:
+;	db   "Raises the user's"
+;	next "Def and Sp.Def.@"
+
+;DragonDanceDescription:
+;	db   "Raises the user's"
+;	next "Attack and Speed.@"
+		
+;MuddyWaterDescription:
+;	db   "An attack that may"
+;	next "reduce accuracy.@"
+	
+;BulletSeedDescription:
+;	db   "Shoots the target"
+;	next "2-5 times.@"
+	
+;IceBallDescription:
+;	db   "Attacks 5 turns"
+;	next "with rising power."
+
+;SandTombDescription:
+;	db   "Traps the foe for"
+;	next "2-5 turns.@"
+
+;WishDescription:
+;	db   "A wish that takes"
+;	next "time to heal.@"
+	
+;EruptionDescription:
+;	db   "High HP makes this"
+;	next "this move better.@"
+
+;SoulBreakDescription:
+;	db   "tbd"
+;	next "tbd.@"
+	
+;FieryWrathDescription:
+;	db   "An attack that may"
+;	next "cause flinching.@"
+	
+;NightSlashDescription:
+;	db   "Has a high criti-"
+;	next "cal hit ratio.@"
+
+;BugBiteDescription:
+;	db   "Bites the foe and"
+;	next "eats a held Berry.@"	
+
+;RockBlastDescription:
+;	db   "Hurls boulders to"
+;	next "hit 2-5 times.@" 
+	
+;SuperpowerDescription:
+;	db   "Lowers the user's"
+;	next "Def and Atk.@"
+
+;AuraSphereDescription:
+;	db   "An attack that"
+;	next "never misses.@"
+		
+;StrangeFumeDescription:
+;	db   "An attack that"
+;	next "confuses the foe.@"
+	
+;WaterPulseDescription:
+;	db   "An attack that may"
+;	next "confuse the foe.@"
