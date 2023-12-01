@@ -287,7 +287,7 @@ Moves2:
 	move EFFECT_ALWAYS_HIT,         60, GHOST,         100, 20,  10      ;SHADOW_PUNCH
 	move EFFECT_ALL_UP_HIT,         60, GHOST,         100, 10,   0      ;OMINOUS_WIND
 	move EFFECT_SPEED_DOWN_HIT,     60, ROCK,           80, 20, 100      ;ROCK_TOMB
-	move EFFECT_NORMAL_HIT,        100, ROCK,           80, 20,   0      ;STONE_EDGE
+    move EFFECT_NORMAL_HIT,        100, ROCK,           80, 20,   0      ;STONE_EDGE
 	move EFFECT_HYPER_BEAM,        150, ROCK,           90,  5,   0      ;ROCK_WRECKER
 	move EFFECT_POISON_HIT,        120, POISON,         80,  5,  30      ;GUNK_SHOT  
 	move EFFECT_SP_DEF_DOWN_HIT,    80, BUG,           100, 15,  10      ;BUG_BUZZ
