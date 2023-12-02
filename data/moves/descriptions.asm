@@ -1,7 +1,8 @@
 MoveDescriptions::
 ; entries correspond to move ids (see constants/move_constants.asm)
 	indirect_table 2, 1
-	indirect_entries NUM_ATTACKS, MoveDescriptions1
+	indirect_entries BEAT_UP, MoveDescriptions1
+	indirect_entries NUM_ATTACKS, MoveDescriptions2
 	indirect_table_end
 
 MoveDescriptions1:
@@ -316,7 +317,6 @@ MoveDescriptions2:
 ;	dw AuraSphereDescription
 ;	dw StrangeFumeDescription
 ;	dw WaterPulseDescription
-
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1352,7 +1352,7 @@ PlayRoughDescription:
 	db   "An attack that may"
 	next "lower Attack.@"
 	
-MoonblastDescription:
+MoonBlastDescription:
 	db   "An attack that may"
 	next "lower Spcl.Atk.@"
 
