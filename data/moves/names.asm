@@ -255,11 +255,11 @@ MoveNames::
 ;	New Moves Start Here
 ;==========================
 	li "DRAGON PULSE"
-	li "FAIRY WIND"
+	;li "FAIRY WIND"
 	li "HEX"
 	li "SHOCK WAVE"
 	li "VOLT TACKLE"
-	li "DEVILS KISS"
+	li "PIXIE KISS"
 	li "PLAY ROUGH"
 	li "MOON BLAST"
 	li "AERIAL ACE"
@@ -276,7 +276,7 @@ MoveNames::
 	li "MAGICAL LEAF"
 	li "LEAF BLADE"
 	li "ENERGY BALL"
-	li "GRASSWHISTLE"
+	;li "GRASSWHISTLE"
 	li "FLASH CANNON"
 	li "DARK PULSE"
 	li "HAIL"

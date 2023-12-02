@@ -262,11 +262,11 @@
 ;==========================
 
 	const DRAGON_PULSE ; 0fe
-	const FAIRY_WIND   ; 0ff
+	;const FAIRY_WIND   ; 0ff
 	const HEX          ; 100
 	const SHOCK_WAVE   ; 101
 	const VOLT_TACKLE  ; 102
-	const DEVILS_KISS  ; 103 Draining Kiss
+	const PIXIE_KISS   ; 103 Draining Kiss
 	const PLAY_ROUGH   ; 104
 	const MOON_BLAST   ; 105
 	const AERIAL_ACE   ; 106
@@ -283,7 +283,7 @@
 	const MAGICAL_LEAF ; 111
 	const LEAF_BLADE   ; 112
 	const ENERGY_BALL  ; 113
-	const GRASSWHISTLE ; 114
+	;const GRASSWHISTLE ; 114
 	const FLASH_CANNON ; 115
 	const DARK_PULSE   ; 116
 	const HAIL         ; 117

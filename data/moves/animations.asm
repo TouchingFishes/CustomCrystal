@@ -284,11 +284,11 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 	dw BattleAnim_DragonPulse
-	dw BattleAnim_FairyWind
+	;dw BattleAnim_FairyWind
 	dw BattleAnim_Hex
 	dw BattleAnim_ShockWave
 	dw BattleAnim_VoltTackle
-	dw BattleAnim_DevilsKiss
+	dw BattleAnim_PixieKiss
 	dw BattleAnim_PlayRough
 	dw BattleAnim_MoonBlast
 	dw BattleAnim_AerialAce
@@ -305,7 +305,7 @@ BattleAnimations::
 	dw BattleAnim_MagicalLeaf
 	dw BattleAnim_LeafBlade
 	dw BattleAnim_EnergyBall
-	dw BattleAnim_GrassWhistle
+	;dw BattleAnim_GrassWhistle
 	dw BattleAnim_FlashCannon
 	dw BattleAnim_DarkPulse
 	dw BattleAnim_Hail 
@@ -2111,11 +2111,11 @@ BattleAnim_Headbutt:
 	anim_ret
 
 BattleAnim_DragonPulse:
-BattleAnim_FairyWind:
+;BattleAnim_FairyWind:
 BattleAnim_Hex:
 BattleAnim_ShockWave:
 BattleAnim_VoltTackle:
-BattleAnim_DevilsKiss:
+BattleAnim_PixieKiss:
 BattleAnim_PlayRough:
 BattleAnim_MoonBlast:
 BattleAnim_AerialAce:
@@ -2132,7 +2132,7 @@ BattleAnim_DrainPunch:
 BattleAnim_MagicalLeaf:
 BattleAnim_LeafBlade:
 BattleAnim_EnergyBall:
-BattleAnim_GrassWhistle:
+;BattleAnim_GrassWhistle:
 BattleAnim_FlashCannon:
 BattleAnim_DarkPulse:
 BattleAnim_Tackle:

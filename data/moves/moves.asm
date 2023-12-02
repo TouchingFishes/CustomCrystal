@@ -276,11 +276,11 @@ Moves1:
 ;==========================
 Moves2:
 	move EFFECT_NORMAL_HIT,         95, DRAGON,       SPECIAL,  100, 10,   0      ;DRAGON_PULSE   
-	move EFFECT_NORMAL_HIT,         40, FAIRY,        SPECIAL,  100, 15,   0      ;FAIRY_WIND
+   ;move EFFECT_NORMAL_HIT,         40, FAIRY,        SPECIAL,  100, 15,   0      ;FAIRY_WIND
 	move EFFECT_HEX,                65, GHOST,        SPECIAL,  100, 10,   0      ;HEX use Memento animation
-	move EFFECT_ALWAYS_HIT,         60, ELECTRIC,     SPECIAL,  100, 20,   0      ;SHOCK_WAVE
+    move EFFECT_ALWAYS_HIT,         60, ELECTRIC,     SPECIAL,  100, 20,   0      ;SHOCK_WAVE
 	move EFFECT_RECOIL_HIT,        120, ELECTRIC,     SPECIAL,  100, 15,   0      ;VOLT_TACKLE
-	move EFFECT_LEECH_HIT,          40, FAIRY,        SPECIAL,  100, 15,   0      ;DEVILS_KISS use Draining Kiss animation
+    move EFFECT_LEECH_HIT,          50, FAIRY,        SPECIAL,  100, 15,   0      ;PIXIE_KISS use Draining Kiss animation
 	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,        SPECIAL,   90, 10,  10      ;PLAY_ROUGH
     move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,        SPECIAL,  100, 15,  20      ;MOON_BLAST
 	move EFFECT_ALWAYS_HIT,         60, FLYING,       SPECIAL,  100, 20,   0      ;AERIAL_ACE
@@ -295,12 +295,12 @@ Moves2:
 	move EFFECT_ALL_UP_HIT,         60, BUG,          PHYSICAL, 100, 10,   0      ;SILVER_WIND
 	move EFFECT_LEECH_HIT,          60, FIGHTING,     PHYSICAL, 100, 10,   0      ;DRAIN_PUNCH
 	move EFFECT_ALWAYS_HIT,         60, GRASS,        SPECIAL,  100, 20,   0      ;MAGICAL_LEAF
-	move EFFECT_PURSUIT,            90, GRASS,        SPECIAL,  100, 20,   0      ;LEAF_BLADE
+	move EFFECT_NORMAL_HIT,         90, GRASS,        SPECIAL,  100, 20,   0      ;LEAF_BLADE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, GRASS,        SPECIAL,  100, 15,  10      ;ENERGY_BALL
-	move EFFECT_SLEEP,               0, GRASS,        STATUS,    55, 15,   0      ;GRASSWHISTLE
+   ;move EFFECT_SLEEP,               0, GRASS,        STATUS,    55, 15,   0      ;GRASSWHISTLE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,        PHYSICAL, 100, 15,  10      ;FLASH_CANNON
-	move EFFECT_MOONLIGHT,           0, FAIRY,        SPECIAL,  100,  5,   0      ;DARK_PULSE
-	move EFFECT_RAIN_DANCE,          0, ICE,          STATUS,    90,  5,   0      ;HAIL
+	move EFFECT_FLINCH_HIT,         80, DARK,         SPECIAL,  100,  5,   0      ;DARK_PULSE
+	move EFFECT_HAIL,                0, ICE,          STATUS,    90,  5,   0      ;HAIL
    ;move EFFECT_DEF_UP_2,            0, STEEL,         100, 30,   0      ;IRON_DEFENSE
    ;move EFFECT_BURN_HIT,            0, FIRE,           75, 15,   0      ;WILL_O_WISP
    ;move EFFECT_OHKO,                1, ICE,            30,  5,   0      ;SHEER_COLD
