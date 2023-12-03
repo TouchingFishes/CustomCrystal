@@ -77,7 +77,7 @@ Moves1:
 	move EFFECT_NORMAL_HIT,        120, WATER,        SPECIAL,   80,  5,   0      ;HYDRO_PUMP
 	move EFFECT_NORMAL_HIT,         95, WATER,        SPECIAL,  100, 15,   0      ;SURF
 	move EFFECT_FREEZE_HIT,         95, ICE,          SPECIAL,  100, 10,  10      ;ICE_BEAM
-	move EFFECT_BLIZZARD,          120, ICE,          SPECIAL,   70,  5,  10      ;BLIZZARD
+	move EFFECT_FREEZE_HIT,        120, ICE,          SPECIAL,   70,  5,  10      ;BLIZZARD
 	move EFFECT_CONFUSE_HIT,        65, PSYCHIC_TYPE, SPECIAL,  100, 20,  10      ;PSYBEAM
 	move EFFECT_SPEED_DOWN_HIT,     65, WATER,        SPECIAL,  100, 20,  10      ;BUBBLEBEAM
 	move EFFECT_ATTACK_DOWN_HIT,    65, ICE,          SPECIAL,  100, 20,  10      ;AURORA_BEAM
@@ -277,7 +277,7 @@ Moves1:
 ;==========================
 Moves2:
 	move EFFECT_NORMAL_HIT,         95, DRAGON,       SPECIAL,  100, 10,   0      ;DRAGON_PULSE   
-   ;move EFFECT_NORMAL_HIT,         40, FAIRY,        SPECIAL,  100, 15,   0      ;FAIRY_WIND
+    move EFFECT_NORMAL_HIT,         40, FAIRY,        SPECIAL,  100, 15,   0      ;FAIRY_WIND
 	move EFFECT_HEX,                65, GHOST,        SPECIAL,  100, 10,   0      ;HEX use Memento animation
     move EFFECT_ALWAYS_HIT,         60, ELECTRIC,     SPECIAL,  100, 20,   0      ;SHOCK_WAVE
 	move EFFECT_RECOIL_HIT,        120, ELECTRIC,     SPECIAL,  100, 15,   0      ;VOLT_TACKLE
@@ -298,10 +298,9 @@ Moves2:
 	move EFFECT_ALWAYS_HIT,         60, GRASS,        SPECIAL,  100, 20,   0      ;MAGICAL_LEAF
 	move EFFECT_NORMAL_HIT,         90, GRASS,        SPECIAL,  100, 20,   0      ;LEAF_BLADE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, GRASS,        SPECIAL,  100, 15,  10      ;ENERGY_BALL
-   ;move EFFECT_SLEEP,               0, GRASS,        STATUS,    55, 15,   0      ;GRASSWHISTLE
+    move EFFECT_SLEEP,               0, GRASS,        STATUS,    55, 15,   0      ;GRASSWHISTLE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,        PHYSICAL, 100, 15,  10      ;FLASH_CANNON
 	move EFFECT_FLINCH_HIT,         80, DARK,         SPECIAL,  100,  5,   0      ;DARK_PULSE
-	move EFFECT_HAIL,                0, ICE,          STATUS,    90,  5,   0      ;HAIL
    ;move EFFECT_DEF_UP_2,            0, STEEL,         100, 30,   0      ;IRON_DEFENSE
    ;move EFFECT_BURN_HIT,            0, FIRE,           75, 15,   0      ;WILL_O_WISP
    ;move EFFECT_OHKO,                1, ICE,            30,  5,   0      ;SHEER_COLD

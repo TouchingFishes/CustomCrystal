@@ -262,7 +262,7 @@
 ;==========================
 
 	const DRAGON_PULSE ; 0fe
-	;const FAIRY_WIND   ; 0ff
+	const FAIRY_WIND   ; 0ff
 	const HEX          ; 100
 	const SHOCK_WAVE   ; 101
 	const VOLT_TACKLE  ; 102
@@ -283,10 +283,9 @@
 	const MAGICAL_LEAF ; 111
 	const LEAF_BLADE   ; 112
 	const ENERGY_BALL  ; 113
-	;const GRASSWHISTLE ; 114
+	const GRASSWHISTLE ; 114
 	const FLASH_CANNON ; 115
 	const DARK_PULSE   ; 116
-	const HAIL         ; 117
 ;	const IRON_DEFENSE ; 12f
 ;	const WILL_O_WISP  ; 0fc
 ;	const SHEER_COLD   ; 12c

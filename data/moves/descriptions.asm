@@ -265,7 +265,7 @@ MoveDescriptions1:
 
 MoveDescriptions2:
 	dw DragonPulseDescription
-	;dw FairyWindDescription
+	dw FairyWindDescription
 	dw HexDescription
 	dw ShockWaveDescription
 	dw VoltTackleDescription
@@ -286,10 +286,9 @@ MoveDescriptions2:
 	dw MagicalLeafDescription
 	dw LeafBladeDescription
 	dw EnergyBallDescription
-	;dw GrasswhistleDescription
+	dw GrasswhistleDescription
 	dw FlashCannonDescription
 	dw DarkPulseDescription
-	dw HailDescription	
 ;	dw IronDefenseDescription
 ;	dw WillOWispDescription
 ;	dw SheerColdDescription
@@ -1340,9 +1339,9 @@ DragonPulseDescription:
 	db   "Attacks foe with"
 	next "a shock wave.@"
 
-;FairyWindDescription:
-;	db   "Heavenly wind"
-;	next "that damages foes.@"
+FairyWindDescription:
+	db   "Heavenly wind"
+	next "that damages foes.@"
 	
 HexDescription:
 	db   "Damage doubles if"
@@ -1400,9 +1399,9 @@ EnergyBallDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 	
-;GrasswhistleDescription:
-;	db   "May cause the foe"
-;	next "to fall asleep.@"
+GrasswhistleDescription:
+	db   "May cause the foe"
+	next "to fall asleep.@"
 	
 FlashCannonDescription:
 	db   "An attack that may"
@@ -1411,10 +1410,6 @@ FlashCannonDescription:
 DarkPulseDescription:
 	db   "A special dark"
 	next "type move.@"
-
-HailDescription:
-	db   "Inflicts damage"
-	next "every turn.@"
 
 
 	

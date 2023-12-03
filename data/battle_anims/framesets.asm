@@ -192,7 +192,6 @@ BattleAnimFrameData:
 	dw .Frameset_BubbleSplash        ; BATTLE_ANIM_FRAMESET_BUBBLE_SPLASH
 	dw .Frameset_SmokePuff           ; BATTLE_ANIM_FRAMESET_SMOKE_PUFF
 	dw .Frameset_InkSplash           ; BATTLE_ANIM_FRAMESET_INK_SPLASH
-	dw .Frameset_Hail                ; BATTLEANIMFRAMESET_HAIL
 	assert_table_length NUM_BATTLE_ANIM_FRAMESETS
 
 .Frameset_HitBig:
@@ -1300,8 +1299,4 @@ BattleAnimFrameData:
 
 .Frameset_InkSplash:
 	oamframe BATTLE_ANIM_OAMSET_1F,  8
-	oamend
-
-.Frameset_Hail:
-	oamframe BATTLEANIMOAMSET_HAIL, 32
 	oamend
