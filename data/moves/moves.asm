@@ -281,7 +281,7 @@ Moves2:
 	move EFFECT_HEX,                65, GHOST,        SPECIAL,  100, 10,   0      ;HEX use Memento animation
     move EFFECT_ALWAYS_HIT,         60, ELECTRIC,     SPECIAL,  100, 20,   0      ;SHOCK_WAVE
 	move EFFECT_RECOIL_HIT,        120, ELECTRIC,     SPECIAL,  100, 15,   0      ;VOLT_TACKLE
-    move EFFECT_LEECH_HIT,          50, FAIRY,        SPECIAL,  100, 15,   0      ;PIXIE_KISS use Draining Kiss animation
+    move EFFECT_LEECH_HIT,          55, FAIRY,        SPECIAL,  100, 15,   0      ;PIXIE_KISS use Draining Kiss animation
 	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,        SPECIAL,   90, 10,  10      ;PLAY_ROUGH
     move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,        SPECIAL,  100, 15,  20      ;MOON_BLAST
 	move EFFECT_ALWAYS_HIT,         60, FLYING,       SPECIAL,  100, 20,   0      ;AERIAL_ACE

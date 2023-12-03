@@ -223,6 +223,7 @@ FirstEvoStages::
 	dw SWINUB
 	dw SWINUB
 	dw CORSOLA
+	dw CORSOLA
 	dw REMORAID
 	dw REMORAID   ;e0
 	dw DELIBIRD

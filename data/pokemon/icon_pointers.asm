@@ -227,6 +227,7 @@ IconPointers:
 	dw SwinubIcon
 	dw Piloswine
 	dw CorsolaIcon
+	dw CursolaIcon
 	dw RemoraidIcon
 	dw OctilleryIcon
 	dw DelibirdIcon

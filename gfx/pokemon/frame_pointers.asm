@@ -222,6 +222,7 @@ FramesPointers:
 	dba SwinubFrames
 	dba PiloswineFrames
 	dba CorsolaFrames
+	dba CursolaFrames
 	dba RemoraidFrames
 	dba OctilleryFrames
 	dba DelibirdFrames

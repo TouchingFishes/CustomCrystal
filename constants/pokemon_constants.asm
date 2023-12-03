@@ -271,6 +271,17 @@ DEF JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+;NEW_POKEMON EQU const_value
+	;const TREECKO
+	;const GROVYLE
+	;const SCEPTILE
+	;const TORCHIC
+	;const COMBUSKEN
+	;const BLAZIKEN
+	;const MUDKIP
+	;const MARSHTOMP
+	;const SWAMPERT
+	const CURSOLA
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

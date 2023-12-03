@@ -201,7 +201,7 @@ AipomPokedexEntry::      INCLUDE "data/pokemon/dex_entries/aipom.asm"
 SunkernPokedexEntry::    INCLUDE "data/pokemon/dex_entries/sunkern.asm"
 SunfloraPokedexEntry::   INCLUDE "data/pokemon/dex_entries/sunflora.asm"
 
-
+;Change back to 193-251 once more mons are added Cursola was added
 SECTION "Pokedex Entries 193-251", ROMX
 
 YanmaPokedexEntry::      INCLUDE "data/pokemon/dex_entries/yanma.asm"
@@ -234,6 +234,7 @@ MagcargoPokedexEntry::   INCLUDE "data/pokemon/dex_entries/magcargo.asm"
 SwinubPokedexEntry::     INCLUDE "data/pokemon/dex_entries/swinub.asm"
 PiloswinePokedexEntry::  INCLUDE "data/pokemon/dex_entries/piloswine.asm"
 CorsolaPokedexEntry::    INCLUDE "data/pokemon/dex_entries/corsola.asm"
+CursolaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/cursola.asm"
 RemoraidPokedexEntry::   INCLUDE "data/pokemon/dex_entries/remoraid.asm"
 OctilleryPokedexEntry::  INCLUDE "data/pokemon/dex_entries/octillery.asm"
 DelibirdPokedexEntry::   INCLUDE "data/pokemon/dex_entries/delibird.asm"

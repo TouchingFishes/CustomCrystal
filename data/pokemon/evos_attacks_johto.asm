@@ -1017,7 +1017,7 @@ PiloswineEvosAttacks:
 	db 0 ; no more level-up moves
 
 CorsolaEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_LEVEL, 38, CURSOLA
 	dbw 1, TACKLE
 	dbw 7, HARDEN
 	dbw 13, BUBBLE

@@ -173,6 +173,7 @@ NewPokedexOrder:
 	dw SHELLDER
 	dw CLOYSTER
 	dw CORSOLA
+	dw CURSOLA
 	dw REMORAID
 	dw OCTILLERY
 	dw CHINCHOU

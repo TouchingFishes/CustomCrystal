@@ -231,7 +231,8 @@ MonMenuIconPals:
 	icon_pals RED,    BLUE   ; MAGCARGO
 	icon_pals BROWN,  BLUE   ; SWINUB
 	icon_pals BROWN,  BROWN  ; PILOSWINE
-	icon_pals PINK,   TEAL   ; CORSOLA
+	icon_pals GRAY,   GRAY   ; CORSOLA
+	icon_pals GRAY,   GRAY   ; CURSOLA
 	icon_pals BLUE,   GRAY   ; REMORAID
 	icon_pals RED,    BROWN  ; OCTILLERY
 	icon_pals RED,    PURPLE ; DELIBIRD
