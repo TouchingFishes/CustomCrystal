@@ -225,6 +225,9 @@ DEF BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const BATTLE_ANIM_OBJ_INK_SPLASH          ; c0
 	const BATTLE_ANIM_OBJ_DAZZLE              ; c1
 	const BATTLE_ANIM_OBJ_RADIAL_FLAME        ; c2
+	const BATTLE_ANIM_OBJ_DRAGON_PULSE        ; c3
+	const BATTLE_ANIM_OBJ_SMALL_GLOW          ; c4
+	const ANIM_OBJ_SHOOTING_MIST              ; c5
 
 DEF NUM_BATTLE_ANIM_OBJS EQU const_value
 
@@ -507,6 +510,8 @@ DEF NUM_BATTLE_ANIM_FUNCS EQU const_value
 	const BATTLE_ANIM_FRAMESET_BUBBLE_SPLASH         ; bc
 	const BATTLE_ANIM_FRAMESET_SMOKE_PUFF            ; bd
 	const BATTLE_ANIM_FRAMESET_INK_SPLASH            ; be
+	const BATTLE_ANIM_FRAMESET_DRAGON_PULSE          ; bc
+	const BATTLE_ANIM_FRAMESET_SMALL_GLOW            ; bd
 DEF NUM_BATTLE_ANIM_FRAMESETS EQU const_value
 
 ; BattleAnimOAMData indexes (see data/battle_anims/oam.asm)
@@ -834,8 +839,9 @@ DEF NUM_BATTLE_BG_EFFECTS EQU const_value - 1
 	const BATTLE_ANIM_GFX_AEROBLAST  ; 27
 	const BATTLE_ANIM_GFX_BEAM_LIGHT ; 28
 	const BATTLE_ANIM_GFX_SMOKE_PUFF ; 29
-	const BATTLE_ANIM_GFX_PLAYERHEAD ; 2a
-	const BATTLE_ANIM_GFX_ENEMYFEET  ; 2b
+	const BATTLE_ANIM_GFX_GLOW       ; 2a
+	const BATTLE_ANIM_GFX_PLAYERHEAD ; 2b
+	const BATTLE_ANIM_GFX_ENEMYFEET  ; 2c
 DEF NUM_BATTLE_ANIM_GFX EQU const_value - 1
 
 ; battle_bg_effect struct members (see macros/ram.asm)
@@ -901,16 +907,9 @@ DEF NUM_BG_EFFECTS EQU 5 ; see wActiveBGEffects
 	const PAL_BTLCUSTOM_PEACH           ; 10
 	const PAL_BTLCUSTOM_LIGHT_SCREEN    ; 11
 	const PAL_BTLCUSTOM_MIRROR_COAT     ; 12
-	const PAL_BTLCUSTOM_HP_FIGHTING     ; 13
-	const PAL_BTLCUSTOM_HP_FLYING       ; 14
-	const PAL_BTLCUSTOM_HP_GROUND       ; 15
-	const PAL_BTLCUSTOM_HP_ROCK         ; 16
-	const PAL_BTLCUSTOM_HP_BUG          ; 17
-	const PAL_BTLCUSTOM_HP_DRAGON       ; 18
-	const PAL_BTLCUSTOM_HP_DARK         ; 19
-	const PAL_BTLCUSTOM_HP_STEEL        ; 1a
-	const PAL_BTLCUSTOM_HP_PSYCHIC      ; 1b
-	const PAL_BTLCUSTOM_HP_GHOST        ; 1c
+	const PAL_BTLCUSTOM_DRAGON_PULSE    ; 13
+	const PAL_BTLCUSTOM_PINK            ; 14
+
 DEF NUM_CUSTOM_BATTLE_PALETTES EQU const_value
 
 DEF PAL_BTLCUSTOM_DEFAULT EQU -1

@@ -192,6 +192,8 @@ BattleAnimFrameData:
 	dw .Frameset_BubbleSplash        ; BATTLE_ANIM_FRAMESET_BUBBLE_SPLASH
 	dw .Frameset_SmokePuff           ; BATTLE_ANIM_FRAMESET_SMOKE_PUFF
 	dw .Frameset_InkSplash           ; BATTLE_ANIM_FRAMESET_INK_SPLASH
+	dw .Frameset_DragonPulse         ; BATTLE_ANIM_FRAMESET_DRAGON_PULSE
+	dw .Frameset_SmallGlow           ; BATTLE_ANIM_FRAMESET_SMALL_GLOW
 	assert_table_length NUM_BATTLE_ANIM_FRAMESETS
 
 .Frameset_HitBig:
@@ -1300,3 +1302,15 @@ BattleAnimFrameData:
 .Frameset_InkSplash:
 	oamframe BATTLE_ANIM_OAMSET_1F,  8
 	oamend
+
+.Frameset_DragonPulse:
+	oamframe BATTLE_ANIM_OAMSET_1E,  3
+	oamframe BATTLE_ANIM_OAMSET_55,  3
+	oamframe BATTLE_ANIM_OAMSET_54,  3
+	oamframe BATTLE_ANIM_OAMSET_53,  3
+	oamdelete
+
+.Frameset_SmallGlow:
+	oamframe BATTLE_ANIM_OAMSET_54,  1
+	oamframe BATTLE_ANIM_OAMSET_53,  1
+	oamrestart
