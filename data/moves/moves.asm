@@ -255,7 +255,7 @@ Moves1:
 	move EFFECT_MORNING_SUN,         0, NORMAL,       STATUS,   100,  5,   0      ;MORNING_SUN
 	move EFFECT_SYNTHESIS,           0, GRASS,        STATUS,   100,  5,   0      ;SYNTHESIS
 	move EFFECT_MOONLIGHT,           0, FAIRY,        STATUS,   100,  5,   0      ;MOONLIGHT
-	move EFFECT_HIDDEN_POWER,        1, NORMAL,       PHYSICAL, 100, 15,   0      ;HIDDEN_POWER
+	move EFFECT_HIDDEN_POWER,        1, NORMAL,       SPECIAL,  100, 15,   0      ;HIDDEN_POWER
 	move EFFECT_NORMAL_HIT,        100, FIGHTING,     PHYSICAL,  80,  5,   0      ;CROSS_CHOP
 	move EFFECT_TWISTER,            95, FLYING,       PHYSICAL, 100, 20,  10      ;TWISTER
 	move EFFECT_RAIN_DANCE,          0, WATER,        STATUS,    90,  5,   0      ;RAIN_DANCE
@@ -296,7 +296,7 @@ Moves2:
 	move EFFECT_ALL_UP_HIT,         60, BUG,          PHYSICAL, 100, 10,   0      ;SILVER_WIND
 	move EFFECT_LEECH_HIT,          60, FIGHTING,     PHYSICAL, 100, 10,   0      ;DRAIN_PUNCH
 	move EFFECT_ALWAYS_HIT,         60, GRASS,        SPECIAL,  100, 20,   0      ;MAGICAL_LEAF
-	move EFFECT_NORMAL_HIT,         90, GRASS,        SPECIAL,  100, 20,   0      ;LEAF_BLADE
+	move EFFECT_NORMAL_HIT,         90, GRASS,        PHYSICAL, 100, 20,   0      ;LEAF_BLADE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, GRASS,        SPECIAL,  100, 15,  10      ;ENERGY_BALL
     move EFFECT_SLEEP,               0, GRASS,        STATUS,    55, 15,   0      ;GRASSWHISTLE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,        PHYSICAL, 100, 15,  10      ;FLASH_CANNON
