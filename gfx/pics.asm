@@ -711,7 +711,7 @@ UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 SECTION "Pics 19", ROMX
 
 BellossomFrontpic:   INCBIN "gfx/pokemon/bellossom/front.animated.2bpp.lz"
-CursolaFrontpic: 	 INCBIN "gfx/pokemon/cursola/front.animated.2bpp.lz"
-CursolaBackpic:  	 INCBIN "gfx/pokemon/cursola/back.2bpp.lz"
+CursolaFrontpic:     INCBIN "gfx/pokemon/cursola/front.animated.2bpp.lz"
+CursolaBackpic:      INCBIN "gfx/pokemon/cursola/back.2bpp.lz"
 
 

@@ -9,7 +9,7 @@
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F75 ; gender ratio
 	db 20 ; step cycles to hatch
-	INCBIN "gfx/pokemon/graveler/front.dimensions"
+	INCBIN "gfx/pokemon/cursola/front.dimensions"
 	db GROWTH_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 
