@@ -222,7 +222,6 @@ AnimationIdlePointers:
 	dw SwinubAnimationIdle
 	dw PiloswineAnimationIdle
 	dw CorsolaAnimationIdle
-	dw CursolaAnimationIdle
 	dw RemoraidAnimationIdle
 	dw OctilleryAnimationIdle
 	dw DelibirdAnimationIdle
@@ -252,4 +251,5 @@ AnimationIdlePointers:
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle
+	dw CursolaAnimationIdle
 	assert_table_length NUM_POKEMON

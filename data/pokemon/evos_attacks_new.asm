@@ -19,7 +19,7 @@ CursolaEvosAttacks:
 	dbw 7, HARDEN
 	dbw 13, BUBBLE
 	dbw 19, RECOVER
-	dbw 25, BUBBLEBEAM
+	dbw 25, HEX
 	dbw 31, SPIKE_CANNON
 	dbw 37, MIRROR_COAT
 	dbw 43, ANCIENTPOWER

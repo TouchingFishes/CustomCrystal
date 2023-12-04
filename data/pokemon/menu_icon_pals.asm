@@ -232,7 +232,6 @@ MonMenuIconPals:
 	icon_pals BROWN,  BLUE   ; SWINUB
 	icon_pals BROWN,  BROWN  ; PILOSWINE
 	icon_pals GRAY,   GRAY   ; CORSOLA
-	icon_pals GRAY,   GRAY   ; CURSOLA
 	icon_pals BLUE,   GRAY   ; REMORAID
 	icon_pals RED,    BROWN  ; OCTILLERY
 	icon_pals RED,    PURPLE ; DELIBIRD
@@ -262,4 +261,5 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; LUGIA
 	icon_pals RED,    BROWN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI
+	icon_pals GRAY,   GRAY   ; CURSOLA
 	assert_table_length NUM_POKEMON

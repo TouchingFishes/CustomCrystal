@@ -222,7 +222,6 @@ FramesPointers:
 	dba SwinubFrames
 	dba PiloswineFrames
 	dba CorsolaFrames
-	dba CursolaFrames
 	dba RemoraidFrames
 	dba OctilleryFrames
 	dba DelibirdFrames
@@ -252,4 +251,5 @@ FramesPointers:
 	dba LugiaFrames
 	dba HoOhFrames
 	dba CelebiFrames
+	dba CursolaFrames
 	assert_table_length NUM_POKEMON

@@ -1,5 +1,5 @@
 SECTION "Egg Moves 3", ROMX
 
 EggMovePointers3::
-	dw NoEggMoves2
+	dw NoEggMoves2 ;Cursola
 .IndirectEnd::

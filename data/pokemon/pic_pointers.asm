@@ -460,8 +460,6 @@ PokemonPicPointers::
 	dba PiloswineBackpic
 	dba CorsolaFrontpic
 	dba CorsolaBackpic
-	dba CursolaFrontpic
-	dba CursolaBackpic
 	dba RemoraidFrontpic
 	dba RemoraidBackpic
 	dba OctilleryFrontpic
@@ -520,4 +518,6 @@ PokemonPicPointers::
 	dba HoOhBackpic
 	dba CelebiFrontpic
 	dba CelebiBackpic
+	dba CursolaFrontpic
+	dba CursolaBackpic
 	assert_table_length NUM_POKEMON + 1

@@ -223,7 +223,6 @@ PokedexDataPointerTable:
 	dba SwinubPokedexEntry
 	dba PiloswinePokedexEntry
 	dba CorsolaPokedexEntry
-	dba CursolaPokedexEntry
 	dba RemoraidPokedexEntry
 	dba OctilleryPokedexEntry
 	dba DelibirdPokedexEntry
@@ -253,4 +252,5 @@ PokedexDataPointerTable:
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
+	dba CursolaPokedexEntry
 	assert_table_length NUM_POKEMON

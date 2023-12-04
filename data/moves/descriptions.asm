@@ -829,7 +829,7 @@ FireBlastDescription:
 	next "may cause a burn.@"
 
 WaterfallDescription:
-	db   "An aquatic charge"
+	db   "A physical water"
 	next "attack.@"
 
 ClampDescription:

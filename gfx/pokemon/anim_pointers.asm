@@ -222,7 +222,6 @@ AnimationPointers:
 	dw SwinubAnimation
 	dw PiloswineAnimation
 	dw CorsolaAnimation
-	dw CursolaAnimation
 	dw RemoraidAnimation
 	dw OctilleryAnimation
 	dw DelibirdAnimation
@@ -252,4 +251,5 @@ AnimationPointers:
 	dw LugiaAnimation
 	dw HoOhAnimation
 	dw CelebiAnimation
+	dw CursolaAnimation
 	assert_table_length NUM_POKEMON

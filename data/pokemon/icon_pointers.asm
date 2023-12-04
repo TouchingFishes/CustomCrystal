@@ -227,7 +227,6 @@ IconPointers:
 	dw SwinubIcon
 	dw Piloswine
 	dw CorsolaIcon
-	dw CursolaIcon
 	dw RemoraidIcon
 	dw OctilleryIcon
 	dw DelibirdIcon
@@ -257,4 +256,5 @@ IconPointers:
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
+	dw CursolaIcon
 	assert_table_length NUM_POKEMON + 1

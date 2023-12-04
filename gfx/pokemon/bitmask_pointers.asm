@@ -222,7 +222,6 @@ BitmasksPointers:
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
 	dw CorsolaBitmasks
-	dw CursolaBitmasks
 	dw RemoraidBitmasks
 	dw OctilleryBitmasks
 	dw DelibirdBitmasks
@@ -252,4 +251,5 @@ BitmasksPointers:
 	dw LugiaBitmasks
 	dw HoOhBitmasks
 	dw CelebiBitmasks
+	dw CursolaBitmasks
 	assert_table_length NUM_POKEMON
