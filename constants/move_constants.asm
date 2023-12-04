@@ -318,6 +318,10 @@ DEF NUM_ATTACKS EQU const_value - 1
 	if NUM_ATTACKS > $3fff
 		fail "Too many moves defined!"
 	endc
+	
+NUM_SPECIAL_ANIMS EQU $17 ;fix if more special (always on) animations are added
+SPECIAL_ANIM_OFFSET EQU (1 + HIGH(NUM_ATTACKS + NUM_SPECIAL_ANIMS)) << 8
+
 
 ; Battle animations use the same constants as the moves
 	const ANIM_SWEET_SCENT_2     ; fc
