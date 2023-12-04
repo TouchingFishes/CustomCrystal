@@ -303,30 +303,30 @@ Moves2:
 	move EFFECT_FLINCH_HIT,         80, DARK,         SPECIAL,  100,  5,   0      ;DARK_PULSE
    ;move EFFECT_DEF_UP_2,            0, STEEL,        STATUS,   100, 30,   0      ;IRON_DEFENSE
    ;move EFFECT_BURN_HIT,            0, FIRE,         STATUS,    75, 15,   0      ;WILL_O_WISP
-   ;move EFFECT_OHKO,                1, ICE,            30,  5,   0      ;SHEER_COLD
-   ;move EFFECT_HYPER_BEAM,        150, GRASS,          90,  5,   0      ;FRENZY_PLANT
-   ;move EFFECT_HYPER_BEAM,        150, FIRE,           90,  5,   0      ;BLAST_BURN
-   ;move EFFECT_HYPER_BEAM,        150, WATER,          90,  5,   0      ;HYDRO_CANNON
-   ;move EFFECT_HEAL,                0, NORMAL,        100, 10,   0      ;OVERHEAT
-   ;move EFFECT_SP_ATK_UP_2,         0, DARK,         STATUS,    100, 20,   0      ;NASTY_PLOT
-   ;move EFFECT_BATON_PASS,          0, NORMAL,        100, 40,   0      ;BULK_UP
-   ;move EFFECT_DEFENSE_DOWN_HIT,  100, STEEL,          75, 15,  30      ;CALM_MIND
-   ;move EFFECT_ATTACK_UP_HIT,      50, STEEL,         100, 35,  10      ;COSMIC_POWER
-   ;move EFFECT_SANDSTORM,           0, ROCK,          100, 10,   0      ;DRAGON_DANCE
-   ;move EFFECT_MIRROR_COAT,         1, PSYCHIC_TYPE,  100, 20,   0      ;MUDDY_WATER
-   ;move EFFECT_PSYCH_UP,            0, NORMAL,        100, 10,   0      ;BULLET_SEED
-   ;move EFFECT_ROLLOUT,            30, ICE,            90, 20,   0      ;ICE_BALL
-   ;move EFFECT_TRAP_TARGET,        45, GROUND,         85, 15,   0      ;SAND_TOMB
-   ;move EFFECT_PERISH_SONG,         0, NORMAL,        100,  5,   0      ;WISH
-   ;move EFFECT_BURN_HIT,          100, FIRE,          100,  5,   0      ;ERUPTION  
-   ;move EFFECT_SUNNY_DAY,           0, FIRE,           90,  5,   0      ;SOUL_BREAK
-   ;move EFFECT_HIDDEN_POWER,        1, NORMAL,        100, 15,   0      ;FIERY_WRATH
-   ;move EFFECT_SYNTHESIS,           0, GRASS,         100,  5,   0      ;NIGHT_SLASH
-   ;move EFFECT_SAFEGUARD,           0, NORMAL,        100, 25,   0      ;BUG_BITE
-   ;move EFFECT_MULTI_HIT,          20, ROCK,           90, 15,   0      ;ROCK_BLAST
-   ;move EFFECT_PARALYZE_HIT,       75, DRAGON,        100, 20,  20      ;SUPERPOWER
-   ;move EFFECT_ALWAYS_HIT,         80, GHOST,         100, 20,   0      ;AURA_SPHERE
-   ;move EFFECT_CONFUSE_HIT,        90, FAIRY,          95, 10,   0      ;STRANGE_FUME
-   ;move EFFECT_CONFUSE_HIT,        60, WATER,         100, 20,  10      ;WATER_PULSE
+   ;move EFFECT_OHKO,                1, ICE,          SPECIAL,   30,  5,   0      ;SHEER_COLD
+   ;move EFFECT_HYPER_BEAM,        150, GRASS,        SPECIAL,   90,  5,   0      ;FRENZY_PLANT
+   ;move EFFECT_HYPER_BEAM,        150, FIRE,         SPECIAL,   90,  5,   0      ;BLAST_BURN
+   ;move EFFECT_HYPER_BEAM,        150, WATER,        SPECIAL,   90,  5,   0      ;HYDRO_CANNON
+   ;move EFFECT_HEAL,                0, NORMAL,       SPECIAL,  100, 10,   0      ;OVERHEAT 
+   ;move EFFECT_SP_ATK_UP_2,         0, DARK,         STATUS,   100, 20,   0      ;NASTY_PLOT raus?
+   ;move EFFECT_BATON_PASS,          0, NORMAL,       STATUS,   100, 40,   0      ;BULK_UP raus?
+   ;move EFFECT_DEFENSE_DOWN_HIT,  100, STEEL,        STATUS,    75, 15,  30      ;CALM_MIND raus?
+   ;move EFFECT_ATTACK_UP_HIT,      50, STEEL,        STATUS,   100, 35,  10      ;COSMIC_POWER raus?
+   ;move EFFECT_SANDSTORM,           0, ROCK,         STATUS,   100, 10,   0      ;DRAGON_DANCE raus?
+   ;move EFFECT_MIRROR_COAT,         1, PSYCHIC_TYPE, STATUS,   100, 20,   0      ;MUDDY_WATER raus?
+   ;move EFFECT_PSYCH_UP,            0, NORMAL,       STATUS,   100, 10,   0      ;BULLET_SEED raus?
+   ;move EFFECT_ROLLOUT,            30, ICE,          SPECIAL,   90, 20,   0      ;ICE_BALL raus
+   ;move EFFECT_TRAP_TARGET,        45, GROUND,       PHYSICAL,  85, 15,   0      ;SAND_TOMB raus?
+   ;move EFFECT_PERISH_SONG,         0, NORMAL,       STATUS,   100,  5,   0      ;WISH raus?
+   ;move EFFECT_BURN_HIT,          100, FIRE,         SPECIAL,  100,  5,   0      ;ERUPTION raus
+   ;move EFFECT_SUNNY_DAY,           0, FAIRY,        SPECIAL,   90,  5,   0      ;SOUL_BREAK
+   ;move EFFECT_HIDDEN_POWER,        1, NORMAL,       SPECIAL,  100, 15,   0      ;FIERY_WRATH raus
+   ;move EFFECT_SYNTHESIS,           0, GRASS,        PHYSICAL, 100,  5,   0      ;NIGHT_SLASH
+   ;move EFFECT_SAFEGUARD,           0, NORMAL,       PHYSICAL, 100, 25,   0      ;BUG_BITE
+   ;move EFFECT_MULTI_HIT,          20, ROCK,         PHYSICAL,  90, 15,   0      ;ROCK_BLAST raus
+   ;move EFFECT_PARALYZE_HIT,       75, DRAGON,       PHYSICAL, 100, 20,  20      ;SUPERPOWER raus
+   ;move EFFECT_ALWAYS_HIT,         80, GHOST,        PHYSICAL, 100, 20,   0      ;AURA_SPHERE 
+   ;move EFFECT_CONFUSE_HIT,        90, FAIRY,        SPECIAL,   95, 10,   0      ;STRANGE_FUME
+   ;move EFFECT_CONFUSE_HIT,        60, WATER,        SPECIAL,  100, 20,  10      ;WATER_PULSE raus?
 
 .IndirectEnd::
