@@ -1208,8 +1208,8 @@ PainSplitDescription:
 	next "HPs. Shares total.@"
 
 SacredFireDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "Mythical fire at-"
+	next "tack that burns.@"
 
 MagnitudeDescription:
 	db   "A ground attack"

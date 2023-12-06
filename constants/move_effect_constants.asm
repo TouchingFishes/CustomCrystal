@@ -158,4 +158,6 @@
 	const EFFECT_FLY
 	const EFFECT_DEFENSE_CURL
 	const EFFECT_HEX
+;	const EFFECT_BURN
+;   const CALM_MIND
 DEF NUM_MOVE_EFFECTS EQU const_value

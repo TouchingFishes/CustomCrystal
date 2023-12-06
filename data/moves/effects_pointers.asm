@@ -159,4 +159,5 @@ MoveEffectsPointers:
 	dw Fly
 	dw DefenseCurl
 	dw Hex
+	;dw DoBurn
 	assert_table_length NUM_MOVE_EFFECTS
