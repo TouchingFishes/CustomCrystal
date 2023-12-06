@@ -266,4 +266,12 @@ PokemonNames::
 ;	db "MARSHTOMP@"
 ;	db "SWAMPERT@@"
 	db "CURSOLA@@@"
+	db "WEAVILE@@@"
+;	db "MAGNEZONE@"
+;	db "ELECTIVIRE"
+	db "MAGMORTAR@"
+	db "MISMAGIUS@"
+	db "TOGEKISS@@"
+	db "PORYGON Z@"
+	db "HONCHKROW@"
 	assert_table_length NUM_POKEMON

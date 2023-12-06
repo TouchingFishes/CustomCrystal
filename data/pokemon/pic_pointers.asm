@@ -520,4 +520,20 @@ PokemonPicPointers::
 	dba CelebiBackpic
 	dba CursolaFrontpic
 	dba CursolaBackpic
+	dba WeavileFrontpic
+	dba WeavileBackpic
+;	dba MagnezoneFrontpic
+;	dba MagnezoneBackpic
+;	dba ElectivireFrontpic
+;	dba ElectivireFrontpic
+	dba MagmortarFrontpic
+	dba MagmortarBackpic
+	dba MismagiusFrontpic
+	dba MismagiusBackpic
+	dba TogekissFrontpic
+	dba TogekissBackpic
+	dba PorygonZFrontpic
+	dba PorygonZBackpic
+	dba HonchkrowFrontpic
+	dba HonchkroBackpic
 	assert_table_length NUM_POKEMON + 1

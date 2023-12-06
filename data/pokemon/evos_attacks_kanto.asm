@@ -1838,6 +1838,7 @@ JynxEvosAttacks:
 
 ElectabuzzEvosAttacks:
 	db 0 ; no more evolutions
+	;dbbw EVOLVE_LEVEL, 50, ELECTIVIRE
 	dbw 1, QUICK_ATTACK
 	dbw 1, LEER
 	dbw 1, THUNDERPUNCH
@@ -1850,7 +1851,7 @@ ElectabuzzEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_LEVEL, 50, MAGMORTAR
 	dbw 1, EMBER
 	dbw 1, LEER
 	dbw 1, SMOG

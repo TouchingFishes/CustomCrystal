@@ -88,6 +88,7 @@ AlphabeticalPokedexOrder:
 	dw HITMONLEE
 	dw HITMONTOP
 	dw HO_OH
+	dw HONCHKROW
 	dw HOOTHOOT
 	dw HOPPIP
 	dw HORSEA
@@ -123,6 +124,7 @@ AlphabeticalPokedexOrder:
 	dw MAGCARGO
 	dw MAGIKARP
 	dw MAGMAR
+	dw MAGMORTAR
 	dw MAGNEMITE
 	dw MAGNETON
 	dw MANKEY
@@ -137,6 +139,7 @@ AlphabeticalPokedexOrder:
 	dw MEWTWO
 	dw MILTANK
 	dw MISDREAVUS
+	dw MISMAGIUS
 	dw MOLTRES
 	dw MR__MIME
 	dw MUK
@@ -174,6 +177,7 @@ AlphabeticalPokedexOrder:
 	dw PONYTA
 	dw PORYGON
 	dw PORYGON2
+	dw PORYGONZ
 	dw PRIMEAPE
 	dw PSYDUCK
 	dw PUPITAR
@@ -226,6 +230,7 @@ AlphabeticalPokedexOrder:
 	dw TEDDIURSA
 	dw TENTACOOL
 	dw TENTACRUEL
+	dw TOGEKISS
 	dw TOGEPI
 	dw TOGETIC
 	dw TOTODILE
@@ -244,6 +249,7 @@ AlphabeticalPokedexOrder:
 	dw VOLTORB
 	dw VULPIX
 	dw WARTORTLE
+	dw WEAVILE
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING

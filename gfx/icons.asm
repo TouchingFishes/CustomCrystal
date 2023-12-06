@@ -257,4 +257,15 @@ LugiaIcon::      INCBIN "gfx/icons/lugia.2bpp"
 HoOhIcon::       INCBIN "gfx/icons/ho_oh.2bpp"
 CelebiIcon::     INCBIN "gfx/icons/celebi.2bpp"
 CursolaIcon::	 INCBIN "gfx/icons/cursola.2bpp"
+WeavileIcon::	 INCBIN "gfx/icons/weavile.2bpp"
+;MagnezoneIcon:: INCBIN "gfx/icons/magnezone.2bpp"
+;ElectivireIcon::INCBIN "gfx/icons/electivire.2bpp"
+MagmortarIcon::	 INCBIN "gfx/icons/magmortar.2bpp"
+MismagiusIcon::  INCBIN "gfx/icons/mismagius.2bpp"
+TogekissIcon::	 INCBIN "gfx/icons/togekiss.2bpp"
+
+SECTION "Mon Icons 3", ROMX
+
+PorygonZIcon::	 INCBIN "gfx/icons/porygon_z.2bpp"
+Honchkrow::		 INCBIN "gfx/icons/honchkrow.2bpp"
 EggIcon::        INCBIN "gfx/icons/egg.2bpp"

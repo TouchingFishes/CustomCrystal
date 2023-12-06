@@ -49,6 +49,7 @@ NewPokedexOrder:
 	dw WIGGLYTUFF
 	dw TOGEPI
 	dw TOGETIC
+	dw TOGEKISS
 	dw SANDSHREW
 	dw SANDSLASH
 	dw EKANS
@@ -120,7 +121,7 @@ NewPokedexOrder:
 	dw GRIMER
 	dw MUK
 	dw MAGNEMITE
-	dw MAGNETON
+	dw MAGNETON	
 	dw VOLTORB
 	dw ELECTRODE
 	dw AIPOM
@@ -153,6 +154,7 @@ NewPokedexOrder:
 	dw MILTANK
 	dw MAGBY
 	dw MAGMAR
+	dw MAGMORTAR
 	dw SMOOCHUM
 	dw JYNX
 	dw ELEKID
@@ -211,14 +213,18 @@ NewPokedexOrder:
 	dw RHYHORN
 	dw RHYDON
 	dw MURKROW
+	dw HONCHKROW
 	dw HOUNDOUR
 	dw HOUNDOOM
 	dw SLUGMA
 	dw MAGCARGO
 	dw SNEASEL
+	dw WEAVILE
 	dw MISDREAVUS
+	dw MISMAGIUS
 	dw PORYGON
 	dw PORYGON2
+	dw PORYGONZ
 	dw CHANSEY
 	dw BLISSEY
 	dw LAPRAS

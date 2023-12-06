@@ -160,4 +160,5 @@ MoveEffectsPointers:
 	dw DefenseCurl
 	dw Hex
 	;dw DoBurn
+	;dw CalmMind
 	assert_table_length NUM_MOVE_EFFECTS

@@ -252,4 +252,12 @@ AnimationIdlePointers:
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle
 	dw CursolaAnimationIdle
+	dw WeavileAnimationIdle
+;	dw MagnezoneAnimationIdle
+;	dw ElectivireAnimationIdle
+	dw MagmortarAnimationIdle
+	dw MismagiusAnimationIdle
+	dw TogekissAnimationIdle
+	dw PorygonZAnimationIdle
+	dw HonchkrowAnimationIdle
 	assert_table_length NUM_POKEMON

@@ -425,24 +425,24 @@ IgglybuffEvosAttacks:
 TogepiEvosAttacks:
 	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
 	db 0 ; no more evolutions
-	dbw 1, GROWL
+	dbw 1, METRONOME
 	dbw 1, CHARM
-	dbw 7, METRONOME
+	dbw 7, FAIRY_WIND
 	dbw 18, SWEET_KISS
 	dbw 25, ENCORE
 	dbw 31, SAFEGUARD
-	dbw 38, DOUBLE_EDGE
+	dbw 38, MOON_BLAST
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
-	db 0 ; no more evolutions
-	dbw 1, GROWL
+	dbbw EVOLVE_ITEM, MOON_STONE, TOGEKISS
+	dbw 1, METRONOME
 	dbw 1, CHARM
-	dbw 7, METRONOME
+	dbw 7, FAIRY_WIND
 	dbw 18, SWEET_KISS
 	dbw 25, ENCORE
 	dbw 31, SAFEGUARD
-	dbw 38, DOUBLE_EDGE
+	dbw 38, MOON_BLAST
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:
@@ -717,7 +717,7 @@ UmbreonEvosAttacks:
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_ITEM, MOON_STONE, HONCHKROW
 	dbw 1, PECK
 	dbw 11, PURSUIT
 	dbw 16, HAZE
@@ -740,14 +740,14 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
-	db 0 ; no more evolutions
-	dbw 1, GROWL
+	dbbw EVOLVE_ITEM, MOON_STONE, MISMAGIUS
+	dbw 1, SPITE
 	dbw 1, PSYWAVE
-	dbw 6, SPITE
-	dbw 12, CONFUSE_RAY
-	dbw 19, MEAN_LOOK
+	dbw 6, CONFUSE_RAY
+	dbw 12, MEAN_LOOK
+	dbw 19, PIXIE_KISS
 	dbw 27, PSYBEAM
-	dbw 36, PAIN_SPLIT
+	dbw 36, MAGICAL_LEAF
 	dbw 46, PERISH_SONG
 	db 0 ; no more level-up moves
 
@@ -921,7 +921,7 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_HAPPINESS, TR_NITE, UMBREON ;should be weavile
 	dbw 1, SCRATCH
 	dbw 1, LEER
 	dbw 9, QUICK_ATTACK
@@ -1020,10 +1020,10 @@ CorsolaEvosAttacks:
 	dbbw EVOLVE_LEVEL, 38, CURSOLA
 	dbw 1, TACKLE
 	dbw 7, HARDEN
-	dbw 13, BUBBLE
-	dbw 19, RECOVER
-	dbw 25, BUBBLEBEAM
-	dbw 31, SPIKE_CANNON
+	dbw 13, SPITE
+	dbw 19, NIGHT_SHADE
+	dbw 25, SPIKE_CANNON
+	dbw 31, HEX
 	dbw 37, MIRROR_COAT
 	dbw 43, ANCIENTPOWER
 	db 0 ; no more level-up moves

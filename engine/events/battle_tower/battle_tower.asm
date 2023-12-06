@@ -513,7 +513,7 @@ Function17042c:
 	; Second byte is a lookup index.
 	ld a, [hli]
 	and a
-	jr z, .empty
+	jr z, .next_iteration
 	cp (Unknown_170470.end - Unknown_170470) + 1
 	jr nc, .copy_data
 
@@ -532,13 +532,6 @@ Function17042c:
 	jr c, .copy_data
 	jr z, .copy_data
 	jr .next_iteration
-
-.empty
-	; If a == 0 and b >= $fc, overwrite the current trainer's data with
-	; Unknown_17047e, and exit the inner loop.
-	ld a, b
-	cp NUM_POKEMON + 1
-	jr nc, .copy_data
 
 .next_iteration
 	dec c

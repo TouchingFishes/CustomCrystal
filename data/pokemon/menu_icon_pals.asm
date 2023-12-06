@@ -262,4 +262,12 @@ MonMenuIconPals:
 	icon_pals RED,    BROWN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI
 	icon_pals GRAY,   GRAY   ; CURSOLA
+	icon_pals RED,    PURPLE ; WEAVILE
+;	icon_pals GRAY,   GRAY   ; MAGNEZONE
+;	icon_pals BROWN,  GRAY   ; ELECTIVIRE
+	icon_pals RED,    PURPLE ; MAGMORTAR
+	icon_pals PURPLE, BROWN  ; MISMAGIUS
+	icon_pals RED,    BLUE   ; TOGEKISS
+	icon_pals BLUE,   BLUE   ; PORYGONZ
+	icon_pals BLUE,   PURPLE ; HONCHKROW
 	assert_table_length NUM_POKEMON

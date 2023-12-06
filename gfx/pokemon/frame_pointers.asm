@@ -252,4 +252,12 @@ FramesPointers:
 	dba HoOhFrames
 	dba CelebiFrames
 	dba CursolaFrames
+	dba WeavileFrames
+;	dba MagnezoneFrames
+;	dba ElectivireFrames
+	dba MagmortarFrames
+	dba MismagiusFrames
+	dba TogekissFrames
+	dba PorygonZFrames
+	dba HonchkrowFrames
 	assert_table_length NUM_POKEMON

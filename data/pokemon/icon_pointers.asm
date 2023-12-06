@@ -257,4 +257,12 @@ IconPointers:
 	dw HoOhIcon
 	dw CelebiIcon
 	dw CursolaIcon
+	dw WeavileIcon
+;	dw MagnezoneIcon
+;	dw ElectivireIcon
+	dw MagmortarIcon
+	dw MismagiusIcon
+	dw TogekissIcon
+	dw PorygonZIcon
+	dw Honchkrow
 	assert_table_length NUM_POKEMON + 1

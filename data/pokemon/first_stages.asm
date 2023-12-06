@@ -83,6 +83,7 @@ FirstEvoStages::
 	dw SLOWPOKE   ;50
 	dw MAGNEMITE
 	dw MAGNEMITE
+;	dw MAGNEMITE	
 	dw FARFETCH_D
 	dw DODUO
 	dw DODUO
@@ -126,6 +127,8 @@ FirstEvoStages::
 	dw SCYTHER
 	dw SMOOCHUM
 	dw ELEKID
+;	dw ELEKID
+	dw MAGBY
 	dw MAGBY
 	dw PINSIR
 	dw TAUROS     ;80
@@ -177,6 +180,7 @@ FirstEvoStages::
 	dw IGGLYBUFF
 	dw TOGEPI
 	dw TOGEPI     ;b0
+	dw TOGEPI
 	dw NATU
 	dw NATU
 	dw MAREEP
@@ -199,8 +203,10 @@ FirstEvoStages::
 	dw EEVEE
 	dw EEVEE
 	dw MURKROW
+	dw MURKROW
 	dw SLOWPOKE
 	dw MISDREAVUS ;c8
+	dw MISDREAVUS
 	dw UNOWN
 	dw WOBBUFFET
 	dw GIRAFARIG
@@ -215,6 +221,7 @@ FirstEvoStages::
 	dw SCYTHER
 	dw SHUCKLE
 	dw HERACROSS
+	dw SNEASEL
 	dw SNEASEL
 	dw TEDDIURSA  ;d8
 	dw TEDDIURSA
@@ -234,6 +241,7 @@ FirstEvoStages::
 	dw HORSEA
 	dw PHANPY
 	dw PHANPY     ;e8
+	dw PORYGON
 	dw PORYGON
 	dw STANTLER
 	dw SMEARGLE

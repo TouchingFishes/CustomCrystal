@@ -253,4 +253,12 @@ PokedexDataPointerTable:
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
 	dba CursolaPokedexEntry
+	dba WeavilePokedexEntry
+;	dba MagnezonePokedexEntry
+;	dba ElectivirePokedexEntry
+	dba MagmortarPokedexEntry
+	dba MismagiusPokedexEntry
+	dba TogekissPokedexEntry
+	dba PorygonZPokedexEntry
+	dba HonchkrowPokedexEntry
 	assert_table_length NUM_POKEMON

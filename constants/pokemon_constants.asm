@@ -282,6 +282,14 @@ DEF JOHTO_POKEMON EQU const_value
 	;const MARSHTOMP
 	;const SWAMPERT
 	const CURSOLA
+	const WEAVILE
+;	const MAGNEZONE
+;	const ELECTIVIRE
+	const MAGMORTAR
+	const MISMAGIUS
+	const TOGEKISS
+	const PORYGONZ
+	const HONCHKROW
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3
