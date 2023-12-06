@@ -179,7 +179,7 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         80, NORMAL,       PHYSICAL,  90, 15,  10      ;HYPER_FANG
 	move EFFECT_ATTACK_UP,           0, NORMAL,       STATUS,   100, 30,   0      ;SHARPEN
 	move EFFECT_CONVERSION,          0, NORMAL,       STATUS,   100, 30,   0      ;CONVERSION
-	move EFFECT_TRI_ATTACK,         80, NORMAL,       PHYSICAL, 100, 10,  30      ;TRI_ATTACK
+	move EFFECT_TRI_ATTACK,         80, NORMAL,       SPECIAL,  100, 10,  30      ;TRI_ATTACK
 	move EFFECT_SUPER_FANG,          1, NORMAL,       PHYSICAL,  90, 10,   0      ;SUPER_FANG
 	move EFFECT_NORMAL_HIT,         70, NORMAL,       PHYSICAL, 100, 20,   0      ;SLASH
 	move EFFECT_SUBSTITUTE,          0, NORMAL,       STATUS,   100, 10,   0      ;SUBSTITUTE
@@ -281,7 +281,7 @@ Moves2:
 	move EFFECT_HEX,                65, GHOST,        SPECIAL,  100, 10,   0      ;HEX use Memento animation
     move EFFECT_ALWAYS_HIT,         60, ELECTRIC,     SPECIAL,  100, 20,   0      ;SHOCK_WAVE
 	move EFFECT_RECOIL_HIT,        120, ELECTRIC,     SPECIAL,  100, 15,   0      ;VOLT_TACKLE
-    move EFFECT_LEECH_HIT,          55, FAIRY,        SPECIAL,  100, 15,   0      ;PIXIE_KISS use Draining Kiss animation
+    move EFFECT_LEECH_HIT,          60, FAIRY,        SPECIAL,  100, 15,   0      ;PIXIE_KISS use Draining Kiss animation
 	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,        SPECIAL,   90, 10,  10      ;PLAY_ROUGH
     move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,        SPECIAL,  100, 15,  20      ;MOON_BLAST
 	move EFFECT_ALWAYS_HIT,         60, FLYING,       SPECIAL,  100, 20,   0      ;AERIAL_ACE
@@ -308,7 +308,7 @@ Moves2:
    ;move EFFECT_HYPER_BEAM,        150, FIRE,         SPECIAL,   90,  5,   0      ;BLAST_BURN
    ;move EFFECT_HYPER_BEAM,        150, WATER,        SPECIAL,   90,  5,   0      ;HYDRO_CANNON
    ;move EFFECT_HEAL,                0, NORMAL,       SPECIAL,  100, 10,   0      ;OVERHEAT 
-   ;move EFFECT_SP_ATK_UP_2,         0, DARK,         STATUS,   100, 20,   0      ;NASTY_PLOT raus?
+   ;move EFFECT_SP_ATK_UP_2,         0, DARK,         STATUS,   100, 20,   0      ;NASTY_PLOT
    ;move EFFECT_CURSE,               0, NORMAL,       STATUS,   100, 40,   0      ;BULK_UP raus?
    ;move EFFECT_CURSE,               0, STEEL,        STATUS,    75, 15,  30      ;CALM_MIND raus?
    ;move EFFECT_CURSE,               0, STEEL,        STATUS,   100, 35,  10      ;COSMIC_POWER raus?

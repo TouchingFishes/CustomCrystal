@@ -968,8 +968,8 @@ ConversionDescription:
 	next "to a move's type.@"
 
 TriAttackDescription:
-	db   "Fires three kinds"
-	next "of beams at once.@"
+	db   "Fires 3 special"
+	next "beams at once.@"
 
 SuperFangDescription:
 	db   "Cuts the foe's HP"
