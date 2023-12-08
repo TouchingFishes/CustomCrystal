@@ -86,11 +86,11 @@ MagmortarEvosAttacks:
 	dbw 7, LEER
 	dbw 13, SMOG
 	dbw 19, FIRE_PUNCH
-	dbw 25, SMOKESCREEN
-	dbw 33, CONFUSE_RAY
-	dbw 41, FLAMETHROWER
-	dbw 49, SLUDGE_BOMB
-	dbw 57, FIRE_BLAST
+;	dbw 25, SMOKESCREEN
+;	dbw 33, CONFUSE_RAY
+;	dbw 41, FLAMETHROWER
+;	dbw 49, SLUDGE_BOMB
+;	dbw 57, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 MismagiusEvosAttacks:
@@ -98,11 +98,11 @@ MismagiusEvosAttacks:
 	dbw 1, SPITE
 	dbw 1, PSYWAVE
 	dbw 6, CONFUSE_RAY
-	dbw 12, MEAN_LOOK
-	dbw 19, PIXIE_KISS
-	dbw 27, PSYBEAM
-	dbw 36, MAGICAL_LEAF
-	dbw 46, PERISH_SONG
+;	dbw 12, MEAN_LOOK
+;	dbw 19, PIXIE_KISS
+;	dbw 27, PSYBEAM
+;	dbw 36, MAGICAL_LEAF
+;	dbw 46, PERISH_SONG
 	db 0 ; no more level-up moves
 
 TogekissEvosAttacks:

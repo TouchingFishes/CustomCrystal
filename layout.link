@@ -64,7 +64,7 @@ ROMX $0d
 ROMX $0e
 	"Enemy Trainers"
 ROMX $80
-	"Enemy Trainer Parties 2"
+	"Enemy Trainer Parties 2"	
 ROMX $0f
 	"Battle Core"
 ROMX $10
@@ -150,13 +150,8 @@ ROMX $32
 	"The End"
 ROMX $33
 	"Extra Songs 2"
-ROMX $34
-	"Pic Animations 1"
-ROMX $35
-	"Pic Animations 2"
 ROMX $36
 	"Font Inversed"
-	"Pic Animations 3"
 ROMX $37
 	"Tileset Data 6"
 ROMX $38
