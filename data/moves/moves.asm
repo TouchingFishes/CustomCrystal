@@ -312,7 +312,7 @@ Moves2:
    ;move EFFECT_CURSE,               0, FIGHTING,     STATUS,   100, 40,   0      ;BULK_UP raus?
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,    75, 15,  30      ;CALM_MIND raus?
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,   100, 35,  10      ;COSMIC_POWER raus?
-   ;move EFFECT_ACCURACY_DOWN_HIT,  95, WATER,        SPECIAL,   85, 10,  20      ;MUDDY_WATER 
+   ;move EFFECT_ACCURACY_DOWN_HIT, 100, WATER,        SPECIAL,   85, 10,  20      ;MUDDY_WATER 
    ;move EFFECT_MULTI_HIT,          20, GRASS,        SPECIAL,   90, 30,   0      ;BULLET_SEED 
    ;move EFFECT_TRAP_TARGET,        45, GROUND,       PHYSICAL,  85, 15,   0      ;SAND_TOMB raus?
    ;move EFFECT_PERISH_SONG,         0, NORMAL,       STATUS,   100,  5,   0      ;WISH not yet
@@ -324,6 +324,6 @@ Moves2:
    ;move EFFECT_PARALYZE_HIT,       75, DRAGON,       PHYSICAL, 100, 20,  20      ;SUPERPOWER raus? 
    ;move EFFECT_ALWAYS_HIT,         80, FIGHTING,     PHYSICAL, 100, 20,   0      ;AURA_SPHERE 
    ;move EFFECT_CONFUSE_HIT,        90, FAIRY,        SPECIAL,   95, 10,  10      ;STRANGE_FUME
-   ;move EFFECT_CONFUSE_HIT,        60, WATER,        SPECIAL,  100, 20,  10      ;WATER_PULSE raus? / vllt scald?
+   ;move EFFECT_CONFUSE_HIT,        60, WATER,        SPECIAL,  100, 20,  10      ;WATER_PULSE
 
 .IndirectEnd::
