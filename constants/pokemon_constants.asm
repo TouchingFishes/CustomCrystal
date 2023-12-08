@@ -277,7 +277,7 @@ DEF JOHTO_POKEMON EQU const_value
 	;const SCEPTILE
 	;const TORCHIC
 	;const COMBUSKEN
-	;const BLAZIKEN
+	;const BLAZIKEN added gfx
 	;const MUDKIP
 	;const MARSHTOMP
 	;const SWAMPERT
@@ -290,6 +290,27 @@ DEF JOHTO_POKEMON EQU const_value
 	const TOGEKISS
 	const PORYGONZ
 	const HONCHKROW
+;	const ABSOL
+;	const AGGRON
+;	const ALCREMIE
+;	const ALTARIA
+;	const ANORITH
+;	const ARMALDO
+;	const ARON
+;	const AXEW
+;	const BALTOY
+;	const BARBOACH
+;	const BELDUM
+;	const BRELOOM
+;	const BUNEARY
+;	const CAMERUPT
+;	const CHIMCHAR
+;	const CHIMECHO
+;	const CLAMPERL
+;	const CLAYDOL
+;	const COMBUSKEN
+;	const CRADILY
+;	const CROAGUNK
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3
