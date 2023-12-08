@@ -311,6 +311,21 @@ DEF JOHTO_POKEMON EQU const_value
 ;	const COMBUSKEN
 ;	const CRADILY
 ;	const CROAGUNK
+;	const DELCATTY
+;	const DUOSION
+;	const DUSCLOPS
+;	const DUSKNOIR
+;	const DUSKULL
+;	const EMPOLEON
+;	const FEEBAS
+;	const FRAXURE
+;	const FROSMOTH
+;	const GLACEON
+;	const GLAMEOW
+;	const GEOWATT
+;	const GOREBYSS
+;	const GROTLE
+;	const GROVYLE
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3
