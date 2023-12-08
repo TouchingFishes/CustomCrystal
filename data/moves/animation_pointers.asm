@@ -4,7 +4,7 @@ BattleAnimations::
 	indirect_entries NUM_ATTACKS, BattleAnimations2
 	;indirect_entries NUM_BATTLE_ANIMS, SpecialAnimations
 	indirect_entries SPECIAL_ANIM_OFFSET - NUM_SPECIAL_ANIMS - 1
-	indirect_entries SPECIAL_ANIM_OFFSET - 1, SpecialAnimations
+	indirect_entries SPECIAL_ANIM_OFFSET + 1, SpecialAnimations
 	indirect_table_end
 
 INCLUDE "data/moves/animations_1.asm"

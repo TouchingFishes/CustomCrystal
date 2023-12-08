@@ -113,7 +113,7 @@ TogekissEvosAttacks:
 	dbw 18, SWEET_KISS
 	dbw 25, ENCORE
 	dbw 31, SAFEGUARD
-	;dbw 38, OMINOUS_WINDS
+	dbw 38, OMINOUS_WIND
 	dbw 48, MOON_BLAST
 	db 0 ; no more level-up moves
 

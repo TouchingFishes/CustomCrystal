@@ -26,8 +26,8 @@ SpecialAnimations:
 	dw BattleAnim_Shake 
 	dw BattleAnim_HitConfusion
 	dw BattleAnim_HeldItemTrigger 
-	;dw BattleAnim_InRain ;in animations_1.asm
-	;dw BattleAnim_InSun  ;in animations_1.asm
+	dw BattleAnim_InRain ;in animations_1.asm
+	dw BattleAnim_InSun  ;in animations_1.asm
 .IndirectEnd::
 	;assert_table_length NUM_BATTLE_ANIMS
 	

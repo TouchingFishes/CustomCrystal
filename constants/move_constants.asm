@@ -286,7 +286,7 @@
 	const GRASSWHISTLE ; 114
 	const FLASH_CANNON ; 115
 	const DARK_PULSE   ; 116
-;	const IRON_DEFENSE ; 12f
+;	const BLAZE_KICK   ; 12f
 ;	const WILL_O_WISP  ; 0fc
 ;	const SHEER_COLD   ; 12c
 ;	const FRENZY_PLANT ; 120
@@ -297,18 +297,15 @@
 ;	const BULK_UP      ; 11c
 ;	const CALM_MIND    ; 121
 ;	const COSMIC_POWER ; 122
-;	const DRAGON_DANCE ; 103
 ;	const MUDDY_WATER  ; 12d
 ;	const BULLET_SEED  ; 12e
-;	const ICE_BALL     ; 130
 ;	const SAND_TOMB    ; 102
 ;	const WISH         ; 0fd
 ;	const ERUPTION     ; 0ff
 ;	const SOUL_BREAK   ; 12b Spirit Break
 ;	const FIERY_WRATH  ; 127
-;	const NIGHT_SLASH  ; 125
 ;	const BUG_BITE     ; 115
-;	const ROCK_BLAST   ; 110
+;	const FIERY_DANCE  ; 110
 ;	const SUPERPOWER   ; 11b
 ;	const AURA_SPHERE  ; 10e
 ;	const STRANGE_FUME ; 108 Strange Steam

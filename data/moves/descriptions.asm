@@ -289,7 +289,7 @@ MoveDescriptions2:
 	dw GrasswhistleDescription
 	dw FlashCannonDescription
 	dw DarkPulseDescription
-;	dw IronDefenseDescription
+;	dw BlazeKickDescription
 ;	dw WillOWispDescription
 ;	dw SheerColdDescription
 ;	dw FrenzyPlantDescription
@@ -300,18 +300,15 @@ MoveDescriptions2:
 ;	dw BulkUpDescription
 ;	dw CalmMindDescription
 ;	dw CosmicPowerDescription
-;	dw DragonDanceDescription
 ;	dw MuddyWaterDescription
 ;	dw BulletSeedDescription
-;	dw IceBallDescription
 ;	dw SandTombDescription
 ;	dw WishDescription
 ;	dw EruptionDescription
 ;	dw SoulBreakDescription
 ;	dw FieryWrathDescription
-;	dw NightSlashDescription
 ;	dw BugBiteDescription
-;	dw RockBlastDescription
+;	dw FieryDanceDescription
 ;	dw SuperpowerDescription
 ;	dw AuraSphereDescription
 ;	dw StrangeFumeDescription
@@ -1414,9 +1411,9 @@ DarkPulseDescription:
 
 	
 
-;IronDefenseDescription:
-;	db   "Sharply raises the"
-;	next "user's Def."	
+;BlazeKickDescription:
+;	db   "Physical fire kick"
+;	next "makes enemy flinch.@"	
 	
 ;WillOWispDescription:
 ;	db   "Burns foe with"
@@ -1457,10 +1454,6 @@ DarkPulseDescription:
 ;CosmicPowerDescription:
 ;	db   "Raises the user's"
 ;	next "Def and Sp.Def.@"
-
-;DragonDanceDescription:
-;	db   "Raises the user's"
-;	next "Attack and Speed.@"
 		
 ;MuddyWaterDescription:
 ;	db   "An attack that may"
@@ -1469,10 +1462,6 @@ DarkPulseDescription:
 ;BulletSeedDescription:
 ;	db   "Shoots the target"
 ;	next "2-5 times.@"
-	
-;IceBallDescription:
-;	db   "Attacks 5 turns"
-;	next "with rising power."
 
 ;SandTombDescription:
 ;	db   "Traps the foe for"
@@ -1487,24 +1476,20 @@ DarkPulseDescription:
 ;	next "this move better.@"
 
 ;SoulBreakDescription:
-;	db   "tbd"
-;	next "tbd.@"
+;	db   "A cruel attack that"
+;	next "lowers Sp.Atk.@"
 	
 ;FieryWrathDescription:
 ;	db   "An attack that may"
 ;	next "cause flinching.@"
-	
-;NightSlashDescription:
-;	db   "Has a high criti-"
-;	next "cal hit ratio.@"
 
 ;BugBiteDescription:
 ;	db   "Bites the foe and"
 ;	next "eats a held Berry.@"	
 
-;RockBlastDescription:
-;	db   "Hurls boulders to"
-;	next "hit 2-5 times.@" 
+;FieryDanceDescription:
+;	db   "An attack that may"
+;	next "increase Sp.Atk.@" 
 	
 ;SuperpowerDescription:
 ;	db   "Lowers the user's"
