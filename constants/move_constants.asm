@@ -286,30 +286,30 @@
 	const GRASSWHISTLE ; 114
 	const FLASH_CANNON ; 115
 	const DARK_PULSE   ; 116
-;	const BLAZE_KICK   ; 12f
-;	const WILL_O_WISP  ; 0fc
-;	const SHEER_COLD   ; 12c
-;	const FRENZY_PLANT ; 120
-;	const BLAST_BURN   ; 10b
-;	const HYDRO_CANNON ; 117
-;	const OVERHEAT     ; 10a
-;	const NASTY_PLOT   ; 128
-;	const BULK_UP      ; 11c
-;	const CALM_MIND    ; 121
-;	const COSMIC_POWER ; 122
-;	const MUDDY_WATER  ; 12d
-;	const BULLET_SEED  ; 12e
-;	const SAND_TOMB    ; 102
-;	const WISH         ; 0fd
-;	const ERUPTION     ; 0ff
-;	const SOUL_BREAK   ; 12b Spirit Break
-;	const FIERY_WRATH  ; 127
-;	const BUG_BITE     ; 115
-;	const FIERY_DANCE  ; 110
-;	const SUPERPOWER   ; 11b
-;	const AURA_SPHERE  ; 10e
-;	const STRANGE_FUME ; 108 Strange Steam
-;	const WATER_PULSE  ; 129	
+;	const BLAZE_KICK   ; 117
+;	const WILL_O_WISP  ; 118
+;	const SHEER_COLD   ; 119
+;	const FRENZY_PLANT ; 11a
+;	const BLAST_BURN   ; 11b
+;	const HYDRO_CANNON ; 11c
+;	const OVERHEAT     ; 11d
+;	const NASTY_PLOT   ; 11d
+;	const BULK_UP      ; 11e
+;	const CALM_MIND    ; 11f
+;	const COSMIC_POWER ; 120
+;	const MUDDY_WATER  ; 121
+;	const BULLET_SEED  ; 123
+;	const SAND_TOMB    ; 124
+;	const WISH         ; 125
+;	const ERUPTION     ; 126
+;	const SOUL_BREAK   ; 127 Spirit Break
+;	const FIERY_WRATH  ; 128
+;	const BUG_BITE     ; 129
+;	const FIERY_DANCE  ; 12a
+;	const SUPERPOWER   ; 12b
+;	const AURA_SPHERE  ; 12c
+;	const STRANGE_FUME ; 12d Strange Steam
+;	const WATER_PULSE  ; 12e	
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
