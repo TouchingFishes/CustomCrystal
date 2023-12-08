@@ -220,7 +220,7 @@ Moves1:
 	move EFFECT_LOCK_ON,             0, NORMAL,       STATUS,   100,  5,   0      ;LOCK_ON
 	move EFFECT_RAMPAGE,           120, DRAGON,       SPECIAL,  100, 15,   0      ;OUTRAGE
 	move EFFECT_SANDSTORM,           0, ROCK,         STATUS,   100, 10,   0      ;SANDSTORM
-	move EFFECT_LEECH_HIT,          70, GRASS,        SPECIAL,  100, 10,   0      ;GIGA_DRAIN
+	move EFFECT_LEECH_HIT,          75, GRASS,        SPECIAL,  100, 10,   0      ;GIGA_DRAIN
 	move EFFECT_ENDURE,              0, NORMAL,       STATUS,   100, 10,   0      ;ENDURE
 	move EFFECT_ATTACK_DOWN_2,       0, FAIRY,        STATUS,   100, 20,   0      ;CHARM
 	move EFFECT_ROLLOUT,            30, ROCK,         PHYSICAL,  90, 20,   0      ;ROLLOUT
@@ -307,19 +307,19 @@ Moves2:
    ;move EFFECT_HYPER_BEAM,        150, GRASS,        SPECIAL,   90,  5,   0      ;FRENZY_PLANT
    ;move EFFECT_HYPER_BEAM,        150, FIRE,         SPECIAL,   90,  5,   0      ;BLAST_BURN
    ;move EFFECT_HYPER_BEAM,        150, WATER,        SPECIAL,   90,  5,   0      ;HYDRO_CANNON
-   ;move EFFECT_HEAL,                0, NORMAL,       SPECIAL,  100, 10,   0      ;OVERHEAT 
+   ;move EFFECT_HEAL,              150, FIRE,         SPECIAL,  100,  5,   0      ;OVERHEAT  not yet
    ;move EFFECT_SP_ATK_UP_2,         0, DARK,         STATUS,   100, 20,   0      ;NASTY_PLOT
    ;move EFFECT_CURSE,               0, FIGHTING,     STATUS,   100, 40,   0      ;BULK_UP raus?
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,    75, 15,  30      ;CALM_MIND raus?
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,   100, 35,  10      ;COSMIC_POWER raus?
    ;move EFFECT_ACCURACY_DOWN_HIT,  95, WATER,        SPECIAL,   85, 10,  20      ;MUDDY_WATER 
-   ;move EFFECT_PSYCH_UP,            0, NORMAL,       STATUS,   100, 10,   0      ;BULLET_SEED raus?
+   ;move EFFECT_MULTI_HIT,          20, GRASS,        SPECIAL,   90, 30,   0      ;BULLET_SEED 
    ;move EFFECT_TRAP_TARGET,        45, GROUND,       PHYSICAL,  85, 15,   0      ;SAND_TOMB raus?
-   ;move EFFECT_PERISH_SONG,         0, NORMAL,       STATUS,   100,  5,   0      ;WISH raus?
-   ;move EFFECT_BURN_HIT,          100, FIRE,         SPECIAL,  100,  5,   0      ;ERUPTION raus?
+   ;move EFFECT_PERISH_SONG,         0, NORMAL,       STATUS,   100,  5,   0      ;WISH not yet
+   ;move EFFECT_BURN_HIT,          100, FIRE,         SPECIAL,  100,  5,   0      ;ERUPTION not yet
    ;move EFFECT_SP_ATK_DOWN_HIT,    75, FAIRY,        SPECIAL,  100, 15,  25      ;SOUL_BREAK use Eerie Spell animation
    ;move EFFECT_FLINCH_HIT,        100, DARK,         SPECIAL,  100, 10,  20      ;FIERY_WRATH
-   ;move EFFECT_SAFEGUARD,           0, NORMAL,       PHYSICAL, 100, 25,   0      ;BUG_BITE
+   ;move EFFECT_SAFEGUARD,           0, NORMAL,       PHYSICAL, 100, 25,   0      ;BUG_BITE not yet
    ;move EFFECT_SP_ATK_UP_HIT,      80, FIRE,         SPECIAL,  100, 10,  50      ;FIERY_DANCE
    ;move EFFECT_PARALYZE_HIT,       75, DRAGON,       PHYSICAL, 100, 20,  20      ;SUPERPOWER raus? 
    ;move EFFECT_ALWAYS_HIT,         80, FIGHTING,     PHYSICAL, 100, 20,   0      ;AURA_SPHERE 
