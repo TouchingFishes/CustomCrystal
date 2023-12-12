@@ -300,16 +300,14 @@
 ;	const MUDDY_WATER  ; 121
 ;	const BULLET_SEED  ; 123
 ;	const SAND_TOMB    ; 124
-;	const WISH         ; 125
-;	const ERUPTION     ; 126
-;	const SOUL_BREAK   ; 127 Spirit Break
-;	const FIERY_WRATH  ; 128
-;	const BUG_BITE     ; 129
-;	const FIERY_DANCE  ; 12a
-;	const SUPERPOWER   ; 12b
-;	const AURA_SPHERE  ; 12c
-;	const STRANGE_FUME ; 12d Strange Steam
-;	const WATER_PULSE  ; 12e	
+;	const SOUL_BREAK   ; 125 Spirit Break
+;	const FIERY_WRATH  ; 126
+;	const BUG_BITE     ; 127
+;	const FIERY_DANCE  ; 128
+;	const SUPERPOWER   ; 129
+;	const AURA_SPHERE  ; 120
+;	const STRANGE_FUME ; 12a Strange Steam
+;	const WATER_PULSE  ; 12b	
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -315,8 +315,6 @@ Moves2:
    ;move EFFECT_ACCURACY_DOWN_HIT, 100, WATER,        SPECIAL,   85, 10,  20      ;MUDDY_WATER 
    ;move EFFECT_MULTI_HIT,          20, GRASS,        SPECIAL,   90, 30,   0      ;BULLET_SEED raus?
    ;move EFFECT_TRAP_TARGET,        45, GROUND,       PHYSICAL,  85, 15,   0      ;SAND_TOMB raus?
-   ;move EFFECT_PERISH_SONG,         0, NORMAL,       STATUS,   100,  5,   0      ;WISH not yet
-   ;move EFFECT_BURN_HIT,          100, FIRE,         SPECIAL,  100,  5,   0      ;ERUPTION not yet
    ;move EFFECT_SP_ATK_DOWN_HIT,    75, FAIRY,        SPECIAL,  100, 15,  25      ;SOUL_BREAK use Eerie Spell animation
    ;move EFFECT_FLINCH_HIT,        100, DARK,         SPECIAL,  100, 10,  20      ;FIERY_WRATH
    ;move EFFECT_SAFEGUARD,           0, NORMAL,       PHYSICAL, 100, 25,   0      ;BUG_BITE not yet

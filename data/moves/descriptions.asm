@@ -303,8 +303,6 @@ MoveDescriptions2:
 ;	dw MuddyWaterDescription
 ;	dw BulletSeedDescription
 ;	dw SandTombDescription
-;	dw WishDescription
-;	dw EruptionDescription
 ;	dw SoulBreakDescription
 ;	dw FieryWrathDescription
 ;	dw BugBiteDescription
@@ -1466,14 +1464,6 @@ DarkPulseDescription:
 ;SandTombDescription:
 ;	db   "Traps the foe for"
 ;	next "2-5 turns.@"
-
-;WishDescription:
-;	db   "A wish that takes"
-;	next "time to heal.@"
-	
-;EruptionDescription:
-;	db   "High HP makes this"
-;	next "this move better.@"
 
 ;SoulBreakDescription:
 ;	db   "A cruel attack that"
