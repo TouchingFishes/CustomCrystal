@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  65,  76,  84, 105,  54,  96
+	evs  0,   0,   0,   2,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db NORMAL, NORMAL ; type
+	db 60 ; catch rate
+	db 168 ; base exp
+	db PSNCUREBERRY, GANLON_BERRY ; items
+	db GENDER_F50 ; gender ratio
+	db 20 ; step cycles to hatch
+	INCBIN "gfx/pokemon/lopunny/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_GROUND, EGG_HUMANSHAPE ; egg groups
+
+	; tm/hm learnset
+	tmhm HEADBUTT, TOXIC, CURSE, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, MIRROR_MOVE, SOLARBEAM, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, THUNDERPUNCH, FACADE, ICE_PUNCH, REST, ATTRACT, FIRE_PUNCH, PLAY_ROUGH, FOCUS_BLAST, WATER_PULSE, CHARGE_BEAM, ENDURE, ACROBATICS, PAYBACK, RETALIATE, GIGA_IMPACT, THUNDER_WAVE, LASER_FOCUS, GRASS_KNOT, SWAGGER, SLEEP_TALK, U_TURN, SUBSTITUTE, ROCK_SMASH, UPROAR, CUT, STRENGTH
+	; end

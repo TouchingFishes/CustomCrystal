@@ -135,9 +135,9 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw QuestionMarkDesc
-	dw QuestionMarkDesc
-	dw QuestionMarkDesc
+	dw ShinyStoneDesc
+	dw DuskStoneDesc
+	dw IceStoneDesc
 	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
@@ -756,6 +756,18 @@ BasementKeyDesc:
 PassDesc:
 	db   "A ticket for the"
 	next "MAGNET TRAIN.@"
+
+ShinyStoneDesc:
+	db   "A gemstone that"
+	next "shines with light.@"
+
+DuskStoneDesc:
+	db   "A gemstone as dark"
+	next "as dark can be.@"
+
+IceStoneDesc:
+	db   "A gemstone with a"
+	next "snowflake pattern.@"
 
 CharcoalDesc:
 	db   "Powers up fire-"

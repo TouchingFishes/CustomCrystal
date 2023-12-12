@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  70,  65,  65,  70,  55,  55
+	evs  1,   0,   0,   1,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db NORMAL, NORMAL ; type
+	db 60 ; catch rate
+	db 140 ; base exp
+	db PSNCUREBERRY, MYSTERYBERRY ; items
+	db GENDER_F75 ; gender ratio
+	db 15 ; step cycles to hatch
+	INCBIN "gfx/pokemon/delcatty/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_FAST ; growth rate
+	dn EGG_GROUND, EGG_FAIRY ; egg groups
+
+	; tm/hm learnset
+	tmhm HEADBUTT, CALM_MIND, TOXIC, CURSE, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, MIRROR_MOVE, SAFEGUARD, ZEN_HEADBUTT, SOLARBEAM, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, DOUBLE_TEAM, FACADE, REST, ATTRACT, ECHOED_VOICE, PLAY_ROUGH, WEATHER_BALL, WATER_PULSE, CHARGE_BEAM, ENDURE, PAYBACK, RETALIATE, GIGA_IMPACT, FLASH, ICY_WIND, THUNDER_WAVE, PSYCH_UP, LASER_FOCUS, DREAM_EATER, GRASS_KNOT, SWAGGER, SLEEP_TALK, SUBSTITUTE, WILD_CHARGE, ROCK_SMASH, UPROAR, STRENGTH
+	; end

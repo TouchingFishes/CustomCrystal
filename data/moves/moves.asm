@@ -124,7 +124,7 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_2,      0, NORMAL,       STATUS,    85, 40,   0      ;SCREECH
 	move EFFECT_EVASION_UP,          0, NORMAL,       STATUS,   100, 15,   0      ;DOUBLE_TEAM
 	move EFFECT_HEAL,                0, NORMAL,       STATUS,   100, 20,   0      ;RECOVER
-	move EFFECT_DEFENSE_UP_2,        0, NORMAL,       STATUS,   100, 20,   0      ;HARDEN vllt Stärke verdoppeln
+	move EFFECT_DEFENSE_UP,          0, NORMAL,       STATUS,   100, 20,   0      ;HARDEN
 	move EFFECT_EVASION_UP,          0, NORMAL,       STATUS,   100, 20,   0      ;MINIMIZE
 	move EFFECT_ACCURACY_DOWN,       0, NORMAL,       STATUS,   100, 20,   0      ;SMOKESCREEN
 	move EFFECT_CONFUSE,             0, GHOST,        STATUS,   100, 10,   0      ;CONFUSE_RAY
@@ -175,7 +175,7 @@ Moves1:
 	move EFFECT_MULTI_HIT,          20, NORMAL,       PHYSICAL,  90, 15,   0      ;FURY_SWIPES
 	move EFFECT_DOUBLE_HIT,         50, GROUND,       PHYSICAL,  90, 10,   0      ;BONEMERANG
 	move EFFECT_HEAL,                0, PSYCHIC_TYPE, STATUS,   100, 10,   0      ;REST
-	move EFFECT_FLINCH_HIT,         75, ROCK,         PHYSICAL,  90, 10,  30      ;ROCK_SLIDE
+	move EFFECT_FLINCH_HIT,         75, ROCK,         PHYSICAL,  90, 10,  30      ;ROCK_SLIDE tm
 	move EFFECT_FLINCH_HIT,         80, NORMAL,       PHYSICAL,  90, 15,  10      ;HYPER_FANG
 	move EFFECT_ATTACK_UP,           0, NORMAL,       STATUS,   100, 30,   0      ;SHARPEN
 	move EFFECT_CONVERSION,          0, NORMAL,       STATUS,   100, 30,   0      ;CONVERSION
@@ -267,7 +267,7 @@ Moves1:
 	move EFFECT_ALL_UP_HIT,         60, ROCK,         PHYSICAL, 100, 10,  10      ;ANCIENTPOWER
 	move EFFECT_SP_DEF_DOWN_HIT,    80, GHOST,        SPECIAL,  100, 15,  20      ;SHADOW_BALL
 	move EFFECT_FUTURE_SIGHT,      120, PSYCHIC_TYPE, SPECIAL,  100, 15,   0      ;FUTURE_SIGHT
-	move EFFECT_DEFENSE_DOWN_HIT,   60, FIGHTING,     PHYSICAL, 100, 15,  20      ;ROCK_SMASH
+	move EFFECT_DEFENSE_DOWN_HIT,   75, FIGHTING,     PHYSICAL, 100, 15,  10      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        45, WATER,        SPECIAL,   85, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,         PHYSICAL, 100, 10,   0      ;BEAT_UP
 .IndirectEnd::
@@ -278,23 +278,23 @@ Moves1:
 Moves2:
 	move EFFECT_NORMAL_HIT,         95, DRAGON,       SPECIAL,  100, 10,   0      ;DRAGON_PULSE   
     move EFFECT_NORMAL_HIT,         40, FAIRY,        SPECIAL,  100, 15,   0      ;FAIRY_WIND
-	move EFFECT_HEX,                65, GHOST,        SPECIAL,  100, 10,   0      ;HEX use Memento animation
+	move EFFECT_HEX,                65, GHOST,        SPECIAL,  100, 10,   0      ;HEX use Memento animation tm
     move EFFECT_ALWAYS_HIT,         60, ELECTRIC,     SPECIAL,  100, 20,   0      ;SHOCK_WAVE
 	move EFFECT_RECOIL_HIT,        120, ELECTRIC,     SPECIAL,  100, 15,   0      ;VOLT_TACKLE
     move EFFECT_LEECH_HIT,          60, FAIRY,        SPECIAL,  100, 15,   0      ;PIXIE_KISS use Draining Kiss animation
-	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,        SPECIAL,   90, 10,  10      ;PLAY_ROUGH
+	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,        SPECIAL,   90, 10,  10      ;PLAY_ROUGH tm
     move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,        SPECIAL,  100, 15,  20      ;MOON_BLAST
-	move EFFECT_ALWAYS_HIT,         60, FLYING,       SPECIAL,  100, 20,   0      ;AERIAL_ACE
+	move EFFECT_ALWAYS_HIT,         60, FLYING,       SPECIAL,  100, 20,   0      ;AERIAL_ACE tm
 	move EFFECT_ALWAYS_HIT,         60, GHOST,        PHYSICAL, 100, 20,   0      ;SHADOW_PUNCH
 	move EFFECT_ALL_UP_HIT,         60, GHOST,        SPECIAL,  100, 10,  10      ;OMINOUS_WIND
-	move EFFECT_SPEED_DOWN_HIT,     60, ROCK,         PHYSICAL,  80, 20, 100      ;ROCK_TOMB
+	move EFFECT_SPEED_DOWN_HIT,     60, ROCK,         PHYSICAL,  80, 20, 100      ;ROCK_TOMB tm
     move EFFECT_NORMAL_HIT,        100, ROCK,         PHYSICAL,  80,  5,   0      ;STONE_EDGE
 	move EFFECT_HYPER_BEAM,        150, ROCK,         PHYSICAL,  90,  5,   0      ;ROCK_WRECKER
 	move EFFECT_POISON_HIT,        120, POISON,       PHYSICAL,  80,  5,  30      ;GUNK_SHOT  
 	move EFFECT_SP_DEF_DOWN_HIT,    80, BUG,          PHYSICAL, 100, 15,  10      ;BUG_BUZZ
 	move EFFECT_ATTACK_UP_HIT,     100, STEEL,        PHYSICAL,  85, 10,  20      ;METEOR_MASH
 	move EFFECT_ALL_UP_HIT,         60, BUG,          PHYSICAL, 100, 10,  10      ;SILVER_WIND
-	move EFFECT_LEECH_HIT,          60, FIGHTING,     PHYSICAL, 100, 10,   0      ;DRAIN_PUNCH
+	move EFFECT_LEECH_HIT,          60, FIGHTING,     PHYSICAL, 100, 10,   0      ;DRAIN_PUNCH tm
 	move EFFECT_ALWAYS_HIT,         60, GRASS,        SPECIAL,  100, 20,   0      ;MAGICAL_LEAF
 	move EFFECT_NORMAL_HIT,         90, GRASS,        PHYSICAL, 100, 20,   0      ;LEAF_BLADE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, GRASS,        SPECIAL,  100, 15,  10      ;ENERGY_BALL
@@ -313,7 +313,7 @@ Moves2:
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,    75, 15,  30      ;CALM_MIND raus?
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,   100, 35,  10      ;COSMIC_POWER raus?
    ;move EFFECT_ACCURACY_DOWN_HIT, 100, WATER,        SPECIAL,   85, 10,  20      ;MUDDY_WATER 
-   ;move EFFECT_MULTI_HIT,          20, GRASS,        SPECIAL,   90, 30,   0      ;BULLET_SEED 
+   ;move EFFECT_MULTI_HIT,          20, GRASS,        SPECIAL,   90, 30,   0      ;BULLET_SEED raus?
    ;move EFFECT_TRAP_TARGET,        45, GROUND,       PHYSICAL,  85, 15,   0      ;SAND_TOMB raus?
    ;move EFFECT_PERISH_SONG,         0, NORMAL,       STATUS,   100,  5,   0      ;WISH not yet
    ;move EFFECT_BURN_HIT,          100, FIRE,         SPECIAL,  100,  5,   0      ;ERUPTION not yet
@@ -324,6 +324,6 @@ Moves2:
    ;move EFFECT_PARALYZE_HIT,       75, DRAGON,       PHYSICAL, 100, 20,  20      ;SUPERPOWER raus? 
    ;move EFFECT_ALWAYS_HIT,         80, FIGHTING,     PHYSICAL, 100, 20,   0      ;AURA_SPHERE 
    ;move EFFECT_CONFUSE_HIT,        90, FAIRY,        SPECIAL,   95, 10,  10      ;STRANGE_FUME
-   ;move EFFECT_CONFUSE_HIT,        60, WATER,        SPECIAL,  100, 20,  10      ;WATER_PULSE
+   ;move EFFECT_CONFUSE_HIT,        60, WATER,        SPECIAL,  100, 20,  10      ;WATER_PULSE tm?
 
 .IndirectEnd::

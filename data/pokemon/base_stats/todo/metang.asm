@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  60,  75, 100,  50,  55,  80
+	evs  0,   0,   2,   0,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db STEEL, PSYCHIC ; type
+	db 3 ; catch rate
+	db 147 ; base exp
+	db NO_ITEM, METAL_COAT ; items
+	db GENDER_UNKNOWN ; gender ratio
+	db 40 ; step cycles to hatch
+	INCBIN "gfx/pokemon/metang/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_SLOW ; growth rate
+	dn EGG_MINERAL, EGG_MINERAL ; egg groups
+
+	; tm/hm learnset
+	tmhm HONE_CLAWS, HEADBUTT, PSYSHOCK, TOXIC, CURSE, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, ZEN_HEADBUTT, EARTHQUAKE, RETURN, PSYCHIC_M, SHADOW_BALL, BRICK_BREAK, DOUBLE_TEAM, REFLECT, SIGNAL_BEAM, SLUDGE_BOMB, SANDSTORM, ROCK_TOMB, AERIAL_ACE, THUNDERPUNCH, FACADE, ICE_PUNCH, REST, ENDURE, EXPLOSION, ROCK_POLISH, FLASH, ICY_WIND, GYRO_BALL, STEALTH_ROCK, PSYCH_UP, BULLDOZE, ROCK_SLIDE, GRASS_KNOT, SWAGGER, SLEEP_TALK, SUBSTITUTE, FLASH_CANNON, ROCK_SMASH, CUT, STRENGTH, STEEL_BEAM
+	; end

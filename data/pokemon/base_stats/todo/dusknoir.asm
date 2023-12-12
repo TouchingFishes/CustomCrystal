@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  45, 100, 135,  45,  65, 135
+	evs  0,   0,   1,   0,   0,   2
+	;   hp  atk  def  spd  sat  sdf
+
+	db GHOST, GHOST ; type
+	db 45 ; catch rate
+	db 236 ; base exp
+	db NO_ITEM, SPELL_TAG ; items
+	db GENDER_F50 ; gender ratio
+	db 25 ; step cycles to hatch
+	INCBIN "gfx/pokemon/dusknoir/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+
+	; tm/hm learnset
+	tmhm HEADBUTT, CALM_MIND, TOXIC, CURSE, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, EARTHQUAKE, RETURN, PSYCHIC_M, SHADOW_BALL, BRICK_BREAK, DOUBLE_TEAM, ROCK_TOMB, THUNDERPUNCH, FACADE, ICE_PUNCH, REST, ATTRACT, THIEF, FIRE_PUNCH, FOCUS_BLAST, CHARGE_BEAM, ENDURE, WILL_O_WISP, PAYBACK, GIGA_IMPACT, FLASH, ICY_WIND, PSYCH_UP, BULLDOZE, LASER_FOCUS, ROCK_SLIDE, INFESTATION, DREAM_EATER, SWAGGER, SLEEP_TALK, SUBSTITUTE, TRICK_ROOM, ROCK_SMASH, OMINOUS_WIND, DARK_PULSE, STRENGTH
+	; end

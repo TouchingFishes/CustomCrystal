@@ -435,7 +435,7 @@ TogepiEvosAttacks:
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, TOGEKISS
+	dbbw EVOLVE_ITEM, SHINY_STONE, TOGEKISS
 	dbw 1, METRONOME
 	dbw 1, CHARM
 	dbw 7, FAIRY_WIND
@@ -717,7 +717,7 @@ UmbreonEvosAttacks:
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, HONCHKROW
+	dbbw EVOLVE_ITEM, DUSK_STONE, HONCHKROW
 	dbw 1, PECK
 	dbw 11, PURSUIT
 	dbw 16, HAZE
@@ -740,7 +740,7 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
-	dbbw EVOLVE_ITEM, MOON_STONE, MISMAGIUS
+	dbbw EVOLVE_ITEM, DUSK_STONE, MISMAGIUS
 	dbw 1, SPITE
 	dbw 1, PSYWAVE
 	dbw 6, CONFUSE_RAY
@@ -921,7 +921,7 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_NITE, UMBREON ;should be weavile
+	dbbw EVOLVE_HAPPINESS, TR_NITE, WEAVILE
 	dbw 1, SCRATCH
 	dbw 1, LEER
 	dbw 9, QUICK_ATTACK
@@ -1147,7 +1147,7 @@ DonphanEvosAttacks:
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_TRADE, UP_GRADE, PORYGONZ
 	dbw 1, CONVERSION2
 	dbw 1, TACKLE
 	dbw 1, CONVERSION
