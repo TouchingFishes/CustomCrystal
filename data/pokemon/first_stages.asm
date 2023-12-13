@@ -77,13 +77,14 @@ FirstEvoStages::
 	dw GEODUDE
 	dw GEODUDE
 	dw GEODUDE
+	dw GEODUDE
 	dw PONYTA
 	dw PONYTA
 	dw SLOWPOKE
 	dw SLOWPOKE   ;50
 	dw MAGNEMITE
 	dw MAGNEMITE
-;	dw MAGNEMITE	
+	dw MAGNEMITE	
 	dw FARFETCH_D
 	dw DODUO
 	dw DODUO
@@ -116,6 +117,7 @@ FirstEvoStages::
 	dw RHYHORN    ;70
 	dw CHANSEY
 	dw TANGELA
+	dw TANGELA
 	dw KANGASKHAN
 	dw HORSEA
 	dw HORSEA
@@ -127,7 +129,7 @@ FirstEvoStages::
 	dw SCYTHER
 	dw SMOOCHUM
 	dw ELEKID
-;	dw ELEKID
+	dw ELEKID
 	dw MAGBY
 	dw MAGBY
 	dw PINSIR
@@ -140,6 +142,9 @@ FirstEvoStages::
 	dw EEVEE
 	dw EEVEE
 	dw EEVEE      ;88
+	dw EEVEE
+	dw EEVEE
+	dw EEVEE
 	dw PORYGON
 	dw OMANYTE
 	dw OMANYTE
@@ -198,6 +203,7 @@ FirstEvoStages::
 	dw SUNKERN
 	dw SUNKERN    ;c0
 	dw YANMA
+	dw YANMA
 	dw WOOPER
 	dw WOOPER
 	dw EEVEE
@@ -213,6 +219,7 @@ FirstEvoStages::
 	dw PINECO
 	dw PINECO
 	dw DUNSPARCE
+	dw GLIGAR
 	dw GLIGAR
 	dw ONIX       ;d0
 	dw SNUBBULL
@@ -261,4 +268,15 @@ FirstEvoStages::
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI
+	dw TREECKO
+	dw TREECKO
+	dw TREECKO
+	dw TORCHIC
+	dw TORCHIC
+	dw TORCHIC
+	dw MUDKIP
+	dw MUDKIP
+	dw MUDKIP
+	dw SWABLU
+	dw SWABLU
 	assert_table_length NUM_POKEMON

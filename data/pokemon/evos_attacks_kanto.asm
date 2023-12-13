@@ -974,7 +974,7 @@ AbraEvosAttacks:
 	db 0 ; no more level-up moves
 
 KadabraEvosAttacks:
-	dbbw EVOLVE_TRADE, -1, ALAKAZAM
+	dbbw EVOLVE_LEVEL, 42, ALAKAZAM
 	db 0 ; no more evolutions
 	dbw 1, TELEPORT
 	dbw 1, KINESIS
@@ -1018,7 +1018,7 @@ MachopEvosAttacks:
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
-	dbbw EVOLVE_TRADE, -1, MACHAMP
+	dbbw EVOLVE_LEVEL, 38, MACHAMP
 	db 0 ; no more evolutions
 	dbw 1, LOW_KICK
 	dbw 1, LEER
@@ -1132,7 +1132,8 @@ GeodudeEvosAttacks:
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
-	dbbw EVOLVE_TRADE, -1, GOLEM
+	dbbw EVOLVE_LEVEL, 36, GOLEM
+	dbbw EVOLVE_ITEM, THUNDERSTONE, GEOWATT
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, DEFENSE_CURL
@@ -1240,7 +1241,7 @@ MagnemiteEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_LEVEL, 45, MAGNETON
 	dbw 1, TACKLE
 	dbw 1, THUNDERSHOCK
 	dbw 1, SUPERSONIC
@@ -1385,7 +1386,7 @@ GastlyEvosAttacks:
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
-	dbbw EVOLVE_TRADE, -1, GENGAR
+	dbbw EVOLVE_LEVEL, 42, GENGAR
 	db 0 ; no more evolutions
 	dbw 1, HYPNOSIS
 	dbw 1, LICK
@@ -1685,7 +1686,7 @@ ChanseyEvosAttacks:
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_LEVEL, 50, TANGROWTH
 	dbw 1, CONSTRICT
 	dbw 4, SLEEP_POWDER
 	dbw 10, ABSORB
@@ -1837,8 +1838,7 @@ JynxEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElectabuzzEvosAttacks:
-	db 0 ; no more evolutions
-	;dbbw EVOLVE_LEVEL, 50, ELECTIVIRE
+	dbbw EVOLVE_LEVEL, 50, ELECTIVIRE
 	dbw 1, QUICK_ATTACK
 	dbw 1, LEER
 	dbw 1, THUNDERPUNCH
@@ -1937,6 +1937,9 @@ EeveeEvosAttacks:
 	dbbw EVOLVE_ITEM, FIRE_STONE, FLAREON
 	dbbw EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	dbbw EVOLVE_HAPPINESS, TR_NITE, UMBREON
+	dbbw EVOLVE_ITEM, LEAFEON, LEAFEON
+	dbbw EVOLVE_ITEM, ICE_STONE, GLACEON
+	dbbw EVOLVE_ITEM, SHINY_STONE, SYLVEON
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP

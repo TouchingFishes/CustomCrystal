@@ -257,18 +257,31 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
+	mon_cry CRY_CHARMANDER,  -16,  176 ; TREECKO
+	mon_cry CRY_CHARMANDER,  -34,  288 ; GROVYLE
+	mon_cry CRY_CHARMANDER, -183,  512 ; SCEPTILE
+	mon_cry CRY_NATU,       -103,  256 ; TORCHIC
+	mon_cry CRY_NATU,       -167,  360 ; COMBUSKEN
+	mon_cry CRY_NATU,       -256,  176 ; BLAZIKEN
+	mon_cry CRY_WOOPER,      147,  175 ; MUDKIP
+	mon_cry CRY_WOOPER,     -198,  320 ; MARSHTOMP
+	mon_cry CRY_BLASTOISE,     0,  256 ; SWAMPERT
 	mon_cry CRY_MAGCARGO,    -68,  448 ; CURSOLA
 	mon_cry CRY_WOOPER,        0,  192 ; WEAVILE
-;	mon_cry CRY_METAPOD,     -17,  512 ; MAGNEZONE
-;	mon_cry CRY_BULBASAUR,   128,  129 ; ELECTIVIRE
-	mon_cry CRY_CHARMANDER,  255,  176 ; Magmortar
+	mon_cry CRY_METAPOD,     -17,  512 ; MAGNEZONE
+	mon_cry CRY_BULBASAUR,   128,  129 ; ELECTIVIRE
+	mon_cry CRY_CHARMANDER,  255,  176 ; MAGMORTAR
+	mon_cry CRY_HOOTHOOT,    283,  383 ; MISMAGIUS
 	mon_cry CRY_TOGETIC,      96,   72 ; TOGEKISS
 	mon_cry CRY_WEEPINBELL,  270,  450 ; PORYGON_Z
-	mon_cry CRY_HOOTHOOT,    283,  383 ; MISMAGIUS
 	mon_cry CRY_MARILL,     -183,  320 ; HONCHKROW
-;	mon_cry CRY_BULBASAUR,   128,  129 ; YANMEGA
-;	mon_cry CRY_BULBASAUR,   128,  129 ; LEAFEON
-;	mon_cry CRY_BULBASAUR,   128,  129 ; GLACEON
-;	mon_cry CRY_GLIGAR,     -107,  320 ; GLISCOR
-;	mon_cry CRY_GOLEM,        96,  320 ; TANGROWTH
+	mon_cry CRY_BULBASAUR,   128,  129 ; LEAFEON
+	mon_cry CRY_BULBASAUR,   128,  129 ; GLACEON
+	mon_cry CRY_BULBASAUR,   128,  129 ; SYLVEON
+	mon_cry CRY_GLIGAR,     -107,  320 ; GLISCOR
+	mon_cry CRY_GOLEM,       224,  192 ; GEOWATT
+	mon_cry CRY_GOLEM,        96,  320 ; TANGROWTH
+	mon_cry CRY_NATU,       -103,  256 ; SWABLU
+	mon_cry CRY_NATU,       -167,  360 ; ALTARIA
+	mon_cry CRY_BULBASAUR,   128,  129 ; YANMEGA
 	assert_table_length NUM_POKEMON

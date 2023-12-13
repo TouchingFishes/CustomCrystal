@@ -252,12 +252,30 @@ INCBIN "gfx/footprints/tyranitar.1bpp"
 INCBIN "gfx/footprints/lugia.1bpp"
 INCBIN "gfx/footprints/ho_oh.1bpp"
 INCBIN "gfx/footprints/celebi.1bpp"
-INCBIN "gfx/footprints/corsola.1bpp"
+INCBIN "gfx/footprints/celebi.1bpp" ;Treecko
+INCBIN "gfx/footprints/celebi.1bpp" ;Grovyle
+INCBIN "gfx/footprints/celebi.1bpp" ;Sceptile
+INCBIN "gfx/footprints/celebi.1bpp" ;Torchic
+INCBIN "gfx/footprints/celebi.1bpp" ;Combusken
+INCBIN "gfx/footprints/celebi.1bpp" ;Blaziken
+INCBIN "gfx/footprints/celebi.1bpp" ;Mudkip
+INCBIN "gfx/footprints/celebi.1bpp" ;Marshtomp
+INCBIN "gfx/footprints/celebi.1bpp" ;Swampert
+INCBIN "gfx/footprints/corsola.1bpp" ;Cursola
 INCBIN "gfx/footprints/weavile.1bpp"
-;INCBIN "gfx/footprints/magnezone.1bpp"
-;INCBIN "gfx/footprints/electivire.1bpp"
+INCBIN "gfx/footprints/magnezone.1bpp"
+INCBIN "gfx/footprints/electivire.1bpp"
 INCBIN "gfx/footprints/magmortar.1bpp"
-INCBIN "gfx/footprints/misdreavus.1bpp"
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Mismagius
 INCBIN "gfx/footprints/togekiss.1bpp"
 INCBIN "gfx/footprints/porygon_z.1bpp"
 INCBIN "gfx/footprints/honchkrow.1bpp"
+INCBIN "gfx/footprints/leafeon.1bpp"
+INCBIN "gfx/footprints/glaceon.1bpp"
+INCBIN "gfx/footprints/sylveon.1bpp"
+INCBIN "gfx/footprints/tangrowth.1bpp"
+INCBIN "gfx/footprints/gliscor.1bpp"
+INCBIN "gfx/footprints/golem.1bpp" ;Geowatt
+INCBIN "gfx/footprints/natu.1bpp" ;Swablu
+INCBIN "gfx/footprints/moltres.1bpp" ;Altaria
+INCBIN "gfx/footprints/yanmega.1bpp"

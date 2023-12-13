@@ -272,35 +272,35 @@ DEF JOHTO_POKEMON EQU const_value
 	const HO_OH      ; fa
 	const CELEBI     ; fb
 ;NEW_POKEMON EQU const_value
-	;const TREECKO 
-	;const GROVYLE 
-	;const SCEPTILE
-	;const TORCHIC 
-	;const COMBUSKEN 
-	;const BLAZIKEN 
-	;const MUDKIP 
-	;const MARSHTOMP 
-	;const SWAMPERT 
+	const TREECKO 
+	const GROVYLE 
+	const SCEPTILE
+	const TORCHIC 
+	const COMBUSKEN 
+	const BLAZIKEN 
+	const MUDKIP 
+	const MARSHTOMP 
+	const SWAMPERT 
 	;const DUNSPARCE
 	;const DUNSPARCE
 	const CURSOLA
 	const WEAVILE
-;	const MAGNEZONE
-;	const ELECTIVIRE
+	const MAGNEZONE
+	const ELECTIVIRE
 	const MAGMORTAR
 	const MISMAGIUS
 	const TOGEKISS
 	const PORYGONZ
 	const HONCHKROW
-;	const LEAFEON
-;	const GLACEON
-;	const TANGROWTH
-;	const SYLVEON
-;	const GLISCOR
-;	const GEOWATT
-;	const PERRSERKER ?
-;	const SWABLU
-;	const ALTARIA
+	const LEAFEON
+	const GLACEON
+	const SYLVEON
+	const TANGROWTH
+	const GLISCOR
+	const GEOWATT
+	const SWABLU
+	const ALTARIA
+	const YANMEGA
 ;	const ARON
 ;	const LAIRON
 ;	const AGGRON
@@ -318,8 +318,8 @@ DEF JOHTO_POKEMON EQU const_value
 ;	const BELDUM
 ;	const METANG
 ;	const METAGROSS
-;	const CLAYDOL
 ;	const BALTOY
+;	const CLAYDOL
 ;	const VENIPEDE
 ;	const WHIRLIPEDE
 ;	const SCOLIPEDE
@@ -349,18 +349,18 @@ DEF JOHTO_POKEMON EQU const_value
 ;	const SOLOSIS
 ;	const DUOSION
 ;	const REUNICLUS
-;	const DUSCLOPS
 ;	const DUSKULL
+;	const DUSCLOPS
 ;	const DUSKNOIR
-;	const TURTWIG
-;	const GROTLE
-;	const TORTERRA
-;	const CHIMCHAR
-;	const MONFERNO
-;	const INFERNAPE
-;	const PIPLUP
-;	const PRINPLUP
-;	const EMPOLEON
+;	const TURTWIG no
+;	const GROTLE no
+;	const TORTERRA no
+;	const CHIMCHAR no
+;	const MONFERNO no
+;	const INFERNAPE no
+;	const PIPLUP no
+;	const PRINPLUP no
+;	const EMPOLEON no
 ;	const CLAMPERL
 ;	const HUNTAIL
 ;	const GOREBYSS
@@ -379,13 +379,13 @@ DEF JOHTO_POKEMON EQU const_value
 ;	const LOPUNNY
 ;	const SURSKIT
 ;	const MASQUERAIN
-;	const LITWICK
-;	const LAMPENT
-;	const CHANDELURE
+;	const LITWICK no
+;	const LAMPENT no
+;	const CHANDELURE no
 ;	const NUMEL
 ;	const CAMERUPT
 ;	const RELICANTH
-;	const SEEDOT add
+;	const SEEDOT
 ;	const NUZLEAF
 ;	const SHIFTRY
 ;	const SHROOMISH
@@ -395,9 +395,9 @@ DEF JOHTO_POKEMON EQU const_value
 ;	const FROSLASS 
 ;	const LUNATONE
 ;	const SOLROCK
-;	const LILLIPUP
-;	const HERDIER
-;	const STOUTLAND
+;	const LILLIPUP no
+;	const HERDIER no
+;	const STOUTLAND no
 ;	const WAILMER
 ;	const WAILORD
 ;	const MAWILE 

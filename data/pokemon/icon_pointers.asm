@@ -256,13 +256,31 @@ IconPointers:
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
+	dw TreeckoIcon
+	dw GrovyleIcon
+	dw SceptileIcon
+	dw TorchicIcon
+	dw CombuskenIcon
+	dw BlazikenIcon
+	dw MudkipIcon
+	dw MarshtompIcon
+	dw SwampertIcon
 	dw CursolaIcon
 	dw WeavileIcon
-;	dw MagnezoneIcon
-;	dw ElectivireIcon
+	dw MagnezoneIcon
+	dw ElectivireIcon
 	dw MagmortarIcon
 	dw MismagiusIcon
 	dw TogekissIcon
 	dw PorygonZIcon
-	dw Honchkrow
+	dw HonchkrowIcon
+	dw LeafeonIcon
+	dw GlaceonIcon
+	dw SylveonIcon
+	dw TangrowthIcon
+	dw GliscorIcon
+	dw GeowattIcon
+	dw SwabluIcon
+	dw AltariaIcon
+	dw YanmegaIcon
 	assert_table_length NUM_POKEMON + 1

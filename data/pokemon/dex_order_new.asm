@@ -38,6 +38,7 @@ NewPokedexOrder:
 	dw GEODUDE
 	dw GRAVELER
 	dw GOLEM
+	dw GEOWATT
 	dw ZUBAT
 	dw GOLBAT
 	dw CROBAT
@@ -104,6 +105,7 @@ NewPokedexOrder:
 	dw NIDORINO
 	dw NIDOKING
 	dw YANMA
+	dw YANMEGA
 	dw SUNKERN
 	dw SUNFLORA
 	dw EXEGGCUTE
@@ -122,6 +124,7 @@ NewPokedexOrder:
 	dw MUK
 	dw MAGNEMITE
 	dw MAGNETON	
+	dw MAGNEZONE
 	dw VOLTORB
 	dw ELECTRODE
 	dw AIPOM
@@ -159,6 +162,16 @@ NewPokedexOrder:
 	dw JYNX
 	dw ELEKID
 	dw ELECTABUZZ
+	dw ELECTIVIRE
+	dw TREECKO
+	dw GROVYLE
+	dw SCEPTILE
+	dw TORCHIC
+	dw COMBUSKEN
+	dw BLAZIKEN
+	dw MUDKIP
+	dw MARSHTOMP
+	dw SWAMPERT
 	dw MR__MIME
 	dw SMEARGLE
 	dw FARFETCH_D
@@ -184,16 +197,23 @@ NewPokedexOrder:
 	dw DEWGONG
 	dw LICKITUNG
 	dw TANGELA
+	dw TANGROWTH
 	dw EEVEE
 	dw VAPOREON
 	dw JOLTEON
 	dw FLAREON
 	dw ESPEON
 	dw UMBREON
+	dw LEAFEON
+	dw GLACEON
+	dw SYLVEON
+	dw SWABLU
+	dw ALTARIA
 	dw HORSEA
 	dw SEADRA
 	dw KINGDRA
 	dw GLIGAR
+	dw GLISCOR
 	dw DELIBIRD
 	dw SWINUB
 	dw PILOSWINE

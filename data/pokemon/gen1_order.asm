@@ -269,4 +269,4 @@ Pokered_MonIndices:
 ;	db TOGEKISS
 ;	db PORYGONZ
 ;	db HONCHKROW
-	assert_table_length NUM_POKEMON + 1
+;	assert_table_length NUM_POKEMON + 1

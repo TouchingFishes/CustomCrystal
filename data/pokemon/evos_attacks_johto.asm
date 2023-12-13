@@ -651,7 +651,7 @@ SunfloraEvosAttacks:
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
-	db 0 ; no more evolutions
+	dbbw EVOLVE_LEVEL, 45, YANMEGA
 	dbw 1, TACKLE
 	dbw 1, FORESIGHT
 	dbw 7, QUICK_ATTACK

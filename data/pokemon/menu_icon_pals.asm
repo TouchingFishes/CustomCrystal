@@ -89,7 +89,7 @@ MonMenuIconPals:
 	icon_pals RED,    BROWN  ; PONYTA
 	icon_pals RED,    PURPLE ; RAPIDASH
 	icon_pals PINK,   PURPLE ; SLOWPOKE
-	icon_pals PINK,   PURPLE ; SLOWBRO
+	icon_pals PURPLE, BROWN  ; SLOWBRO, GALARIAN_FORM
 	icon_pals GRAY,   GRAY   ; MAGNEMITE
 	icon_pals GRAY,   GRAY   ; MAGNETON
 	icon_pals BROWN,  BROWN  ; FARFETCH_D
@@ -203,8 +203,8 @@ MonMenuIconPals:
 	icon_pals GREEN,  GREEN  ; SUNKERN
 	icon_pals GREEN,  BROWN  ; SUNFLORA
 	icon_pals RED,    BLUE   ; YANMA
-	icon_pals BLUE,   PURPLE ; WOOPER
-	icon_pals BLUE,   PURPLE ; QUAGSIRE
+	icon_pals PURPLE, BROWN  ; WOOPER
+	icon_pals PURPLE, BROWN  ; QUAGSIRE
 	icon_pals PURPLE, GREEN  ; ESPEON
 	icon_pals BROWN,  BLUE   ; UMBREON
 	icon_pals BLUE,   PURPLE ; MURKROW
@@ -261,13 +261,31 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; LUGIA
 	icon_pals RED,    BROWN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI
-	icon_pals GRAY,   GRAY   ; CURSOLA
+	icon_pals GREEN,  GREEN  ; CURSOLA
+	icon_pals GREEN,  GREEN  ; Treecko
+	icon_pals GREEN,  GREEN  ; Grovyle
+	icon_pals GRAY,   GRAY   ; Sceptile
+	icon_pals RED,    BROWN  ; Torchic
+	icon_pals RED,    BROWN  ; Combusken
+	icon_pals RED,    BROWN  ; Blaziken
+	icon_pals BLUE,	  BROWN  ; Mudkip
+	icon_pals BLUE,	  BROWN  ; Marshtomp
+	icon_pals BLUE,	  BROWN  ; Swampert
 	icon_pals RED,    PURPLE ; WEAVILE
-;	icon_pals GRAY,   GRAY   ; MAGNEZONE
-;	icon_pals BROWN,  GRAY   ; ELECTIVIRE
+	icon_pals GRAY,   GRAY   ; MAGNEZONE
+	icon_pals BROWN,  GRAY   ; ELECTIVIRE
 	icon_pals RED,    PURPLE ; MAGMORTAR
 	icon_pals PURPLE, BROWN  ; MISMAGIUS
 	icon_pals RED,    BLUE   ; TOGEKISS
 	icon_pals BLUE,   BLUE   ; PORYGONZ
 	icon_pals BLUE,   PURPLE ; HONCHKROW
+	icon_pals GREEN, BROWN 	 ; LEAFEON
+	icon_pals BLUE, BLUE 	 ; GLACEON
+	icon_pals PINK, BLUE 	 ; SYLVEON
+	icon_pals BLUE, GREEN 	 ; TANGROWTH
+	icon_pals PURPLE, GRAY   ; GLISCOR
+	icon_pals GRAY, BROWN 	 ; GEOWATT
+	icon_pals BLUE,   PURPLE ; SWABLU
+	icon_pals BLUE,   PURPLE ; ALTARIA
+	icon_pals RED, BLUE      ; YANMEGA
 	assert_table_length NUM_POKEMON
