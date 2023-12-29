@@ -312,7 +312,7 @@ PokemonCries::
 ;	mon_cry CRY_VENONAT,    -266,  288 ; ABSOL
 	mon_cry CRY_GROWLITHE,    32,  192 ; RIOLU
 	mon_cry CRY_WEEDLE,        0,  256 ; LUCARIO
-;	mon_cry CRY_BULBASAUR,   128,  129 ; SPIRITOMB
+	mon_cry CRY_BULBASAUR,   128,  129 ; SPIRITOMB
 ;	mon_cry CRY_BULBASAUR,   128,  129 ; LUVDISC
 
 ;	mon_cry CRY_CHARMANDER,   96,  192 ; AXEW

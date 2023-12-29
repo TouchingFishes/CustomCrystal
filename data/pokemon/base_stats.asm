@@ -335,7 +335,7 @@ INCLUDE "data/pokemon/base_stats/volcarona.asm"	;42
 ;INCLUDE "data/pokemon/base_stats/absol.asm"
 INCLUDE "data/pokemon/base_stats/riolu.asm"		;43
 INCLUDE "data/pokemon/base_stats/lucario.asm"	;44
-;INCLUDE "data/pokemon/base_stats/spiritomb.asm"	;45
+INCLUDE "data/pokemon/base_stats/spiritomb.asm"	;45
 ;INCLUDE "data/pokemon/base_stats/luvdisc.asm"
 ;45
 ;INCLUDE "data/pokemon/base_stats/axew.asm"

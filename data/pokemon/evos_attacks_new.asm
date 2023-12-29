@@ -56,6 +56,7 @@ EvosAttacksPointers3::
 ;	dw AbsolEvosAttacks
 	dw RioluEvosAttacks
 	dw LucarioEvosAttacks
+	dw SpiritombEvosAttacks
 ;	dw SpiritombEvosAttacks
 ;	dw LuvdiscEvosAttacks
 ;	dw AxewEvosAttacks
@@ -864,17 +865,17 @@ LucarioEvosAttacks:
 	dbw 53, EXTREMESPEED
 	db 0 ; no more level-up moves
 
-;SpiritombEvosAttacks:
-;	db 0 ; no more evolutions
-;	dbw 1, PURSUIT
-;	dbw 1, CURSE
-;	dbw 7, FAINT_ATTACK
-;	dbw 13, HYPNOSIS
-;	dbw 19, DREAM_EATER
-;	dbw 25, OMINOUS_WIND
-;	dbw 37, SILVER_WIND
-;	dbw 49, DARK_PULSE
-;	db 0 ; no more level-up moves
+SpiritombEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, PURSUIT
+	dbw 1, CURSE
+	dbw 7, FAINT_ATTACK
+	dbw 13, HYPNOSIS
+	dbw 19, DREAM_EATER
+	dbw 25, OMINOUS_WIND
+	dbw 37, SILVER_WIND
+	dbw 49, DARK_PULSE
+	db 0 ; no more level-up moves
 
 ;LuvdiscEvosAttacks:
 ;	db 0 ; no more evolutions

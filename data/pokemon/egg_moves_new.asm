@@ -56,7 +56,7 @@ EggMovePointers3::
 ;	dw AbsolEggMoves ;Absol
 	dw RioluEggMoves ;Riolu
 	dw NoEggMoves2 ;Lucario
-;	dw SpiritombEggMoves ;Spiritomb
+	dw SpiritombEggMoves ;Spiritomb
 ;	dw LuvdiscEggMoves ;Luvdisc
 .IndirectEnd::
 
@@ -122,12 +122,12 @@ ImpidimpEggMoves:
 ;	dw PAY_DAY
 ;	dw -1 ; end
 	
-;FeebasEggMoves:
-;	dw HYPNOSIS
-;	dw CONFUSE_RAY
-;	dw LIGHT_SCREEN
-;	dw MIRROR_COAT
-;	dw -1 ; end
+FeebasEggMoves:
+	dw HYPNOSIS
+	dw CONFUSE_RAY
+	dw LIGHT_SCREEN
+	dw MIRROR_COAT
+	dw -1 ; end
 	
 LarvestaEggMoves:
 	dw PSYCHIC_M
@@ -147,12 +147,12 @@ RioluEggMoves:
 	;dw BLAZE_KICK
 	dw -1 ; end
 	
-;SpiritombEggMoves:
-;	dw DESTINY_BOND
-;	dw SMOKESCREEN
-;	dw PAIN_SPLIT
-;	dw CONFUSE_RAY
-;	dw -1 ; end
+SpiritombEggMoves:
+	dw DESTINY_BOND
+	dw SMOKESCREEN
+	dw PAIN_SPLIT
+	dw CONFUSE_RAY
+	dw -1 ; end
 	
 ;LuvdiscEggMoves: 
 ;	dw SPLASH

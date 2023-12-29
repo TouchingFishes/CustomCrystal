@@ -307,6 +307,6 @@ FirstEvoStages::
 ;	dw ABSOL
 	dw RIOLU
 	dw RIOLU
-;	dw SPIRITOMB
+	dw SPIRITOMB
 ;	dw LUVDISC
 	assert_table_length NUM_POKEMON

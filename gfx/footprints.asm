@@ -307,6 +307,6 @@ INCBIN "gfx/footprints/misdreavus.1bpp" ;Volcarona
 ;INCBIN "gfx/footprints/celebi.1bpp" ;Absol
 INCBIN "gfx/footprints/celebi.1bpp" ;Riolu
 INCBIN "gfx/footprints/celebi.1bpp" ;Lucario
-;INCBIN "gfx/footprints/celebi.1bpp" ;Spiritomb
+INCBIN "gfx/footprints/celebi.1bpp" ;Spiritomb
 ;INCBIN "gfx/footprints/misdreavus.1bpp" ;Luvdisc
 

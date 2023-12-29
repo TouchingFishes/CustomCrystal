@@ -304,7 +304,7 @@ NewPokedexOrder:
 	dw LARVITAR
 	dw PUPITAR
 	dw TYRANITAR
-;	dw SPIRITOMB
+	dw SPIRITOMB
 	dw LUGIA
 	dw HO_OH
 	dw MEWTWO

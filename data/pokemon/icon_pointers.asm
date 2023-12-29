@@ -311,6 +311,6 @@ IconPointers:
 ;	dw AbsolIcon
 	dw RioluIcon
 	dw LucarioIcon
-;	dw SpiritombIcon
+	dw SpiritombIcon
 ;	dw LuvdiscIcon
 	assert_table_length NUM_POKEMON + 1

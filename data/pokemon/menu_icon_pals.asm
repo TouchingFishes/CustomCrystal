@@ -316,6 +316,6 @@ MonMenuIconPals:
 ;	icon_pals GRAY,   GRAY   ; ABSOL
 	icon_pals GRAY,   BROWN  ; RIOLU	
 	icon_pals GRAY,   BROWN  ; LUCARIO
-;	icon_pals PURPLE, PURPLE ; SPIRITOMB
+	icon_pals PURPLE, PURPLE ; SPIRITOMB
 ;	icon_pals PINK,   PINK 	 ; LUVDISC
 	assert_table_length NUM_POKEMON

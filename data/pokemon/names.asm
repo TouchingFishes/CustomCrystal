@@ -311,7 +311,7 @@ PokemonNames::
 ;	db "ABSOL@@@@@"
 	db "RIOLU@@@@@"
 	db "LUCARIO@@@"
-;	db "SPIRITOMB@"
+	db "SPIRITOMB@"
 ;	db "LUVDISC@@@"
 	
 ;	db "AXEW@@@@@@"

@@ -319,6 +319,6 @@ VolcaronaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/volcarona.asm"
 ;AbsolPokedexEntry::		 INCLUDE "data/pokemon/dex_entries/absol.asm"
 RioluPokedexEntry::		 INCLUDE "data/pokemon/dex_entries/riolu.asm"
 LucarioPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/lucario.asm"
-;SpiritombPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/spiritomb.asm"
+SpiritombPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/spiritomb.asm"
 ;LuvdiscPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/luvdisc.asm"
 

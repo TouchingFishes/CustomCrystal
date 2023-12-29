@@ -327,7 +327,7 @@ DEF JOHTO_POKEMON EQU const_value
 ;	const ABSOL
 	const RIOLU		 ; 43
 	const LUCARIO	 ; 44
-;	const SPIRITOMB	 ; 45
+	const SPIRITOMB	 ; 45
 ;	const LUVDISC
 ; 45
 ;	const AXEW

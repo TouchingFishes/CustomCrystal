@@ -628,8 +628,8 @@ PokemonPicPointers::
 	dba RioluBackpic
 	dba LucarioFrontpic
 	dba LucarioBackpic
-;	dba SpiritombFrontpic
-;	dba SpiritombBackpic
+	dba SpiritombFrontpic
+	dba SpiritombBackpic
 ;	dba LuvdiscFrontpic
 ;	dba LuvdiscBackpic
 	assert_table_length NUM_POKEMON + 1

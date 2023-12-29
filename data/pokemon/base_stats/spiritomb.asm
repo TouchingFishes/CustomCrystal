@@ -10,7 +10,6 @@
 	db GENDER_F50 ; gender ratio
 	db 30 ; step cycles to hatch
 	INCBIN "gfx/pokemon/spiritomb/front.dimensions"
-	db 0, 0, 0, 0 ; padding
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
