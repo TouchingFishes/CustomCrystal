@@ -518,26 +518,26 @@ PokemonPicPointers::
 	dba HoOhBackpic
 	dba CelebiFrontpic
 	dba CelebiBackpic
-	dba TreeckoFrontpic
-	dba TreeckoBackpic
-	dba GrovyleFrontpic
-	dba GrovyleBackpic
-	dba SceptileFrontpic
-	dba SceptileBackpic
-	dba TorchicFrontpic
-	dba TorchicBackpic
-	dba CombuskenFrontpic
-	dba CombuskenBackpic
-	dba BlazikenFrontpic
-	dba BlazikenBackpic
-	dba MudkipFrontpic
-	dba MudkipBackpic
-	dba MarshtompFrontpic
-	dba MarshtompBackpic
-	dba SwampertFrontpic
-	dba SwampertBackpic
-	dba CursolaFrontpic
-	dba CursolaBackpic
+;	dba TreeckoFrontpic
+;	dba TreeckoBackpic
+;	dba GrovyleFrontpic
+;	dba GrovyleBackpic
+;	dba SceptileFrontpic
+;	dba SceptileBackpic
+;	dba TorchicFrontpic
+;	dba TorchicBackpic
+;	dba CombuskenFrontpic
+;	dba CombuskenBackpic
+;	dba BlazikenFrontpic
+;	dba BlazikenBackpic
+;	dba MudkipFrontpic
+;	dba MudkipBackpic
+;	dba MarshtompFrontpic
+;	dba MarshtompBackpic
+;	dba SwampertFrontpic
+;	dba SwampertBackpic
+;	dba CursolaFrontpic
+;	dba CursolaBackpic
 	dba WeavileFrontpic
 	dba WeavileBackpic
 	dba MagnezoneFrontpic
@@ -564,12 +564,72 @@ PokemonPicPointers::
 	dba TangrowthBackpic
 	dba GliscorFrontpic
 	dba GliscorBackpic
-	dba GeowattFrontpic
-	dba GeowattBackpic
 	dba SwabluFrontpic
 	dba SwabluBackpic
 	dba AltariaFrontpic
 	dba AltariaBackpic
-	dba YanmegaFrontpic
-	dba YanmegaBackpic
+	dba AronFrontpic
+	dba AronBackpic
+	dba LaironFrontpic
+	dba LaironBackpic
+	dba AggronFrontpic
+	dba AggronBackpic
+;	dba RuffletFrontpic
+;	dba RuffletBackpic
+;	dba BraviaryFrontpic
+;	dba BraviaryBackpic
+;	dba VenipedeFrontpic
+;	dba VenipedeBackpic
+;	dba WhirlipedeFrontpic
+;	dba WhirlipedeBackpic
+;	dba ScolipedeFrontpic
+;	dba ScolipedeBackpic
+;	dba GibleFrontpic
+;	dba GibleBackpic
+;	dba GabiteFrontpic
+;	dba GabiteBackpic
+;	dba GarchompFrontpic
+;	dba GarchompBackpic
+;	dba BarboachFrontpic
+;	dba BarboachBackpic
+;	dba WhiscashFrontpic
+;	dba WhiscashBackpic
+	dba BeldumFrontpic
+	dba BeldumBackpic
+	dba MetangFrontpic
+	dba MetangBackpic
+	dba MetagrossFrontpic
+	dba MetagrossBackpic
+	dba BaltoyFrontpic
+	dba BaltoyBackpic
+	dba ClaydolFrontpic
+	dba ClaydolBackpic
+	dba ImpidimpFrontpic
+	dba ImpidimpBackpic
+	dba MorgremFrontpic
+	dba MorgremBackpic
+	dba GrimmsnarlFrontpic
+	dba GrimmsnarlBackpic
+;	dba SkittyFrontpic
+;	dba SkittyBackpic
+;	dba DelcattyFrontpic
+;	dba DelcattyBackpic
+;	dba FeebasFrontpic
+;	dba FeebasBackpic
+;	dba MiloticFrontpic
+;	dba MiloticBackpic
+	dba LarvestaFrontpic
+	dba LarvestaBackpic
+	dba VolcaronaFrontpic
+	dba VolcaronaBackpic
+;	dba AbsolFrontpic
+;	dba AbsolBackpic
+	dba RioluFrontpic
+	dba RioluBackpic
+	dba LucarioFrontpic
+	dba LucarioBackpic
+;	dba SpiritombFrontpic
+;	dba SpiritombBackpic
+;	dba LuvdiscFrontpic
+;	dba LuvdiscBackpic
 	assert_table_length NUM_POKEMON + 1

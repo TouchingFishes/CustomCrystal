@@ -261,16 +261,16 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; LUGIA
 	icon_pals RED,    BROWN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI
-	icon_pals GREEN,  GREEN  ; CURSOLA
-	icon_pals GREEN,  GREEN  ; Treecko
-	icon_pals GREEN,  GREEN  ; Grovyle
-	icon_pals GRAY,   GRAY   ; Sceptile
-	icon_pals RED,    BROWN  ; Torchic
-	icon_pals RED,    BROWN  ; Combusken
-	icon_pals RED,    BROWN  ; Blaziken
-	icon_pals BLUE,	  BROWN  ; Mudkip
-	icon_pals BLUE,	  BROWN  ; Marshtomp
-	icon_pals BLUE,	  BROWN  ; Swampert
+;	icon_pals GRAY,   GRAY   ; CURSOLA
+;	icon_pals GREEN,  GREEN  ; TREECKO
+;	icon_pals GREEN,  GREEN  ; GROVYLE
+;	icon_pals GRAY,   GRAY   ; SCEPTILE
+;	icon_pals RED,    BROWN  ; TORCHIC
+;	icon_pals RED,    BROWN  ; COMBUSKEN
+;	icon_pals RED,    BROWN  ; BLAZIKEN
+;	icon_pals BLUE,	  BROWN  ; MUDKIP
+;	icon_pals BLUE,	  BROWN  ; MARSHTOMP
+;	icon_pals BLUE,	  BROWN  ; SWAMPERT
 	icon_pals RED,    PURPLE ; WEAVILE
 	icon_pals GRAY,   GRAY   ; MAGNEZONE
 	icon_pals BROWN,  GRAY   ; ELECTIVIRE
@@ -279,13 +279,43 @@ MonMenuIconPals:
 	icon_pals RED,    BLUE   ; TOGEKISS
 	icon_pals BLUE,   BLUE   ; PORYGONZ
 	icon_pals BLUE,   PURPLE ; HONCHKROW
-	icon_pals GREEN, BROWN 	 ; LEAFEON
-	icon_pals BLUE, BLUE 	 ; GLACEON
-	icon_pals PINK, BLUE 	 ; SYLVEON
-	icon_pals BLUE, GREEN 	 ; TANGROWTH
+	icon_pals GREEN,  BROWN  ; LEAFEON
+	icon_pals BLUE,   BLUE 	 ; GLACEON
+	icon_pals PINK,   BLUE 	 ; SYLVEON
+	icon_pals BLUE,   GREEN	 ; TANGROWTH
 	icon_pals PURPLE, GRAY   ; GLISCOR
-	icon_pals GRAY, BROWN 	 ; GEOWATT
 	icon_pals BLUE,   PURPLE ; SWABLU
 	icon_pals BLUE,   PURPLE ; ALTARIA
-	icon_pals RED, BLUE      ; YANMEGA
+	icon_pals GRAY,   BROWN  ; ARON	
+	icon_pals GRAY,   BROWN  ; LAIRON
+	icon_pals GRAY,   BROWN  ; AGGRON
+;	icon_pals BLUE,   GRAY   ; RUFFLET
+;	icon_pals RED,    BLUE   ; BRAVIARY
+;	icon_pals RED,    PURPLE ; VENIPEDE
+;	icon_pals PURPLE, GRAY   ; WHIRLIPEDE
+;	icon_pals RED,    PURPLE ; SCOLIPEDE
+;	icon_pals RED,    BLUE   ; GIBLE
+;	icon_pals RED,    BLUE   ; GABITE
+;	icon_pals RED,    BLUE   ; GARCHOMP
+;	icon_pals BLUE,   GRAY   ; BARBOACH
+;	icon_pals BLUE,   BLUE   ; WHISCASH
+	icon_pals BLUE,   GRAY   ; BELDUM
+	icon_pals BLUE,   GRAY   ; METANG
+	icon_pals BLUE,   GRAY   ; METAGROSS
+	icon_pals RED,    BROWN  ; BALTOY
+	icon_pals RED,    BROWN  ; CLAYDOL
+	icon_pals PURPLE, PURPLE ; IMPIDIMP
+	icon_pals PURPLE, PURPLE ; MORGREM
+	icon_pals PURPLE, PURPLE ; GRIMSNARL
+;	icon_pals PINK,   PINK 	 ; SKITTY
+;	icon_pals PINK,   PURPLE ; DELCATTY
+;	icon_pals BROWN,  BROWN  ; FEEBAS
+;	icon_pals RED,    BLUE   ; MILOTIC
+	icon_pals RED,    RED    ; LARVESTA
+	icon_pals RED,    RED    ; VOLCARONA
+;	icon_pals GRAY,   GRAY   ; ABSOL
+	icon_pals GRAY,   BROWN  ; RIOLU	
+	icon_pals GRAY,   BROWN  ; LUCARIO
+;	icon_pals PURPLE, PURPLE ; SPIRITOMB
+;	icon_pals PINK,   PINK 	 ; LUVDISC
 	assert_table_length NUM_POKEMON

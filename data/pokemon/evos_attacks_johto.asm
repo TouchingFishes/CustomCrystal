@@ -648,10 +648,12 @@ SunfloraEvosAttacks:
 	dbw 19, SUNNY_DAY
 	dbw 31, PETAL_DANCE
 	dbw 46, SOLARBEAM
+	dbw 52, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
-	dbbw EVOLVE_LEVEL, 45, YANMEGA
+	;dbbw EVOLVE_LEVEL, 45, YANMEGA
+	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, FORESIGHT
 	dbw 7, QUICK_ATTACK
@@ -666,26 +668,26 @@ YanmaEvosAttacks:
 WooperEvosAttacks:
 	dbbw EVOLVE_LEVEL, 20, QUAGSIRE
 	db 0 ; no more evolutions
-	dbw 1, WATER_GUN
+	dbw 1, MUD_SLAP
 	dbw 1, TAIL_WHIP
 	dbw 11, SLAM
 	dbw 21, AMNESIA
 	dbw 31, EARTHQUAKE
-	dbw 41, RAIN_DANCE
-	dbw 51, MIST
-	dbw 51, HAZE
+	dbw 41, TOXIC
+	dbw 51, ROCK_TOMB
+	dbw 51, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 QuagsireEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, WATER_GUN
+	dbw 1, MUD_SLAP
 	dbw 1, TAIL_WHIP
 	dbw 11, SLAM
 	dbw 23, AMNESIA
 	dbw 35, EARTHQUAKE
-	dbw 47, RAIN_DANCE
-	dbw 59, MIST
-	dbw 59, HAZE
+	dbw 47, TOXIC
+	dbw 59, ROCK_TOMB
+	dbw 59, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 EspeonEvosAttacks:
@@ -1017,7 +1019,7 @@ PiloswineEvosAttacks:
 	db 0 ; no more level-up moves
 
 CorsolaEvosAttacks:
-	dbbw EVOLVE_LEVEL, 38, CURSOLA
+	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 7, HARDEN
 	dbw 13, SPITE
@@ -1115,9 +1117,9 @@ KingdraEvosAttacks:
 	dbw 1, WATER_GUN
 	dbw 8, SMOKESCREEN
 	dbw 15, LEER
-	dbw 22, WATER_GUN
+	dbw 22, AGILITY
 	dbw 29, TWISTER
-	dbw 40, AGILITY
+	dbw 40, DRAGON_PULSE
 	dbw 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -1147,7 +1149,7 @@ DonphanEvosAttacks:
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
-	dbbw EVOLVE_TRADE, UP_GRADE, PORYGONZ
+	dbbw EVOLVE_TRADE, UP_GRADE, PORYGON_Z
 	dbw 1, CONVERSION2
 	dbw 1, TACKLE
 	dbw 1, CONVERSION

@@ -77,7 +77,6 @@ FirstEvoStages::
 	dw GEODUDE
 	dw GEODUDE
 	dw GEODUDE
-	dw GEODUDE
 	dw PONYTA
 	dw PONYTA
 	dw SLOWPOKE
@@ -203,7 +202,6 @@ FirstEvoStages::
 	dw SUNKERN
 	dw SUNKERN    ;c0
 	dw YANMA
-	dw YANMA
 	dw WOOPER
 	dw WOOPER
 	dw EEVEE
@@ -237,7 +235,7 @@ FirstEvoStages::
 	dw SWINUB
 	dw SWINUB
 	dw CORSOLA
-	dw CORSOLA
+;	dw CORSOLA
 	dw REMORAID
 	dw REMORAID   ;e0
 	dw DELIBIRD
@@ -268,15 +266,47 @@ FirstEvoStages::
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI
-	dw TREECKO
-	dw TREECKO
-	dw TREECKO
-	dw TORCHIC
-	dw TORCHIC
-	dw TORCHIC
-	dw MUDKIP
-	dw MUDKIP
-	dw MUDKIP
+;	dw TREECKO
+;	dw TREECKO
+;	dw TREECKO
+;	dw TORCHIC
+;	dw TORCHIC
+;	dw TORCHIC
+;	dw MUDKIP
+;	dw MUDKIP
+;	dw MUDKIP
 	dw SWABLU
 	dw SWABLU
+	dw ARON
+	dw ARON
+	dw ARON
+;	dw RUFFLET
+;	dw RUFFLET
+;	dw VENIPEDE
+;	dw VENIPEDE
+;	dw VENIPEDE
+;	dw GIBLE
+;	dw GIBLE
+;	dw GIBLE
+;	dw BARBOACH
+;	dw BARBOACH
+	dw BELDUM
+	dw BELDUM
+	dw BELDUM
+	dw BALTOY
+	dw BALTOY
+	dw IMPIDIMP
+	dw IMPIDIMP
+	dw IMPIDIMP
+;	dw SKITTY
+;	dw SKITTY
+;	dw FEEBAS
+;	dw FEEBAS
+	dw LARVESTA
+	dw LARVESTA
+;	dw ABSOL
+	dw RIOLU
+	dw RIOLU
+;	dw SPIRITOMB
+;	dw LUVDISC
 	assert_table_length NUM_POKEMON

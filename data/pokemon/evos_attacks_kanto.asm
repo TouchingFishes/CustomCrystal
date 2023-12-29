@@ -1133,7 +1133,6 @@ GeodudeEvosAttacks:
 
 GravelerEvosAttacks:
 	dbbw EVOLVE_LEVEL, 36, GOLEM
-	dbbw EVOLVE_ITEM, THUNDERSTONE, GEOWATT
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, DEFENSE_CURL

@@ -3,7 +3,7 @@
 	db  40,  55,  80,  30,  35,  60
 	;   hp  atk  def  spd  sat  sdf
 
-	db STEEL, PSYCHIC ; type
+	db STEEL, PSYCHIC_TYPE ; type
 	db 3 ; catch rate
 	db 60 ; base exp
 	db NO_ITEM, METAL_COAT ; items
@@ -14,5 +14,5 @@
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
-	tmhm HEADBUTT
+	tmhm
 	; end

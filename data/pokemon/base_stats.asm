@@ -27,6 +27,7 @@ BaseData::
 	indirect_table_end
 
 BaseData1:
+;		table_width BASE_DATA_SIZE, BaseData
 INCLUDE "data/pokemon/base_stats/bulbasaur.asm"
 INCLUDE "data/pokemon/base_stats/ivysaur.asm"
 INCLUDE "data/pokemon/base_stats/venusaur.asm"
@@ -279,71 +280,67 @@ INCLUDE "data/pokemon/base_stats/lugia.asm"
 INCLUDE "data/pokemon/base_stats/ho_oh.asm"
 INCLUDE "data/pokemon/base_stats/celebi.asm"
 ;NEW
-INCLUDE "data/pokemon/base_stats/treecko.asm"
-INCLUDE "data/pokemon/base_stats/grovyle.asm"
-INCLUDE "data/pokemon/base_stats/sceptile.asm"
-INCLUDE "data/pokemon/base_stats/torchic.asm"
-INCLUDE "data/pokemon/base_stats/combusken.asm"
-INCLUDE "data/pokemon/base_stats/blaziken.asm"
-INCLUDE "data/pokemon/base_stats/mudkip.asm"
-INCLUDE "data/pokemon/base_stats/marshtomp.asm"
-INCLUDE "data/pokemon/base_stats/swampert.asm"
-INCLUDE "data/pokemon/base_stats/cursola.asm"
-INCLUDE "data/pokemon/base_stats/weavile.asm"
-INCLUDE "data/pokemon/base_stats/magnezone.asm"
-INCLUDE "data/pokemon/base_stats/electivire.asm"
-INCLUDE "data/pokemon/base_stats/magmortar.asm"
-INCLUDE "data/pokemon/base_stats/mismagius.asm"
-INCLUDE "data/pokemon/base_stats/honchkrow.asm"
-INCLUDE "data/pokemon/base_stats/porygon_z.asm"
-INCLUDE "data/pokemon/base_stats/togekiss.asm"
-INCLUDE "data/pokemon/base_stats/leafeon.asm"
-INCLUDE "data/pokemon/base_stats/glaceon.asm"
-INCLUDE "data/pokemon/base_stats/sylveon.asm"
-INCLUDE "data/pokemon/base_stats/tangrowth.asm"
-INCLUDE "data/pokemon/base_stats/gliscor.asm"
-INCLUDE "data/pokemon/base_stats/geowatt.asm"
-INCLUDE "data/pokemon/base_stats/swablu.asm"
-INCLUDE "data/pokemon/base_stats/altaria.asm"
-INCLUDE "data/pokemon/base_stats/yanmega.asm"
-;INCLUDE "data/pokemon/base_stats/aron.asm"
-;INCLUDE "data/pokemon/base_stats/lairon.asm"
-;INCLUDE "data/pokemon/base_stats/aggron.asm"
+;INCLUDE "data/pokemon/base_stats/treecko.asm"	;1
+;INCLUDE "data/pokemon/base_stats/grovyle.asm"	;2
+;INCLUDE "data/pokemon/base_stats/sceptile.asm"	;3
+;INCLUDE "data/pokemon/base_stats/torchic.asm"	;4
+;INCLUDE "data/pokemon/base_stats/combusken.asm";5
+;INCLUDE "data/pokemon/base_stats/blaziken.asm"	;6
+;INCLUDE "data/pokemon/base_stats/mudkip.asm"	;7
+;INCLUDE "data/pokemon/base_stats/marshtomp.asm";8
+;INCLUDE "data/pokemon/base_stats/swampert.asm"	;9
+;INCLUDE "data/pokemon/base_stats/cursola.asm"
+INCLUDE "data/pokemon/base_stats/weavile.asm"	;10
+INCLUDE "data/pokemon/base_stats/magnezone.asm"	;11
+INCLUDE "data/pokemon/base_stats/electivire.asm";12
+INCLUDE "data/pokemon/base_stats/magmortar.asm"	;13
+INCLUDE "data/pokemon/base_stats/mismagius.asm"	;14
+INCLUDE "data/pokemon/base_stats/togekiss.asm"	;15
+INCLUDE "data/pokemon/base_stats/porygon_z.asm" ;16
+INCLUDE "data/pokemon/base_stats/honchkrow.asm"	;17
+INCLUDE "data/pokemon/base_stats/leafeon.asm"	;18
+INCLUDE "data/pokemon/base_stats/glaceon.asm"	;19
+INCLUDE "data/pokemon/base_stats/sylveon.asm"	;20
+INCLUDE "data/pokemon/base_stats/tangrowth.asm"	;21
+INCLUDE "data/pokemon/base_stats/gliscor.asm"	;22
+INCLUDE "data/pokemon/base_stats/swablu.asm"	;23
+INCLUDE "data/pokemon/base_stats/altaria.asm"	;24
+INCLUDE "data/pokemon/base_stats/aron.asm"		;25
+INCLUDE "data/pokemon/base_stats/lairon.asm"	;26
+INCLUDE "data/pokemon/base_stats/aggron.asm"	;27
 ;INCLUDE "data/pokemon/base_stats/rufflet.asm"
 ;INCLUDE "data/pokemon/base_stats/braviary.asm"
-;INCLUDE "data/pokemon/base_stats/wyrdeer.asm"
-;INCLUDE "data/pokemon/base_stats/impidimp.asm"
-;INCLUDE "data/pokemon/base_stats/morgrem.asm"
-;INCLUDE "data/pokemon/base_stats/grimmsnarl.asm"
-;INCLUDE "data/pokemon/base_stats/axew.asm"
-;INCLUDE "data/pokemon/base_stats/fraxure.asm"
-;INCLUDE "data/pokemon/base_stats/haxorus.asm"
-;INCLUDE "data/pokemon/base_stats/barboach.asm"
-;INCLUDE "data/pokemon/base_stats/whiscash.asm"
-;INCLUDE "data/pokemon/base_stats/beldum.asm"
-;INCLUDE "data/pokemon/base_stats/metang.asm"
-;INCLUDE "data/pokemon/base_stats/metagross.asm"
-;INCLUDE "data/pokemon/base_stats/baltoy.asm"
-;INCLUDE "data/pokemon/base_stats/claydol.asm"
 ;INCLUDE "data/pokemon/base_stats/venipede.asm"
 ;INCLUDE "data/pokemon/base_stats/whirlipede.asm"
 ;INCLUDE "data/pokemon/base_stats/scolipede.asm"
-;INCLUDE "data/pokemon/base_stats/skitty.asm"
+;INCLUDE "data/pokemon/base_stats/gible.asm"		;28
+;INCLUDE "data/pokemon/base_stats/gabite.asm"	;29
+;INCLUDE "data/pokemon/base_stats/garchomp.asm"	;30
+;INCLUDE "data/pokemon/base_stats/barboach.asm"
+;INCLUDE "data/pokemon/base_stats/whiscash.asm"
+INCLUDE "data/pokemon/base_stats/beldum.asm"	;31
+INCLUDE "data/pokemon/base_stats/metang.asm"	;32
+INCLUDE "data/pokemon/base_stats/metagross.asm"	;33
+INCLUDE "data/pokemon/base_stats/baltoy.asm"	;34
+INCLUDE "data/pokemon/base_stats/claydol.asm"	;35
+INCLUDE "data/pokemon/base_stats/impidimp.asm"	;36
+INCLUDE "data/pokemon/base_stats/morgrem.asm"	;37
+INCLUDE "data/pokemon/base_stats/grimmsnarl.asm";38
+;INCLUDE "data/pokemon/base_stats/skitty.asm"	
 ;INCLUDE "data/pokemon/base_stats/delcatty.asm"
-;INCLUDE "data/pokemon/base_stats/feebas.asm"
-;INCLUDE "data/pokemon/base_stats/milotic.asm"
-;INCLUDE "data/pokemon/base_stats/larvesta.asm"
-;INCLUDE "data/pokemon/base_stats/volcarona.asm"
+;INCLUDE "data/pokemon/base_stats/feebas.asm"	;39
+;INCLUDE "data/pokemon/base_stats/milotic.asm"	;40
+INCLUDE "data/pokemon/base_stats/larvesta.asm"	;41
+INCLUDE "data/pokemon/base_stats/volcarona.asm"	;42
 ;INCLUDE "data/pokemon/base_stats/absol.asm"
-;INCLUDE "data/pokemon/base_stats/riolu.asm"
-;INCLUDE "data/pokemon/base_stats/lucario.asm"
-;INCLUDE "data/pokemon/base_stats/spiritomb.asm"
+INCLUDE "data/pokemon/base_stats/riolu.asm"		;43
+INCLUDE "data/pokemon/base_stats/lucario.asm"	;44
+;INCLUDE "data/pokemon/base_stats/spiritomb.asm"	;45
 ;INCLUDE "data/pokemon/base_stats/luvdisc.asm"
-;INCLUDE "data/pokemon/base_stats/yamask.asm"
-;INCLUDE "data/pokemon/base_stats/runerigus.asm"
-;INCLUDE "data/pokemon/base_stats/gible.asm"
-;INCLUDE "data/pokemon/base_stats/gabite.asm"
-;INCLUDE "data/pokemon/base_stats/garchomp.asm"
+;45
+;INCLUDE "data/pokemon/base_stats/axew.asm"
+;INCLUDE "data/pokemon/base_stats/fraxure.asm"
+;INCLUDE "data/pokemon/base_stats/haxorus.asm"
 ;INCLUDE "data/pokemon/base_stats/shinx.asm"
 ;INCLUDE "data/pokemon/base_stats/luxio.asm"
 ;INCLUDE "data/pokemon/base_stats/luxray.asm"
@@ -407,3 +404,4 @@ INCLUDE "data/pokemon/base_stats/yanmega.asm"
 ;INCLUDE "data/pokemon/base_stats/wailord.asm"
 ;INCLUDE "data/pokemon/base_stats/mawile.asm"
 .IndirectEnd::
+;		assert_table_length NUM_POKEMON

@@ -1,0 +1,2 @@
+light tone - 241, 216, 114
+dark tone - 156, 148, 173

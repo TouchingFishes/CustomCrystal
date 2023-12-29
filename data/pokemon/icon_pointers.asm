@@ -256,16 +256,16 @@ IconPointers:
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
-	dw TreeckoIcon
-	dw GrovyleIcon
-	dw SceptileIcon
-	dw TorchicIcon
-	dw CombuskenIcon
-	dw BlazikenIcon
-	dw MudkipIcon
-	dw MarshtompIcon
-	dw SwampertIcon
-	dw CursolaIcon
+;	dw TreeckoIcon
+;	dw GrovyleIcon
+;	dw SceptileIcon
+;	dw TorchicIcon
+;	dw CombuskenIcon
+;	dw BlazikenIcon
+;	dw MudkipIcon
+;	dw MarshtompIcon
+;	dw SwampertIcon
+;	dw CursolaIcon
 	dw WeavileIcon
 	dw MagnezoneIcon
 	dw ElectivireIcon
@@ -279,8 +279,38 @@ IconPointers:
 	dw SylveonIcon
 	dw TangrowthIcon
 	dw GliscorIcon
-	dw GeowattIcon
 	dw SwabluIcon
 	dw AltariaIcon
-	dw YanmegaIcon
+	dw AronIcon
+	dw LaironIcon
+	dw AggronIcon
+;	dw RuffletIcon
+;	dw BraviaryIcon
+;	dw VenipedeIcon
+;	dw WhirlipedeIcon
+;	dw ScolipedeIcon
+;	dw GibleIcon
+;	dw GabiteIcon
+;	dw GarchompIcon
+;	dw BarboachIcon
+;	dw WhiscashIcon
+	dw BeldumIcon
+	dw MetangIcon
+	dw MetagrossIcon
+	dw BaltoyIcon
+	dw ClaydolIcon
+	dw ImpidimpIcon
+	dw MorgremIcon
+	dw GrimmsnarlIcon
+;	dw SkittyIcon
+;	dw DelcattyIcon
+;	dw FeebasIcon
+;	dw MiloticIcon
+	dw LarvestaIcon
+	dw VolcaronaIcon
+;	dw AbsolIcon
+	dw RioluIcon
+	dw LucarioIcon
+;	dw SpiritombIcon
+;	dw LuvdiscIcon
 	assert_table_length NUM_POKEMON + 1
