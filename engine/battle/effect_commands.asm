@@ -1100,7 +1100,6 @@ BattleCommand_DoTurn:
 
 .continuousmoves
 	db EFFECT_RAZOR_WIND
-	db EFFECT_SKY_ATTACK
 	db EFFECT_SKULL_BASH
 	db EFFECT_SOLARBEAM
 	db EFFECT_FLY
@@ -5571,7 +5570,7 @@ BattleCommand_Charge:
 	dw RAZOR_WIND, .BattleMadeWhirlwindText
 	dw SOLARBEAM,  .BattleTookSunlightText
 	dw SKULL_BASH, .BattleLoweredHeadText
-	dw SKY_ATTACK, .BattleGlowingText
+	;dw SKY_ATTACK, .BattleGlowingText
 	dw FLY,        .BattleFlewText
 	dw DIG,        .BattleDugText
 	dw -1

@@ -161,7 +161,7 @@ Moves1:
 	move EFFECT_MULTI_HIT,          15, NORMAL,       PHYSICAL,  85, 20,   0      ;BARRAGE
 	move EFFECT_LEECH_HIT,          50, BUG,          PHYSICAL, 100, 15,   0      ;LEECH_LIFE
 	move EFFECT_SLEEP,               0, NORMAL,       STATUS,    75, 10,   0      ;LOVELY_KISS
-	move EFFECT_NORMAL_HIT,        120, FLYING,       PHYSICAL,  85,  5,   0      ;SKY_ATTACK
+	move EFFECT_RECOIL_HIT,         90, FLYING,       PHYSICAL,  85, 20,   0      ;BRAVE_BIRD
 	move EFFECT_TRANSFORM,           0, NORMAL,       STATUS,   100, 10,   0      ;TRANSFORM
 	move EFFECT_SPEED_DOWN_HIT,     30, WATER,        SPECIAL,  100, 30,  10      ;BUBBLE
 	move EFFECT_CONFUSE_HIT,        70, NORMAL,       PHYSICAL, 100, 10,  20      ;DIZZY_PUNCH

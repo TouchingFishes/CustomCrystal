@@ -148,7 +148,7 @@
 	const BARRAGE      ; 08c
 	const LEECH_LIFE   ; 08d
 	const LOVELY_KISS  ; 08e
-	const SKY_ATTACK   ; 08f
+	const BRAVE_BIRD   ; 08f
 	const TRANSFORM    ; 090
 	const BUBBLE       ; 091
 	const DIZZY_PUNCH  ; 092

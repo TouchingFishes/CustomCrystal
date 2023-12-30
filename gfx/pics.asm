@@ -39,9 +39,7 @@ NidoqueenFrontpic:   INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
 HitmonleeFrontpic:   INCBIN "gfx/pokemon/hitmonlee/front.animated.2bpp.lz"
 ScizorFrontpic:      INCBIN "gfx/pokemon/scizor/front.animated.2bpp.lz"
 BeedrillFrontpic:    INCBIN "gfx/pokemon/beedrill/front.animated.2bpp.lz"
-ArcanineFrontpic:    INCBIN "gfx/pokemon/arcanine/front.animated.2bpp.lz"
-TyranitarFrontpic:   INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
-MoltresFrontpic:     INCBIN "gfx/pokemon/moltres/front.animated.2bpp.lz"
+
 
 
 
@@ -828,7 +826,9 @@ LarvestaBackpic:  	 INCBIN "gfx/pokemon/larvesta/back.2bpp.lz"
 
 
 SECTION "Pics 19", ROMX
-
+TyranitarFrontpic:   INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
+MoltresFrontpic:     INCBIN "gfx/pokemon/moltres/front.animated.2bpp.lz"
+ArcanineFrontpic:    INCBIN "gfx/pokemon/arcanine/front.animated.2bpp.lz"
 
 
 

@@ -11,3 +11,4 @@ esac
 temp_file=$(mktemp)
 head -c $bytes $1 > $temp_file
 mv $temp_file $1
+

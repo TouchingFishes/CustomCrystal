@@ -144,7 +144,7 @@ HoothootEggMoves:
 	dw FAINT_ATTACK
 	dw WING_ATTACK
 	dw WHIRLWIND
-	dw SKY_ATTACK
+	dw BRAVE_BIRD
 	dw -1 ; end
 
 LedybaEggMoves:
@@ -269,7 +269,7 @@ MurkrowEggMoves:
 	dw QUICK_ATTACK
 	dw MIRROR_MOVE
 	dw WING_ATTACK
-	dw SKY_ATTACK
+	dw BRAVE_BIRD
 	dw -1 ; end
 
 MisdreavusEggMoves:
@@ -399,7 +399,7 @@ SkarmoryEggMoves:
 	dw DRILL_PECK
 	dw PURSUIT
 	dw WHIRLWIND
-	dw SKY_ATTACK
+	dw BRAVE_BIRD
 	dw -1 ; end
 
 HoundourEggMoves:

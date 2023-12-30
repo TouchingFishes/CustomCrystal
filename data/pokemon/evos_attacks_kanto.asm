@@ -2120,7 +2120,7 @@ MoltresEvosAttacks:
 	dbw 37, ENDURE
 	dbw 49, FLAMETHROWER
 	dbw 61, SAFEGUARD
-	dbw 73, SKY_ATTACK
+	dbw 73, BRAVE_BIRD
 	db 0 ; no more level-up moves
 
 DratiniEvosAttacks:

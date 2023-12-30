@@ -148,7 +148,7 @@ MoveDescriptions1:
 	dw BarrageDescription
 	dw LeechLifeDescription
 	dw LovelyKissDescription
-	dw SkyAttackDescription
+	dw BraveBirdDescription
 	dw TransformDescription
 	dw BubbleDescription
 	dw DizzyPunchDescription
@@ -887,9 +887,9 @@ LovelyKissDescription:
 	db   "May cause the foe"
 	next "to fall asleep.@"
 
-SkyAttackDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+BraveBirdDescription:
+	db   "A hit that also"
+	next "hurts the user.@"
 
 TransformDescription:
 	db   "The user assumes"

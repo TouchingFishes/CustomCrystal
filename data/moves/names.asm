@@ -142,7 +142,7 @@ MoveNames::
 	li "BARRAGE"
 	li "LEECH LIFE"
 	li "LOVELY KISS"
-	li "SKY ATTACK"
+	li "BRAVE BIRD"
 	li "TRANSFORM"
 	li "BUBBLE"
 	li "DIZZY PUNCH"
