@@ -289,7 +289,6 @@ MoveDescriptions2:
 	dw GrasswhistleDescription
 	dw FlashCannonDescription
 	dw DarkPulseDescription
-;	dw BlazeKickDescription
 ;	dw WillOWispDescription
 ;	dw SheerColdDescription
 ;	dw FrenzyPlantDescription
@@ -300,11 +299,9 @@ MoveDescriptions2:
 ;	dw BulkUpDescription
 ;	dw CalmMindDescription
 ;	dw CosmicPowerDescription
-;	dw MuddyWaterDescription
 ;	dw BulletSeedDescription
 ;	dw SandTombDescription
 ;	dw SoulBreakDescription
-;	dw FieryWrathDescription
 ;	dw BugBiteDescription
 ;	dw FieryDanceDescription
 ;	dw SuperpowerDescription
@@ -1409,9 +1406,6 @@ DarkPulseDescription:
 
 	
 
-;BlazeKickDescription:
-;	db   "Physical fire kick"
-;	next "makes enemy flinch.@"	
 	
 ;WillOWispDescription:
 ;	db   "Burns foe with"
@@ -1452,10 +1446,6 @@ DarkPulseDescription:
 ;CosmicPowerDescription:
 ;	db   "Raises the user's"
 ;	next "Def and Sp.Def.@"
-		
-;MuddyWaterDescription:
-;	db   "An attack that may"
-;	next "reduce accuracy.@"
 	
 ;BulletSeedDescription:
 ;	db   "Shoots the target"
@@ -1468,10 +1458,6 @@ DarkPulseDescription:
 ;SoulBreakDescription:
 ;	db   "A cruel attack that"
 ;	next "lowers Sp.Atk.@"
-	
-;FieryWrathDescription:
-;	db   "An attack that may"
-;	next "cause flinching.@"
 
 ;BugBiteDescription:
 ;	db   "Bites the foe and"

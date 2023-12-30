@@ -292,7 +292,7 @@ Moves2:
 	move EFFECT_HYPER_BEAM,        150, ROCK,         PHYSICAL,  90,  5,   0      ;ROCK_WRECKER
 	move EFFECT_POISON_HIT,        120, POISON,       PHYSICAL,  80,  5,  30      ;GUNK_SHOT  
 	move EFFECT_SP_DEF_DOWN_HIT,    80, BUG,          PHYSICAL, 100, 15,  10      ;BUG_BUZZ
-	move EFFECT_ATTACK_UP_HIT,     100, STEEL,        PHYSICAL,  85, 10,  20      ;METEOR_MASH
+	move EFFECT_ATTACK_UP_HIT,     100, STEEL,        PHYSICAL,  85, 10,  20      ;METEOR_MASH raus?
 	move EFFECT_ALL_UP_HIT,         60, BUG,          PHYSICAL, 100, 10,  10      ;SILVER_WIND
 	move EFFECT_LEECH_HIT,          60, FIGHTING,     PHYSICAL, 100, 10,   0      ;DRAIN_PUNCH tm
 	move EFFECT_ALWAYS_HIT,         60, GRASS,        SPECIAL,  100, 20,   0      ;MAGICAL_LEAF
@@ -301,7 +301,6 @@ Moves2:
     move EFFECT_SLEEP,               0, GRASS,        STATUS,    55, 15,   0      ;GRASSWHISTLE
 	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,        PHYSICAL, 100, 15,  10      ;FLASH_CANNON
 	move EFFECT_FLINCH_HIT,         80, DARK,         SPECIAL,  100,  5,  20      ;DARK_PULSE
-   ;move EFFECT_FLINCH_HIT,         85, FIRE,         PHYSICAL,  90, 10,  10      ;BLAZE_KICK
    ;move EFFECT_BURN,                0, FIRE,         STATUS,    75, 15,   0      ;WILL_O_WISP
    ;move EFFECT_OHKO,                1, ICE,          SPECIAL,   30,  5,   0      ;SHEER_COLD
    ;move EFFECT_HYPER_BEAM,        150, GRASS,        SPECIAL,   90,  5,   0      ;FRENZY_PLANT
@@ -312,11 +311,9 @@ Moves2:
    ;move EFFECT_CURSE,               0, FIGHTING,     STATUS,   100, 40,   0      ;BULK_UP raus?
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,    75, 15,  30      ;CALM_MIND raus?
    ;move EFFECT_CURSE,               0, PSYCHIC_TYPE, STATUS,   100, 35,  10      ;COSMIC_POWER raus?
-   ;move EFFECT_ACCURACY_DOWN_HIT, 100, WATER,        SPECIAL,   85, 10,  20      ;MUDDY_WATER 
    ;move EFFECT_MULTI_HIT,          20, GRASS,        SPECIAL,   90, 30,   0      ;BULLET_SEED raus?
    ;move EFFECT_TRAP_TARGET,        45, GROUND,       PHYSICAL,  85, 15,   0      ;SAND_TOMB raus?
    ;move EFFECT_SP_ATK_DOWN_HIT,    75, FAIRY,        SPECIAL,  100, 15,  25      ;SOUL_BREAK use Eerie Spell animation
-   ;move EFFECT_FLINCH_HIT,        100, DARK,         SPECIAL,  100, 10,  20      ;FIERY_WRATH
    ;move EFFECT_SAFEGUARD,           0, NORMAL,       PHYSICAL, 100, 25,   0      ;BUG_BITE not yet
    ;move EFFECT_SP_ATK_UP_HIT,      80, FIRE,         SPECIAL,  100, 10,  50      ;FIERY_DANCE
    ;move EFFECT_PARALYZE_HIT,       75, DRAGON,       PHYSICAL, 100, 20,  20      ;SUPERPOWER raus? 

@@ -286,7 +286,6 @@
 	const GRASSWHISTLE ; 114
 	const FLASH_CANNON ; 115
 	const DARK_PULSE   ; 116
-;	const BLAZE_KICK   ; 117
 ;	const WILL_O_WISP  ; 118
 ;	const SHEER_COLD   ; 119
 ;	const FRENZY_PLANT ; 11a
@@ -297,11 +296,9 @@
 ;	const BULK_UP      ; 11e
 ;	const CALM_MIND    ; 11f
 ;	const COSMIC_POWER ; 120
-;	const MUDDY_WATER  ; 121
 ;	const BULLET_SEED  ; 123
 ;	const SAND_TOMB    ; 124
 ;	const SOUL_BREAK   ; 125 Spirit Break
-;	const FIERY_WRATH  ; 126
 ;	const BUG_BITE     ; 127
 ;	const FIERY_DANCE  ; 128
 ;	const SUPERPOWER   ; 129
