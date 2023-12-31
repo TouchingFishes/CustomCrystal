@@ -203,7 +203,7 @@ PokedexDataPointerTable:
 	dba MisdreavusPokedexEntry
 	dba UnownPokedexEntry
 	dba WobbuffetPokedexEntry
-	dba GirafarigPokedexEntry
+;	dba GirafarigPokedexEntry
 	dba PinecoPokedexEntry
 	dba ForretressPokedexEntry
 	dba DunsparcePokedexEntry
@@ -238,11 +238,11 @@ PokedexDataPointerTable:
 	dba SmearglePokedexEntry
 	dba TyroguePokedexEntry
 	dba HitmontopPokedexEntry
-	dba SmoochumPokedexEntry
+;	dba SmoochumPokedexEntry
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
 	dba MiltankPokedexEntry
-	dba BlisseyPokedexEntry
+;	dba BlisseyPokedexEntry
 	dba RaikouPokedexEntry
 	dba EnteiPokedexEntry
 	dba SuicunePokedexEntry

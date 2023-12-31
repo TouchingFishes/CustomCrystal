@@ -52,7 +52,7 @@ EvosAttacksPointers2::
 	dw MisdreavusEvosAttacks
 	dw UnownEvosAttacks
 	dw WobbuffetEvosAttacks
-	dw GirafarigEvosAttacks
+	;dw GirafarigEvosAttacks
 	dw PinecoEvosAttacks
 	dw ForretressEvosAttacks
 	dw DunsparceEvosAttacks
@@ -87,11 +87,11 @@ EvosAttacksPointers2::
 	dw SmeargleEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
-	dw SmoochumEvosAttacks
+	;dw SmoochumEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
-	dw BlisseyEvosAttacks
+	;dw BlisseyEvosAttacks
 	dw RaikouEvosAttacks
 	dw EnteiEvosAttacks
 	dw SuicuneEvosAttacks
@@ -766,19 +766,19 @@ WobbuffetEvosAttacks:
 	dbw 1, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-GirafarigEvosAttacks:
-	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, GROWL
-	dbw 1, CONFUSION
-	dbw 1, STOMP
-	dbw 7, CONFUSION
-	dbw 13, STOMP
-	dbw 20, AGILITY
-	dbw 30, BATON_PASS
-	dbw 41, PSYBEAM
-	dbw 54, CRUNCH
-	db 0 ; no more level-up moves
+;GirafarigEvosAttacks:
+;	db 0 ; no more evolutions
+;	dbw 1, TACKLE
+;	dbw 1, GROWL
+;	dbw 1, CONFUSION
+;	dbw 1, STOMP
+;	dbw 7, CONFUSION
+;	dbw 13, STOMP
+;	dbw 20, AGILITY
+;	dbw 30, BATON_PASS
+;	dbw 41, PSYBEAM
+;	dbw 54, CRUNCH
+;	db 0 ; no more level-up moves
 
 PinecoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 31, FORRETRESS
@@ -1208,20 +1208,20 @@ HitmontopEvosAttacks:
 	dbw 49, TRIPLE_KICK
 	db 0 ; no more level-up moves
 
-SmoochumEvosAttacks:
-	dbbw EVOLVE_LEVEL, 30, JYNX
-	db 0 ; no more evolutions
-	dbw 1, POUND
-	dbw 1, LICK
-	dbw 9, SWEET_KISS
-	dbw 13, POWDER_SNOW
-	dbw 21, CONFUSION
-	dbw 25, SING
-	dbw 33, MEAN_LOOK
-	dbw 37, PSYCHIC_M
-	dbw 45, PERISH_SONG
-	dbw 49, BLIZZARD
-	db 0 ; no more level-up moves
+;SmoochumEvosAttacks:
+;	dbbw EVOLVE_LEVEL, 30, JYNX
+;	db 0 ; no more evolutions
+;	dbw 1, POUND
+;	dbw 1, LICK
+;	dbw 9, SWEET_KISS
+;	dbw 13, POWDER_SNOW
+;	dbw 21, CONFUSION
+;	dbw 25, SING
+;	dbw 33, MEAN_LOOK
+;	dbw 37, PSYCHIC_M
+;	dbw 45, PERISH_SONG
+;	dbw 49, BLIZZARD
+;	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
 	dbbw EVOLVE_LEVEL, 30, ELECTABUZZ
@@ -1263,20 +1263,20 @@ MiltankEvosAttacks:
 	dbw 53, HEAL_BELL
 	db 0 ; no more level-up moves
 
-BlisseyEvosAttacks:
-	db 0 ; no more evolutions
-	dbw 1, POUND
-	dbw 4, GROWL
-	dbw 7, TAIL_WHIP
-	dbw 10, SOFTBOILED
-	dbw 13, DOUBLESLAP
-	dbw 18, MINIMIZE
-	dbw 23, SING
-	dbw 28, EGG_BOMB
-	dbw 33, DEFENSE_CURL
-	dbw 40, LIGHT_SCREEN
-	dbw 47, DOUBLE_EDGE
-	db 0 ; no more level-up moves
+;BlisseyEvosAttacks:
+;	db 0 ; no more evolutions
+;	dbw 1, POUND
+;	dbw 4, GROWL
+;	dbw 7, TAIL_WHIP
+;	dbw 10, SOFTBOILED
+;	dbw 13, DOUBLESLAP
+;	dbw 18, MINIMIZE
+;	dbw 23, SING
+;	dbw 28, EGG_BOMB
+;	dbw 33, DEFENSE_CURL
+;	dbw 40, LIGHT_SCREEN
+;	dbw 47, DOUBLE_EDGE
+;	db 0 ; no more level-up moves
 
 RaikouEvosAttacks:
 	db 0 ; no more evolutions

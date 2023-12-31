@@ -212,7 +212,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, BROWN  ; MISDREAVUS
 	icon_pals GRAY,   BLUE   ; UNOWN
 	icon_pals BLUE,   PURPLE ; WOBBUFFET
-	icon_pals RED,    BLUE   ; GIRAFARIG
+;	icon_pals RED,    BLUE   ; GIRAFARIG
 	icon_pals TEAL,   PINK   ; PINECO
 	icon_pals RED,    BROWN  ; FORRETRESS
 	icon_pals BLUE,   PURPLE ; DUNSPARCE
@@ -247,11 +247,11 @@ MonMenuIconPals:
 	icon_pals BROWN,  GREEN  ; SMEARGLE
 	icon_pals BROWN,  BLUE   ; TYROGUE
 	icon_pals BROWN,  PURPLE ; HITMONTOP
-	icon_pals PURPLE, PINK   ; SMOOCHUM
+;	icon_pals PURPLE, PINK   ; SMOOCHUM
 	icon_pals BROWN,  PINK   ; ELEKID
 	icon_pals RED,    PINK   ; MAGBY
 	icon_pals PINK,   GRAY   ; MILTANK
-	icon_pals RED,    PINK   ; BLISSEY
+;	icon_pals RED,    PINK   ; BLISSEY
 	icon_pals PURPLE, PINK   ; RAIKOU
 	icon_pals RED,    BROWN  ; ENTEI
 	icon_pals BLUE,   GRAY   ; SUICUNE

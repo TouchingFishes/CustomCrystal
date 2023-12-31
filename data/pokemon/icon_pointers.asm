@@ -207,7 +207,7 @@ IconPointers:
 	dw MisdreavusIcon
 	dw UnownIcon
 	dw WobbuffetIcon
-	dw GirafarigIcon
+;	dw GirafarigIcon
 	dw PinecoIcon
 	dw ForretressIcon
 	dw DunsparceIcon
@@ -242,11 +242,11 @@ IconPointers:
 	dw SmeargleIcon
 	dw TyrogueIcon
 	dw HitmontopIcon
-	dw SmoochumIcon
+;	dw SmoochumIcon
 	dw ElekidIcon
 	dw MagbyIcon
 	dw MiltankIcon
-	dw BlisseyIcon
+;	dw BlisseyIcon
 	dw RaikouIcon
 	dw EnteiIcon
 	dw SuicuneIcon

@@ -208,7 +208,7 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,    304,  232 ; MISDREAVUS
 	mon_cry CRY_HOOTHOOT,    354,  256 ; UNOWN
 	mon_cry CRY_AMPHAROS,    635,  324 ; WOBBUFFET
-	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
+;	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    128,  256 ; PINECO
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
 	mon_cry CRY_DUNSPARCE,   452,  256 ; DUNSPARCE
@@ -243,11 +243,11 @@ PokemonCries::
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
-	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
+;	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID
 	mon_cry CRY_TEDDIURSA,   374,   58 ; MAGBY
 	mon_cry CRY_GLIGAR,     -461,  416 ; MILTANK
-	mon_cry CRY_SLOWKING,    659,  320 ; BLISSEY
+;	mon_cry CRY_SLOWKING,    659,  320 ; BLISSEY
 	mon_cry CRY_RAIKOU,      558,  288 ; RAIKOU
 	mon_cry CRY_ENTEI,         0,  416 ; ENTEI
 	mon_cry CRY_MAGCARGO,      0,  384 ; SUICUNE

@@ -126,7 +126,7 @@ FirstEvoStages::
 	dw STARYU
 	dw MR__MIME
 	dw SCYTHER
-	dw SMOOCHUM
+	dw JYNX
 	dw ELEKID
 	dw ELEKID
 	dw MAGBY
@@ -213,7 +213,7 @@ FirstEvoStages::
 	dw MISDREAVUS
 	dw UNOWN
 	dw WOBBUFFET
-	dw GIRAFARIG
+;	dw GIRAFARIG
 	dw PINECO
 	dw PINECO
 	dw DUNSPARCE
@@ -252,11 +252,11 @@ FirstEvoStages::
 	dw SMEARGLE
 	dw TYROGUE
 	dw TYROGUE
-	dw SMOOCHUM
+;	dw SMOOCHUM
 	dw ELEKID
 	dw MAGBY      ;f0
 	dw MILTANK
-	dw CHANSEY
+;	dw CHANSEY
 	dw RAIKOU
 	dw ENTEI
 	dw SUICUNE

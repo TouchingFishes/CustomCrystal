@@ -552,6 +552,7 @@ AggronEvosAttacks:
 
 RuffletEvosAttacks:
 	dbbw EVOLVE_LEVEL, 54, BRAVIARY
+	db 0 ; no more evolutions
 	dbw 1, PECK
 	dbw 1, LEER
 	dbw 10, FURY_ATTACK
@@ -581,6 +582,7 @@ BraviaryEvosAttacks:
 
 VenipedeEvosAttacks:
 	dbbw EVOLVE_LEVEL, 22, WHIRLIPEDE
+	db 0 ; no more evolutions
 	dbw 1, POISON_STING
 	dbw 1, DEFENSE_CURL
 	dbw 8, SCREECH
@@ -594,6 +596,7 @@ VenipedeEvosAttacks:
 
 WhirlipedeEvosAttacks:
 	dbbw EVOLVE_LEVEL, 38, SCOLIPEDE
+	db 0 ; no more evolutions
 	dbw 1, POISON_STING
 	dbw 1, DEFENSE_CURL
 	dbw 8, SCREECH
@@ -685,11 +688,13 @@ ScolipedeEvosAttacks:
 
 BeldumEvosAttacks:
 	dbbw EVOLVE_LEVEL, 20, METANG
+	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	db 0 ; no more level-up moves
 
 MetangEvosAttacks:
 	dbbw EVOLVE_LEVEL, 45, METAGROSS
+	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 20, CONFUSION
 	dbw 20, METAL_CLAW
@@ -737,6 +742,7 @@ ClaydolEvosAttacks:
 
 ImpidimpEvosAttacks:
 	dbbw EVOLVE_LEVEL, 32, MORGREM
+	db 0 ; no more evolutions
 	dbw 1, POUND
 	dbw 1, SCARY_FACE
 	dbw 12, BITE
@@ -747,6 +753,7 @@ ImpidimpEvosAttacks:
 
 MorgremEvosAttacks:
 	dbbw EVOLVE_LEVEL, 42, GRIMMSNARL
+	db 0 ; no more evolutions
 	dbw 1, POUND
 	dbw 1, SCARY_FACE
 	dbw 12, BITE
@@ -806,6 +813,7 @@ GrimmsnarlEvosAttacks:
 
 LarvestaEvosAttacks:
 	dbbw EVOLVE_LEVEL, 59, VOLCARONA
+	db 0 ; no more evolutions
 	dbw 1, EMBER
 	dbw 10, STRING_SHOT
 	dbw 20, TAKE_DOWN

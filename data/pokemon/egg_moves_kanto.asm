@@ -124,7 +124,7 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw MrMimeEggMoves
 	dw ScytherEggMoves
-	dw NoEggMoves1
+	dw JynxEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
 	dw PinsirEggMoves
@@ -534,6 +534,10 @@ ScytherEggMoves:
 	dw RAZOR_WIND
 	dw REVERSAL
 	dw LIGHT_SCREEN
+	dw -1 ; end
+
+JynxEggMoves:
+	dw MEDITATE
 	dw -1 ; end
 
 PinsirEggMoves:

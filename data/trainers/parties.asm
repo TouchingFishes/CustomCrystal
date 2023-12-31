@@ -4073,7 +4073,7 @@ PsychicGroup:
 	next_list_item ; PSYCHIC_T (1)
 	db "NATHAN@", TRAINERTYPE_NORMAL
 	db 26
-	dw GIRAFARIG
+	dw STANTLER
 	db -1 ; end
 
 	next_list_item ; PSYCHIC_T (2)
@@ -4151,7 +4151,7 @@ PsychicGroup:
 	db 30
 	dw EXEGGCUTE
 	db 34
-	dw GIRAFARIG
+	dw HYPNO
 	db -1 ; end
 
 	next_list_item ; PSYCHIC_T (11)

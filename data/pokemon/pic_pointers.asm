@@ -420,8 +420,8 @@ PokemonPicPointers::
 
 	dba WobbuffetFrontpic
 	dba WobbuffetBackpic
-	dba GirafarigFrontpic
-	dba GirafarigBackpic
+;	dba GirafarigFrontpic
+;	dba GirafarigBackpic
 	dba PinecoFrontpic
 	dba PinecoBackpic
 	dba ForretressFrontpic
@@ -490,16 +490,16 @@ PokemonPicPointers::
 	dba TyrogueBackpic
 	dba HitmontopFrontpic
 	dba HitmontopBackpic
-	dba SmoochumFrontpic
-	dba SmoochumBackpic
+;	dba SmoochumFrontpic
+;	dba SmoochumBackpic
 	dba ElekidFrontpic
 	dba ElekidBackpic
 	dba MagbyFrontpic
 	dba MagbyBackpic
 	dba MiltankFrontpic
 	dba MiltankBackpic
-	dba BlisseyFrontpic
-	dba BlisseyBackpic
+;	dba BlisseyFrontpic
+;	dba BlisseyBackpic
 	dba RaikouFrontpic
 	dba RaikouBackpic
 	dba EnteiFrontpic

@@ -1669,7 +1669,7 @@ RhydonEvosAttacks:
 	db 0 ; no more level-up moves
 
 ChanseyEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, BLISSEY
+	;dbbw EVOLVE_HAPPINESS, TR_ANYTIME, BLISSEY
 	db 0 ; no more evolutions
 	dbw 1, POUND
 	dbw 5, GROWL

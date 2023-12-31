@@ -52,7 +52,7 @@ EggMovePointers2::
 	dw MisdreavusEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
-	dw GirafarigEggMoves
+;	dw GirafarigEggMoves
 	dw PinecoEggMoves
 	dw NoEggMoves2
 	dw DunsparceEggMoves
@@ -87,11 +87,11 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw TyrogueEggMoves
 	dw NoEggMoves2
-	dw SmoochumEggMoves
+	;dw SmoochumEggMoves
 	dw ElekidEggMoves
 	dw MagbyEggMoves
 	dw MiltankEggMoves
-	dw NoEggMoves2
+	;dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
@@ -277,13 +277,13 @@ MisdreavusEggMoves:
 	dw DESTINY_BOND
 	dw -1 ; end
 
-GirafarigEggMoves:
-	dw TAKE_DOWN
-	dw AMNESIA
-	dw FORESIGHT
-	dw FUTURE_SIGHT
-	dw BEAT_UP
-	dw -1 ; end
+;GirafarigEggMoves:
+;	dw TAKE_DOWN
+;	dw AMNESIA
+;	dw FORESIGHT
+;	dw FUTURE_SIGHT
+;	dw BEAT_UP
+;	dw -1 ; end
 
 PinecoEggMoves:
 	dw REFLECT
@@ -434,9 +434,9 @@ TyrogueEggMoves:
 	dw MIND_READER
 	dw -1 ; end
 
-SmoochumEggMoves:
-	dw MEDITATE
-	dw -1 ; end
+;SmoochumEggMoves:
+;	dw MEDITATE
+;	dw -1 ; end
 
 ElekidEggMoves:
 	dw KARATE_CHOP

@@ -356,9 +356,9 @@ BattleTowerMons:
 	bigdw 22 ; SDef
 	db "DERUBIRU@@@"
 
-	dw GIRAFARIG
+	dw STANTLER
 	db KINGS_ROCK
-	dw PSYBEAM, MUD_SLAP, SHADOW_BALL, AGILITY
+	dw STOMP, MUD_SLAP, SHADOW_BALL, AGILITY
 
 	dw 0 ; OT ID
 	dt 1000 ; Exp
@@ -383,7 +383,7 @@ BattleTowerMons:
 	bigdw 24 ; SDef
 	db "KIRINRIKI@@"
 
-	dw BLISSEY
+	dw CHANSEY
 	db QUICK_CLAW
 	dw HEADBUTT, SOLARBEAM, ROLLOUT, STRENGTH
 
@@ -818,7 +818,7 @@ BattleTowerMons:
 	bigdw 50 ; SDef
 	db "PUTERA@@@@@"
 
-	dw BLISSEY
+	dw CHANSEY
 	db BRIGHTPOWDER
 	dw PSYCHIC_M, SUBMISSION, SOFTBOILED, COUNTER
 
@@ -1307,7 +1307,7 @@ BattleTowerMons:
 	bigdw 88 ; SDef
 	db "KIREIHANA@@"
 
-	dw BLISSEY
+	dw CHANSEY
 	db LEFTOVERS
 	dw TOXIC, REFLECT, SOFTBOILED, PROTECT
 
@@ -2771,9 +2771,9 @@ BattleTowerMons:
 	bigdw 109 ; SDef
 	db "HAGANE-RU@@"
 
-	dw GIRAFARIG
+	dw ALAKAZAM
 	db SCOPE_LENS
-	dw DREAM_EATER, CRUNCH, PSYCHIC_M, EARTHQUAKE
+	dw PSYCHIC_M, SHADOW_BALL, FIRE_PUNCH, THUNDERPUNCH
 
 	dw 0 ; OT ID
 	dt 125000 ; Exp
@@ -3179,7 +3179,7 @@ BattleTowerMons:
 	bigdw 135 ; SDef
 	db "EA-MUDO@@@@"
 
-	dw BLISSEY
+	dw CHANSEY
 	db LEFTOVERS
 	dw SOFTBOILED, TOXIC, PROTECT, PSYCHIC_M
 
@@ -3506,7 +3506,7 @@ BattleTowerMons:
 	bigdw 247 ; SDef
 	db "BURAtuKI-@@"
 
-	dw BLISSEY
+	dw CHANSEY
 	db GOLD_BERRY
 	dw COUNTER, SOFTBOILED, SHADOW_BALL, THUNDERBOLT
 
@@ -3830,9 +3830,9 @@ BattleTowerMons:
 	bigdw 162 ; SDef
 	db "OKORIZARU@@"
 
-	dw GIRAFARIG
+	dw UMBREON
 	db GOLD_BERRY
-	dw AGILITY, BATON_PASS, CRUNCH, EARTHQUAKE
+	dw DOUBLE_TEAM, BATON_PASS, FAINT_ATTACK, MOONLIGHT
 
 	dw 0 ; OT ID
 	dt 343000 ; Exp
@@ -4916,7 +4916,7 @@ BattleTowerMons:
 	bigdw 226 ; SDef
 	db "UINDEi@@@@@"
 
-	dw BLISSEY
+	dw CHANSEY
 	db LEFTOVERS
 	dw SOLARBEAM, SUNNY_DAY, SOFTBOILED, FIRE_BLAST
 
@@ -5513,7 +5513,7 @@ BattleTowerMons:
 	bigdw 246 ; SDef
 	db "HAtuSAMU@@@"
 
-	dw BLISSEY
+	dw CHANSEY
 	db LEFTOVERS
 	dw THUNDERBOLT, BLIZZARD, FIRE_BLAST, SOFTBOILED
 

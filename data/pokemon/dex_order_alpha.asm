@@ -26,7 +26,7 @@ AlphabeticalPokedexOrder:
 	dw BELLSPROUT
 	dw BLASTOISE
 ;	dw BLAZIKEN
-	dw BLISSEY
+;	dw BLISSEY
 	dw BRAVIARY
 	dw BULBASAUR
 	dw BUTTERFREE
@@ -89,7 +89,7 @@ AlphabeticalPokedexOrder:
 	dw GENGAR
 	dw GEODUDE
 ;	dw GIBLE
-	dw GIRAFARIG
+;	dw GIRAFARIG
 	dw GLACEON
 	dw GLIGAR
 	dw GLISCOR
@@ -251,7 +251,7 @@ AlphabeticalPokedexOrder:
 	dw SLOWPOKE
 	dw SLUGMA
 	dw SMEARGLE
-	dw SMOOCHUM
+;	dw SMOOCHUM
 	dw SNEASEL
 	dw SNORLAX
 	dw SNUBBULL
