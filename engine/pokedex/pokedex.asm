@@ -396,7 +396,6 @@ Pokedex_InitDexEntryScreen:
 	xor a
 	ldh [hBGMapMode], a
 	call ClearSprites
-	call Pokedex_LoadCurrentFootprint
 	call Pokedex_DrawDexEntryScreenBG
 	call Pokedex_InitArrowCursor
 	call Pokedex_GetSelectedMon
@@ -405,7 +404,6 @@ Pokedex_InitDexEntryScreen:
 	ld a, h
 	ld [wPrevDexEntry + 1], a
 	farcall DisplayDexEntry
-	call Pokedex_DrawFootprint
 	call WaitBGMap
 	ld a, $a7
 	ldh [hWX], a
@@ -475,14 +473,12 @@ Pokedex_ReinitDexEntryScreen:
 	ldh [hBGMapMode], a
 	call Pokedex_DrawDexEntryScreenBG
 	call Pokedex_InitArrowCursor
-	call Pokedex_LoadCurrentFootprint
 	call Pokedex_GetSelectedMon
 	ld a, l
 	ld [wPrevDexEntry], a
 	ld a, h
 	ld [wPrevDexEntry + 1], a
 	farcall DisplayDexEntry
-	call Pokedex_DrawFootprint
 	call Pokedex_LoadSelectedMonTiles
 	call WaitBGMap
 	call Pokedex_GetSelectedMon
@@ -587,7 +583,6 @@ Pokedex_RedisplayDexEntry:
 	call Pokedex_DrawDexEntryScreenBG
 	call Pokedex_GetSelectedMon
 	farcall DisplayDexEntry
-	call Pokedex_DrawFootprint
 	ret
 
 Pokedex_InitOptionScreen:
@@ -1731,19 +1726,6 @@ Pokedex_PlaceDefaultStringIfNotSeen:
 .NameNotSeen:
 	db "-----@"
 
-Pokedex_DrawFootprint:
-	hlcoord 18, 1
-	ld a, $62
-	ld [hli], a
-	inc a
-	ld [hl], a
-	hlcoord 18, 2
-	ld a, $64
-	ld [hli], a
-	inc a
-	ld [hl], a
-	ret
-
 Pokedex_GetSelectedMon:
 ; Gets the species of the currently selected Pokémon. This corresponds to the
 ; position of the cursor in the main listing, but this function can be used
@@ -2713,27 +2695,6 @@ Pokedex_LoadSelectedMonTiles:
 	call CloseSRAM
 	ret
 
-Pokedex_LoadCurrentFootprint:
-	call Pokedex_GetSelectedMon
-
-Pokedex_LoadAnyFootprint:
-	ld a, [wTempSpecies]
-	call GetPokemonIndexFromID
-	dec hl
-	add hl, hl
-	add hl, hl
-	add hl, hl
-	add hl, hl
-	add hl, hl
-	ld de, Footprints
-	add hl, de
-
-	ld e, l
-	ld d, h
-	ld hl, vTiles2 tile $62
-	lb bc, BANK(Footprints), 4
-	jp Request1bpp
-
 Pokedex_LoadGFX:
 	call DisableLCD
 	ld hl, vTiles2
@@ -2844,11 +2805,9 @@ _NewPokedexEntry:
 	call LoadStandardFont
 	call LoadFontsExtra
 	call Pokedex_LoadGFX
-	call Pokedex_LoadAnyFootprint
 	ld a, [wTempSpecies]
 	ld [wCurPartySpecies], a
 	call Pokedex_DrawDexEntryScreenBG
-	call Pokedex_DrawFootprint
 	hlcoord 0, 17
 	ld [hl], $3b
 	inc hl
