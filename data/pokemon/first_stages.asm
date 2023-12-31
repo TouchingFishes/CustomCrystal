@@ -280,11 +280,11 @@ FirstEvoStages::
 	dw ARON
 	dw ARON
 	dw ARON
-;	dw RUFFLET
-;	dw RUFFLET
-;	dw VENIPEDE
-;	dw VENIPEDE
-;	dw VENIPEDE
+	dw RUFFLET
+	dw RUFFLET
+	dw VENIPEDE
+	dw VENIPEDE
+	dw VENIPEDE
 ;	dw GIBLE
 ;	dw GIBLE
 ;	dw GIBLE

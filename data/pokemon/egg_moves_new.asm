@@ -29,11 +29,11 @@ EggMovePointers3::
 	dw AronEggMoves ;Aron
 	dw NoEggMoves2 ;Lairon
 	dw NoEggMoves2 ;Aggron
-;	dw RuffletEggMoves ;Rufflet
-;	dw NoEggMoves2 ;Braviary
-;	dw VenipedeEggMoves ;Venipede
-;	dw NoEggMoves2 ;Whirlipede
-;	dw NoEggMoves2 ;Scolipede
+	dw RuffletEggMoves ;Rufflet
+	dw NoEggMoves2 ;Braviary
+	dw VenipedeEggMoves ;Venipede
+	dw NoEggMoves2 ;Whirlipede
+	dw NoEggMoves2 ;Scolipede
 ;	dw AxewEggMoves ;Axew
 ;	dw NoEggMoves2 ;Fraxure
 ;	dw NoEggMoves2 ;Haxorus
@@ -94,13 +94,13 @@ AronEggMoves:
 	dw BODY_SLAM
 	dw -1 ; end
 	
-;RuffletEggMoves:
-;	dw DOUBLE_EDGE
-;	dw -1 ; end
+RuffletEggMoves:
+	dw DOUBLE_EDGE
+	dw -1 ; end
 	
-;VenipedeEggMoves:
-;	dw TAKE_DOWN
-;	dw -1 ; end
+VenipedeEggMoves:
+	dw TAKE_DOWN
+	dw -1 ; end
 	
 ;AxewEggMoves:
 ;	dw COUNTER

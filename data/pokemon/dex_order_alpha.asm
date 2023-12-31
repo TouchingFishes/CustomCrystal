@@ -27,7 +27,7 @@ AlphabeticalPokedexOrder:
 	dw BLASTOISE
 ;	dw BLAZIKEN
 	dw BLISSEY
-;	dw BRAVIARY
+	dw BRAVIARY
 	dw BULBASAUR
 	dw BUTTERFREE
 	dw CATERPIE
@@ -230,12 +230,12 @@ AlphabeticalPokedexOrder:
 	dw RHYDON
 	dw RHYHORN
 	dw RIOLU
-;	dw RUFFLET
+	dw RUFFLET
 	dw SANDSHREW
 	dw SANDSLASH
 ;	dw SCEPTILE
 	dw SCIZOR
-;	dw SCOLIPEDE
+	dw SCOLIPEDE
 	dw SCYTHER
 	dw SEADRA
 	dw SEAKING
@@ -290,7 +290,7 @@ AlphabeticalPokedexOrder:
 	dw UNOWN
 	dw URSARING
 	dw VAPOREON
-;	dw VENIPEDE
+	dw VENIPEDE
 	dw VENOMOTH
 	dw VENONAT
 	dw VENUSAUR
@@ -304,7 +304,7 @@ AlphabeticalPokedexOrder:
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
-;	dw WHIRLIPEDE
+	dw WHIRLIPEDE
 ;	dw WHISCASH
 	dw WIGGLYTUFF
 	dw WOBBUFFET

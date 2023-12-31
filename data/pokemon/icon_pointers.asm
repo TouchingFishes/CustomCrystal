@@ -284,11 +284,11 @@ IconPointers:
 	dw AronIcon
 	dw LaironIcon
 	dw AggronIcon
-;	dw RuffletIcon
-;	dw BraviaryIcon
-;	dw VenipedeIcon
-;	dw WhirlipedeIcon
-;	dw ScolipedeIcon
+	dw RuffletIcon
+	dw BraviaryIcon
+	dw VenipedeIcon
+	dw WhirlipedeIcon
+	dw ScolipedeIcon
 ;	dw GibleIcon
 ;	dw GabiteIcon
 ;	dw GarchompIcon

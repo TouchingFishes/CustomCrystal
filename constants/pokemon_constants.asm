@@ -300,11 +300,11 @@ DEF JOHTO_POKEMON EQU const_value
 	const ARON		 
 	const LAIRON	 
 	const AGGRON	
-;	const RUFFLET
-;	const BRAVIARY
-;	const VENIPEDE
-;	const WHIRLIPEDE
-;	const SCOLIPEDE
+	const RUFFLET
+	const BRAVIARY
+	const VENIPEDE
+	const WHIRLIPEDE
+	const SCOLIPEDE
 ;	const GIBLE		 
 ;	const GABITE	
 ;	const GARCHOMP	 

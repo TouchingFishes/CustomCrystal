@@ -308,11 +308,11 @@ INCLUDE "data/pokemon/base_stats/altaria.asm"	;24
 INCLUDE "data/pokemon/base_stats/aron.asm"		;25
 INCLUDE "data/pokemon/base_stats/lairon.asm"	;26
 INCLUDE "data/pokemon/base_stats/aggron.asm"	;27
-;INCLUDE "data/pokemon/base_stats/rufflet.asm"
-;INCLUDE "data/pokemon/base_stats/braviary.asm"
-;INCLUDE "data/pokemon/base_stats/venipede.asm"
-;INCLUDE "data/pokemon/base_stats/whirlipede.asm"
-;INCLUDE "data/pokemon/base_stats/scolipede.asm"
+INCLUDE "data/pokemon/base_stats/rufflet.asm"
+INCLUDE "data/pokemon/base_stats/braviary.asm"
+INCLUDE "data/pokemon/base_stats/venipede.asm"
+INCLUDE "data/pokemon/base_stats/whirlipede.asm"
+INCLUDE "data/pokemon/base_stats/scolipede.asm"
 ;INCLUDE "data/pokemon/base_stats/gible.asm"		;28
 ;INCLUDE "data/pokemon/base_stats/gabite.asm"	;29
 ;INCLUDE "data/pokemon/base_stats/garchomp.asm"	;30

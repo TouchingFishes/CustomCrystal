@@ -280,11 +280,11 @@ PokedexDataPointerTable:
 	dba AronPokedexEntry
 	dba LaironPokedexEntry
 	dba AggronPokedexEntry
-;	dba RuffletPokedexEntry
-;	dba BraviaryPokedexEntry
-;	dba VenipedePokedexEntry
-;	dba WhirlipedePokedexEntry
-;	dba ScolipedePokedexEntry
+	dba RuffletPokedexEntry
+	dba BraviaryPokedexEntry
+	dba VenipedePokedexEntry
+	dba WhirlipedePokedexEntry
+	dba ScolipedePokedexEntry
 ;	dba GiblePokedexEntry
 ;	dba GabitePokedexEntry
 ;	dba GarchompPokedexEntry

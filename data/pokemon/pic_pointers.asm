@@ -574,16 +574,16 @@ PokemonPicPointers::
 	dba LaironBackpic
 	dba AggronFrontpic
 	dba AggronBackpic
-;	dba RuffletFrontpic
-;	dba RuffletBackpic
-;	dba BraviaryFrontpic
-;	dba BraviaryBackpic
-;	dba VenipedeFrontpic
-;	dba VenipedeBackpic
-;	dba WhirlipedeFrontpic
-;	dba WhirlipedeBackpic
-;	dba ScolipedeFrontpic
-;	dba ScolipedeBackpic
+	dba RuffletFrontpic
+	dba RuffletBackpic
+	dba BraviaryFrontpic
+	dba BraviaryBackpic
+	dba VenipedeFrontpic
+	dba VenipedeBackpic
+	dba WhirlipedeFrontpic
+	dba WhirlipedeBackpic
+	dba ScolipedeFrontpic
+	dba ScolipedeBackpic
 ;	dba GibleFrontpic
 ;	dba GibleBackpic
 ;	dba GabiteFrontpic

@@ -280,11 +280,11 @@ INCBIN "gfx/footprints/moltres.1bpp" ;Altaria
 INCBIN "gfx/footprints/celebi.1bpp" ;Aron
 INCBIN "gfx/footprints/celebi.1bpp" ;Lairon
 INCBIN "gfx/footprints/celebi.1bpp" ;Aggron
-;INCBIN "gfx/footprints/celebi.1bpp" ;Rufflet
-;INCBIN "gfx/footprints/celebi.1bpp" ;Braviary
-;INCBIN "gfx/footprints/celebi.1bpp" ;Venipede
-;INCBIN "gfx/footprints/misdreavus.1bpp" ;Whirlipede
-;INCBIN "gfx/footprints/celebi.1bpp" ;Scolipede
+INCBIN "gfx/footprints/celebi.1bpp" ;Rufflet
+INCBIN "gfx/footprints/celebi.1bpp" ;Braviary
+INCBIN "gfx/footprints/celebi.1bpp" ;Venipede
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Whirlipede
+INCBIN "gfx/footprints/celebi.1bpp" ;Scolipede
 ;INCBIN "gfx/footprints/celebi.1bpp" ;Gible
 ;INCBIN "gfx/footprints/celebi.1bpp" ;Gabite
 ;INCBIN "gfx/footprints/celebi.1bpp" ;Garchomp

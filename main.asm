@@ -413,8 +413,8 @@ INCLUDE "engine/battle_anims/functions.asm"
 INCLUDE "engine/battle_anims/helpers.asm"
 
 
-;SECTION "Pic Animations 1", ROMX
-
+SECTION "Pic Animations 1", ROMX
+INCLUDE "engine/gfx/load_font.asm"
 
 ;SECTION "Pic Animations 2", ROMX
 
@@ -439,7 +439,6 @@ INCLUDE "engine/movie/intro.asm"
 
 SECTION "bank3E", ROMX
 
-INCLUDE "engine/gfx/load_font.asm"
 INCLUDE "engine/link/time_capsule.asm"
 INCLUDE "engine/events/name_rater.asm"
 INCLUDE "engine/events/play_slow_cry.asm"

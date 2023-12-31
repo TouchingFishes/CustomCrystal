@@ -591,16 +591,16 @@ INCBIN "gfx/pokemon/lairon/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/lairon/shiny.pal"
 INCBIN "gfx/pokemon/aggron/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/aggron/shiny.pal"
-;INCBIN "gfx/pokemon/rufflet/front.gbcpal", middle_colors
-;INCLUDE "gfx/pokemon/rufflet/shiny.pal"
-;INCBIN "gfx/pokemon/braviary/front.gbcpal", middle_colors
-;INCLUDE "gfx/pokemon/braviary/shiny.pal"
-;INCBIN "gfx/pokemon/venipede/front.gbcpal", middle_colors
-;INCLUDE "gfx/pokemon/venipede/shiny.pal"
-;INCBIN "gfx/pokemon/whirlipede/front.gbcpal", middle_colors
-;INCLUDE "gfx/pokemon/whirlipede/shiny.pal"
-;INCBIN "gfx/pokemon/scolipede/front.gbcpal", middle_colors
-;INCLUDE "gfx/pokemon/scolipede/shiny.pal"
+INCBIN "gfx/pokemon/rufflet/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/rufflet/shiny.pal"
+INCBIN "gfx/pokemon/braviary/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/braviary/shiny.pal"
+INCBIN "gfx/pokemon/venipede/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/venipede/shiny.pal"
+INCBIN "gfx/pokemon/whirlipede/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/whirlipede/shiny.pal"
+INCBIN "gfx/pokemon/scolipede/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/scolipede/shiny.pal"
 ;INCBIN "gfx/pokemon/gible/front.gbcpal", middle_colors
 ;INCLUDE "gfx/pokemon/gible/shiny.pal"
 ;INCBIN "gfx/pokemon/gabite/front.gbcpal", middle_colors

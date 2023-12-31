@@ -289,11 +289,11 @@ MonMenuIconPals:
 	icon_pals GRAY,   BROWN  ; ARON	
 	icon_pals GRAY,   BROWN  ; LAIRON
 	icon_pals GRAY,   BROWN  ; AGGRON
-;	icon_pals BLUE,   GRAY   ; RUFFLET
-;	icon_pals RED,    BLUE   ; BRAVIARY
-;	icon_pals RED,    PURPLE ; VENIPEDE
-;	icon_pals PURPLE, GRAY   ; WHIRLIPEDE
-;	icon_pals RED,    PURPLE ; SCOLIPEDE
+	icon_pals BLUE,   GRAY   ; RUFFLET
+	icon_pals RED,    BLUE   ; BRAVIARY
+	icon_pals RED,    PURPLE ; VENIPEDE
+	icon_pals PURPLE, GRAY   ; WHIRLIPEDE
+	icon_pals RED,    PURPLE ; SCOLIPEDE
 ;	icon_pals RED,    BLUE   ; GIBLE
 ;	icon_pals RED,    BLUE   ; GABITE
 ;	icon_pals RED,    BLUE   ; GARCHOMP

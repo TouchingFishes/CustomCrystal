@@ -29,11 +29,11 @@ EvosAttacksPointers3::
 	dw AronEvosAttacks
 	dw LaironEvosAttacks
 	dw AggronEvosAttacks
-;	dw RuffletEvosAttacks
-;	dw BraviaryEvosAttacks
-;	dw VenipedeEvosAttacks
-;	dw WhirlipedeEvosAttacks
-;	dw ScolipedeEvosAttacks
+	dw RuffletEvosAttacks
+	dw BraviaryEvosAttacks
+	dw VenipedeEvosAttacks
+	dw WhirlipedeEvosAttacks
+	dw ScolipedeEvosAttacks
 ;	dw GibleEvosAttacks
 ;	dw GabiteEvosAttacks
 ;	dw GarchompEvosAttacks
@@ -550,77 +550,77 @@ AggronEvosAttacks:
 	dbw 56, FLASH_CANNON
 	db 0 ; no more level-up moves
 
-;RuffletEvosAttacks:
-;	dbbw EVOLVE_LEVEL, 54, BRAVIARY
-;	dbw 1, PECK
-;	dbw 1, LEER
-;	dbw 10, FURY_ATTACK
-;	dbw 18, SCARY_FACE
-;	dbw 21, AERIAL_ACE
-;	dbw 28, SLASH
-;	dbw 34, DRILL_PECK
-;	dbw 41, ROCK_SLIDE
-;	dbw 55, SKY_ATTACK
-;	dbw 59, DOUBLE_EDGE
-;	db 0 ; no more level-up moves
+RuffletEvosAttacks:
+	dbbw EVOLVE_LEVEL, 54, BRAVIARY
+	dbw 1, PECK
+	dbw 1, LEER
+	dbw 10, FURY_ATTACK
+	dbw 18, SCARY_FACE
+	dbw 21, AERIAL_ACE
+	dbw 28, SLASH
+	dbw 34, DRILL_PECK
+	dbw 41, ROCK_SLIDE
+	dbw 55, BRAVE_BIRD
+	dbw 59, DOUBLE_EDGE
+	db 0 ; no more level-up moves
 
-;BraviaryEvosAttacks:
-;	db 0 ; no more evolutions
-;	dbw 1, PECK
-;	dbw 1, LEER
-;	dbw 10, FURY_ATTACK
-;	dbw 18, SCARY_FACE
-;	dbw 21, AERIAL_ACE
-;	dbw 28, SLASH
-;	dbw 31, DRILL_PECK
-;	dbw 38, ROCK_SLIDE
-;	dbw 54, ROCK_SMASH
-;	dbw 57, SKY_ATTACK
-;	dbw 63, THRASH
-;	db 0 ; no more level-up moves
+BraviaryEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, PECK
+	dbw 1, LEER
+	dbw 10, FURY_ATTACK
+	dbw 18, SCARY_FACE
+	dbw 21, AERIAL_ACE
+	dbw 28, SLASH
+	dbw 31, DRILL_PECK
+	dbw 38, ROCK_SLIDE
+	dbw 54, ROCK_SMASH
+	dbw 57, BRAVE_BIRD
+	dbw 63, THRASH
+	db 0 ; no more level-up moves
 
-;VenipedeEvosAttacks:
-;	dbbw EVOLVE_LEVEL, 22, WHIRLIPEDE
-;	dbw 1, POISON_STING
-;	dbw 1, DEFENSE_CURL
-;	dbw 8, SCREECH
-;	dbw 14, PURSUIT
-;	dbw 20, PROTECT
-;	dbw 26, ACID
-;	dbw 33, TOXIC
-;	dbw 38, DOUBLE_EDGE
-;	dbw 41, BUG_BUZZ
-;	db 0 ; no more level-up moves
+VenipedeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 22, WHIRLIPEDE
+	dbw 1, POISON_STING
+	dbw 1, DEFENSE_CURL
+	dbw 8, SCREECH
+	dbw 14, PURSUIT
+	dbw 20, PROTECT
+	dbw 26, ACID
+	dbw 33, TOXIC
+	dbw 38, DOUBLE_EDGE
+	dbw 41, BUG_BUZZ
+	db 0 ; no more level-up moves
 
-;WhirlipedeEvosAttacks:
-;	dbbw EVOLVE_LEVEL, 38, SCOLIPEDE
-;	dbw 1, POISON_STING
-;	dbw 1, DEFENSE_CURL
-;	dbw 8, SCREECH
-;	dbw 14, PURSUIT
-;	dbw 20, PROTECT
-;	dbw 22, ROLLOUT
-;	dbw 28, ACID
-;	dbw 35, TOXIC
-;	dbw 40, DOUBLE_EDGE
-;	dbw 43, BUG_BUZZ
-;	db 0 ; no more level-up moves
+WhirlipedeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 38, SCOLIPEDE
+	dbw 1, POISON_STING
+	dbw 1, DEFENSE_CURL
+	dbw 8, SCREECH
+	dbw 14, PURSUIT
+	dbw 20, PROTECT
+	dbw 22, ROLLOUT
+	dbw 28, ACID
+	dbw 35, TOXIC
+	dbw 40, DOUBLE_EDGE
+	dbw 43, BUG_BUZZ
+	db 0 ; no more level-up moves
 
-;ScolipedeEvosAttacks:
-;	db 0 ; no more evolutions
-;	dbw 1, POISON_STING
-;	dbw 1, DEFENSE_CURL
-;	dbw 8, SCREECH
-;	dbw 14, PURSUIT
-;	dbw 20, PROTECT
-;	dbw 22, ROLLOUT
-;	dbw 28, ACID
-;	dbw 35, TOXIC
-;	dbw 38, TWINEEDLE
-;	dbw 42, ROCK_SMASH
-;	dbw 48, BUG_BUZZ
-;	dbw 54, GUNK_SHOT
-;	db 0 ; no more level-up moves
+ScolipedeEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, POISON_STING
+	dbw 1, DEFENSE_CURL
+	dbw 8, SCREECH
+	dbw 14, PURSUIT
+	dbw 20, PROTECT
+	dbw 22, ROLLOUT
+	dbw 28, ACID
+	dbw 35, TOXIC
+	dbw 38, TWINEEDLE
+	dbw 42, ROCK_SMASH
+	dbw 48, BUG_BUZZ
+	dbw 54, GUNK_SHOT
+	db 0 ; no more level-up moves
 
 ;GibleEvosAttacks:
 ;	dbbw EVOLVE_LEVEL, 38, GABITE
