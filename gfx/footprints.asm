@@ -298,5 +298,11 @@ INCBIN "gfx/footprints/misdreavus.1bpp" ;Volcarona
 INCBIN "gfx/footprints/celebi.1bpp" ;Riolu
 INCBIN "gfx/footprints/celebi.1bpp" ;Lucario
 INCBIN "gfx/footprints/celebi.1bpp" ;Spiritomb
+INCBIN "gfx/footprints/corsola.1bpp" ;Snorunt
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Glalie
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Froslass
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Duskull
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Dusclops
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Dusknoir
 ;INCBIN "gfx/footprints/misdreavus.1bpp" ;Luvdisc
 

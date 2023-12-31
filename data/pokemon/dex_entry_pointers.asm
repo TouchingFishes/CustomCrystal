@@ -296,5 +296,11 @@ PokedexDataPointerTable:
 	dba RioluPokedexEntry
 	dba LucarioPokedexEntry
 	dba SpiritombPokedexEntry
+	dba SnoruntPokedexEntry
+	dba GlaliePokedexEntry
+	dba FroslassPokedexEntry
+	dba DuskullPokedexEntry
+	dba DusclopsPokedexEntry
+	dba DusknoirPokedexEntry
 ;	dba LuvdiscPokedexEntry
 	assert_table_length NUM_POKEMON

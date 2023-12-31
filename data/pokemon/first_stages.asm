@@ -297,5 +297,11 @@ FirstEvoStages::
 	dw RIOLU
 	dw RIOLU
 	dw SPIRITOMB
+	dw SNORUNT
+	dw SNORUNT
+	dw SNORUNT
+	dw DUSKULL
+	dw DUSKULL
+	dw DUSKULL
 ;	dw LUVDISC
 	assert_table_length NUM_POKEMON

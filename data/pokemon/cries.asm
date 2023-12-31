@@ -298,6 +298,12 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,    32,  192 ; RIOLU
 	mon_cry CRY_WEEDLE,        0,  256 ; LUCARIO
 	mon_cry CRY_BULBASAUR,   128,  129 ; SPIRITOMB
+	mon_cry CRY_FEAROW,        0,  256 ; SNORUNT
+	mon_cry CRY_FEAROW,      111,  352 ; GLALIE
+	mon_cry CRY_HOOTHOOT,    232,  482 ; FROSLASS
+	mon_cry CRY_PARAS,         0,  160 ; DUSKULL
+	mon_cry CRY_PARAS,         0,  256 ; DUSCLOPS
+	mon_cry CRY_PARAS,       -44,  192 ; DUSKNOIR
 ;	mon_cry CRY_CHARMANDER,   96,  192 ; AXEW
 ;	mon_cry CRY_CHARMANDER,   32,  192 ; FRAXURE
 ;	mon_cry CRY_CHARMANDER,    0,  256 ; HAXORUS

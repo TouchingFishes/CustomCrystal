@@ -284,9 +284,9 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; VENIPEDE
 	icon_pals PURPLE, GRAY   ; WHIRLIPEDE
 	icon_pals RED,    PURPLE ; SCOLIPEDE
-	icon_pals RED,    BLUE   ; GIBLE
-	icon_pals RED,    BLUE   ; GABITE
-	icon_pals RED,    BLUE   ; GARCHOMP
+	icon_pals BLUE,   BLUE   ; GIBLE
+	icon_pals BLUE,   BLUE   ; GABITE
+	icon_pals BLUE,   BLUE   ; GARCHOMP
 	icon_pals BLUE,   GRAY   ; BELDUM
 	icon_pals BLUE,   GRAY   ; METANG
 	icon_pals BLUE,   GRAY   ; METAGROSS
@@ -306,4 +306,10 @@ MonMenuIconPals:
 	icon_pals GRAY,   BROWN  ; LUCARIO
 	icon_pals PURPLE, PURPLE ; SPIRITOMB
 ;	icon_pals PINK,   PINK 	 ; LUVDISC
+	icon_pals RED,    RED 	 ; SNORUNT
+	icon_pals BLUE,   RED 	 ; GLALIE
+	icon_pals BLUE,   BLUE 	 ; FROSLASS
+	icon_pals RED,    RED 	 ; DUSKULL
+	icon_pals GRAY,   RED	 ; DUSCLOPS
+	icon_pals GRAY,   BLUE 	 ; DUSKNOIR
 	assert_table_length NUM_POKEMON

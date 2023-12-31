@@ -313,12 +313,16 @@ DEF JOHTO_POKEMON EQU const_value
 	const RIOLU		 		;39
 	const LUCARIO	 		;40
 	const SPIRITOMB	 		;41
+	const SNORUNT 			;42
+	const GLALIE 			;43
+	const FROSLASS			;44
+	const DUSKULL			;45
+	const DUSCLOPS			;46
+	const DUSKNOIR			;47
 	
-	;3 -> 295 248 + 41 = 289 -> 6
+	;248 + 47 = 295 
 	
-;	const SNORUNT 
-;	const GLALIE 
-;	const FROSLASS 
+ 
 ;	const MAWILE
 ;	const LUVDISC	;2
 ;	const AXEW
@@ -330,9 +334,6 @@ DEF JOHTO_POKEMON EQU const_value
 ;	const SOLOSIS
 ;	const DUOSION
 ;	const REUNICLUS
-;	const DUSKULL
-;	const DUSCLOPS
-;	const DUSKNOIR
 ;	const CLAMPERL
 ;	const HUNTAIL
 ;	const GOREBYSS

@@ -57,6 +57,12 @@ EvosAttacksPointers3::
 	dw RioluEvosAttacks
 	dw LucarioEvosAttacks
 	dw SpiritombEvosAttacks
+	dw SnoruntEvosAttacks
+	dw GlalieEvosAttacks
+	dw FroslassEvosAttacks
+	dw DuskullEvosAttacks
+	dw DusclopsEvosAttacks
+	dw DusknoirEvosAttacks
 ;	dw SpiritombEvosAttacks
 ;	dw LuvdiscEvosAttacks
 ;	dw AxewEvosAttacks
@@ -886,6 +892,79 @@ SpiritombEvosAttacks:
 	dbw 25, OMINOUS_WIND
 	dbw 37, SILVER_WIND
 	dbw 49, DARK_PULSE
+	db 0 ; no more level-up moves
+
+SnoruntEvosAttacks:
+	dbbw EVOLVE_LEVEL, 42, GLALIE
+	dbbw EVOLVE_ITEM, ICE_STONE, FROSLASS
+	db 0 ; no more evolutions
+	dbw 1, POWDER_SNOW
+	dbw 1, LEER
+	dbw 7, DOUBLE_TEAM
+	dbw 13, BITE
+	dbw 19, ICY_WIND
+	dbw 25, PROTECT
+	dbw 34, ICE_BEAM
+	dbw 43, HYPER_BEAM
+	db 0 ; no more level-up moves
+
+GlalieEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, POWDER_SNOW
+	dbw 1, LEER
+	dbw 11, DOUBLE_TEAM
+	dbw 17, BITE
+	dbw 23, ICY_WIND
+	dbw 29, PROTECT
+	dbw 38, ICE_BEAM
+	dbw 42, CRUNCH
+	dbw 47, HYPER_BEAM
+	db 0 ; no more level-up moves
+	
+FroslassEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, DOUBLE_TEAM
+	dbw 1, ICY_WIND
+	dbw 1, SHADOW_BALL
+	dbw 1, BLIZZARD
+	db 0 ; no more level-up moves
+	
+DuskullEvosAttacks:
+	dbbw EVOLVE_LEVEL, 37, DUSCLOPS
+	db 0 ; no more evolutions
+	dbw 1, NIGHT_SHADE
+	dbw 1, LEER
+	dbw 5, DISABLE
+	dbw 12, FORESIGHT
+	dbw 18, CONFUSE_RAY
+	dbw 27, PURSUIT
+	dbw 34, CURSE
+	;dbw 38, WILL_O_WISP
+	dbw 45, MEAN_LOOK
+	db 0 ; no more level-up moves
+
+DusclopsEvosAttacks:
+	dbbw EVOLVE_ITEM, DUSK_STONE, DUSKNOIR
+	db 0 ; no more evolutions
+	dbw 1, NIGHT_SHADE
+	dbw 1, LEER
+	dbw 7, DISABLE
+	dbw 14, FORESIGHT
+	dbw 20, CONFUSE_RAY
+	dbw 29, PURSUIT
+	dbw 36, CURSE
+	dbw 37, SHADOW_PUNCH
+	;dbw 38, WILL_O_WISP
+	dbw 47, MEAN_LOOK
+	dbw 53, FUTURE_SIGHT
+	db 0 ; no more level-up moves
+
+DusknoirEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, PURSUIT
+	dbw 1, CURSE
+	dbw 1, SHADOW_PUNCH
+	dbw 1, MEAN_LOOK
 	db 0 ; no more level-up moves
 
 ;LuvdiscEvosAttacks:

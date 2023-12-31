@@ -184,6 +184,9 @@ NewPokedexOrder:
 	dw XATU
 	dw BALTOY
 	dw CLAYDOL
+	dw DUSKULL
+	dw DUSCLOPS
+	dw DUSKNOIR
 	dw QWILFISH
 	dw TENTACOOL
 	dw TENTACRUEL
@@ -228,6 +231,9 @@ NewPokedexOrder:
 	dw DELIBIRD
 	dw SWINUB
 	dw PILOSWINE
+	dw SNORUNT
+	dw GLALIE
+	dw FROSLASS
 	dw TEDDIURSA
 	dw URSARING
 	dw PHANPY

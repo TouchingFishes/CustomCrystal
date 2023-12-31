@@ -64,6 +64,9 @@ AlphabeticalPokedexOrder:
 	dw DROWZEE
 	dw DUGTRIO
 	dw DUNSPARCE
+	dw DUSCLOPS
+	dw DUSKNOIR
+	dw DUSKULL
 	dw EEVEE
 	dw EKANS
 	dw ELECTABUZZ
@@ -82,6 +85,7 @@ AlphabeticalPokedexOrder:
 	dw FLAREON
 	dw FORRETRESS
 ;	dw FRAXURE
+	dw FROSLASS
 	dw FURRET
 	dw GABITE
 	dw GARCHOMP
@@ -91,6 +95,7 @@ AlphabeticalPokedexOrder:
 	dw GIBLE
 ;	dw GIRAFARIG
 	dw GLACEON
+	dw GLALIE
 	dw GLIGAR
 	dw GLISCOR
 	dw GLOOM
@@ -254,6 +259,7 @@ AlphabeticalPokedexOrder:
 ;	dw SMOOCHUM
 	dw SNEASEL
 	dw SNORLAX
+	dw SNORUNT
 	dw SNUBBULL
 	dw SPEAROW
 	dw SPINARAK

@@ -301,4 +301,10 @@ IconPointers:
 	dw LucarioIcon
 	dw SpiritombIcon
 ;	dw LuvdiscIcon
+	dw SnoruntIcon
+	dw GlalieIcon
+	dw FroslassIcon
+	dw DuskullIcon
+	dw DusclopsIcon
+	dw DusknoirIcon
 	assert_table_length NUM_POKEMON + 1

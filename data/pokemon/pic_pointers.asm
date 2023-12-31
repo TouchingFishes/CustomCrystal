@@ -608,4 +608,16 @@ PokemonPicPointers::
 	dba SpiritombBackpic
 ;	dba LuvdiscFrontpic
 ;	dba LuvdiscBackpic
+	dba SnoruntFrontpic
+	dba SnoruntBackpic
+	dba GlalieFrontpic
+	dba GlalieBackpic
+	dba FroslassFrontpic
+	dba FroslassBackpic
+	dba DuskullFrontpic
+	dba DuskullBackpic
+	dba DusclopsFrontpic
+	dba DusclopsBackpic
+	dba DusknoirFrontpic
+	dba DusknoirBackpic
 	assert_table_length NUM_POKEMON + 1

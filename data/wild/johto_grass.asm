@@ -1237,26 +1237,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, WHIRLIPEDE
+	dbw 2, GLALIE
 	dbw 2, VENIPEDE
 	dbw 3, RUFFLET
-	dbw 3, BRAVIARY
+	dbw 3, FROSLASS
 	dbw 2, SCOLIPEDE
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; day
-	dbw 2, WHIRLIPEDE
+	dbw 2, GLALIE
 	dbw 2, VENIPEDE
 	dbw 3, RUFFLET
-	dbw 3, BRAVIARY
+	dbw 3, FROSLASS
 	dbw 2, SCOLIPEDE
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; nite
-	dbw 2, WHIRLIPEDE
+	dbw 2, GLALIE
 	dbw 2, VENIPEDE
 	dbw 3, RUFFLET
-	dbw 3, BRAVIARY
+	dbw 3, FROSLASS
 	dbw 2, SCOLIPEDE
 	dbw 3, HOOTHOOT
 	dbw 3, HOOTHOOT
@@ -1266,28 +1266,28 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 3, GIBLE
-	dbw 3, GABITE
-	dbw 4, SKITTY
-	dbw 4, DELCATTY
-	dbw 3, GARCHOMP
-	dbw 4, GARCHOMP
-	dbw 4, GARCHOMP
+	dbw 3, SNORUNT
+	dbw 4, DUSKULL
+	dbw 4, DUSCLOPS
+	dbw 3, DUSKNOIR
+	dbw 4, DUSKNOIR
+	dbw 4, DUSKNOIR
 	; day
 	dbw 3, GIBLE
-	dbw 3, GABITE
-	dbw 4, SKITTY
-	dbw 4, DELCATTY
-	dbw 3, GARCHOMP
-	dbw 4, GARCHOMP
-	dbw 4, GARCHOMP
+	dbw 3, SNORUNT
+	dbw 4, DUSKULL
+	dbw 4, DUSCLOPS
+	dbw 3, DUSKNOIR
+	dbw 4, DUSKNOIR
+	dbw 4, DUSKNOIR
 	; nite
 	dbw 3, GIBLE
-	dbw 3, GABITE
-	dbw 4, SKITTY
-	dbw 4, DELCATTY
-	dbw 3, GARCHOMP
-	dbw 4, GARCHOMP
-	dbw 4, GARCHOMP
+	dbw 3, SNORUNT
+	dbw 4, DUSKULL
+	dbw 4, DUSCLOPS
+	dbw 3, DUSKNOIR
+	dbw 4, DUSKNOIR
+	dbw 4, DUSKNOIR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31

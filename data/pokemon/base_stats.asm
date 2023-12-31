@@ -326,6 +326,12 @@ INCLUDE "data/pokemon/base_stats/volcarona.asm"	;42
 INCLUDE "data/pokemon/base_stats/riolu.asm"		;43
 INCLUDE "data/pokemon/base_stats/lucario.asm"	;44
 INCLUDE "data/pokemon/base_stats/spiritomb.asm"	;45
+INCLUDE "data/pokemon/base_stats/snorunt.asm"
+INCLUDE "data/pokemon/base_stats/glalie.asm"
+INCLUDE "data/pokemon/base_stats/froslass.asm"
+INCLUDE "data/pokemon/base_stats/duskull.asm"
+INCLUDE "data/pokemon/base_stats/dusclops.asm"
+INCLUDE "data/pokemon/base_stats/dusknoir.asm"
 ;INCLUDE "data/pokemon/base_stats/luvdisc.asm"
 ;45
 ;INCLUDE "data/pokemon/base_stats/axew.asm"

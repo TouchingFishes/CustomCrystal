@@ -48,6 +48,12 @@ EggMovePointers3::
 	dw NoEggMoves2 ;Lucario
 	dw SpiritombEggMoves ;Spiritomb
 ;	dw LuvdiscEggMoves ;Luvdisc
+	dw SnoruntEggMoves
+	dw NoEggMoves2 ;Glalie
+	dw NoEggMoves2 ;Froslass
+	dw DuskullEggMoves
+	dw NoEggMoves2 ;Dusclops
+	dw NoEggMoves2 ;Dusknoir
 .IndirectEnd::
 
 ;TreeckoEggMoves:
@@ -147,4 +153,14 @@ SpiritombEggMoves:
 ;LuvdiscEggMoves: 
 ;	dw SPLASH
 ;	dw -1 ; end
+
+SnoruntEggMoves:
+	dw MEAN_LOOK
+	dw SPIKES
+	dw -1 ; end
+
+DuskullEggMoves:
+	dw DESTINY_BOND
+	dw PAIN_SPLIT
+	dw -1 ; end
 	
