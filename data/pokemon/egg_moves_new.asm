@@ -1,16 +1,6 @@
 SECTION "Egg Moves 3", ROMX
 
 EggMovePointers3::
-;	dw TreeckoEggMoves
-;	dw NoEggMoves2 ;Grovyle
-;	dw NoEggMoves2 ;Sceptile
-;	dw TorchicEggMoves
-;	dw NoEggMoves2 ;Combusken
-;	dw NoEggMoves2 ;Blaziken
-;	dw MudkipEggMoves
-;	dw NoEggMoves2 ;Marshtomp
-;	dw NoEggMoves2 ;Swampert
-;	dw NoEggMoves2 ;Cursola
 	dw NoEggMoves2 ;Weavile
 	dw NoEggMoves2 ;Magnezone
 	dw NoEggMoves2 ;Electivire
@@ -34,9 +24,9 @@ EggMovePointers3::
 	dw VenipedeEggMoves ;Venipede
 	dw NoEggMoves2 ;Whirlipede
 	dw NoEggMoves2 ;Scolipede
-;	dw AxewEggMoves ;Axew
-;	dw NoEggMoves2 ;Fraxure
-;	dw NoEggMoves2 ;Haxorus
+	dw GibleEggMoves ;Gible
+	dw NoEggMoves2 ;Gabite
+	dw NoEggMoves2 ;Garchomp
 ;	dw BarboachEggMoves ;Barboach
 ;	dw NoEggMoves2 ;Whiscash
 	dw NoEggMoves2 ;Beldum
@@ -47,8 +37,8 @@ EggMovePointers3::
 	dw ImpidimpEggMoves ;Impidimp
 	dw NoEggMoves2 ;Morgrem
 	dw NoEggMoves2 ;Grimmsnarl
-;	dw SkittyEggMoves ;Skitty
-;	dw NoEggMoves2 ;Delcatty
+	dw SkittyEggMoves ;Skitty
+	dw NoEggMoves2 ;Delcatty
 ;	dw FeebasEggMoves ;Feebas
 ;	dw NoEggMoves2 ;Milotic
 	dw LarvestaEggMoves ;Larvesta
@@ -102,11 +92,11 @@ VenipedeEggMoves:
 	dw TAKE_DOWN
 	dw -1 ; end
 	
-;AxewEggMoves:
-;	dw COUNTER
-;	dw ENDURE
-;	dw FAINT_ATTACK
-;	dw -1 ; end
+GibleEggMoves:
+	dw COUNTER
+	dw ENDURE
+	dw FAINT_ATTACK
+	dw -1 ; end
 	
 BarboachEggMoves:
 	dw THRASH
@@ -117,10 +107,10 @@ ImpidimpEggMoves:
 	dw SPITE
 	dw -1 ; end
 	
-;SkittyEggMoves:
-;	dw ROLLOUT
-;	dw PAY_DAY
-;	dw -1 ; end
+SkittyEggMoves:
+	dw ROLLOUT
+	dw PAY_DAY
+	dw -1 ; end
 	
 FeebasEggMoves:
 	dw HYPNOSIS

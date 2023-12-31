@@ -44,8 +44,8 @@ NewPokedexOrder:
 	dw CLEFFA
 	dw CLEFAIRY
 	dw CLEFABLE
-	;dw SKITTY
-	;dw DELCATTY
+	dw SKITTY
+	dw DELCATTY
 	dw ARON
 	dw LAIRON
 	dw AGGRON
@@ -263,9 +263,9 @@ NewPokedexOrder:
 ;	dw FEEBAS
 ;	dw MILOTIC
 ;	dw ABSOL
-;	dw GIBLE
-;	dw GABITE
-;	dw GARCHOMP
+	dw GIBLE
+	dw GABITE
+	dw GARCHOMP
 	dw PORYGON
 	dw PORYGON2
 	dw PORYGON_Z

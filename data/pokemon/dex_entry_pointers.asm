@@ -252,16 +252,6 @@ PokedexDataPointerTable:
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
-;	dba TreeckoPokedexEntry
-;	dba GrovylePokedexEntry
-;	dba SceptilePokedexEntry
-;	dba TorchicPokedexEntry
-;	dba CombuskenPokedexEntry
-;	dba BlazikenPokedexEntry
-;	dba MudkipPokedexEntry
-;	dba MarshtompPokedexEntry
-;	dba SwampertPokedexEntry
-;	dba CursolaPokedexEntry
 	dba WeavilePokedexEntry
 	dba MagnezonePokedexEntry
 	dba ElectivirePokedexEntry
@@ -285,11 +275,9 @@ PokedexDataPointerTable:
 	dba VenipedePokedexEntry
 	dba WhirlipedePokedexEntry
 	dba ScolipedePokedexEntry
-;	dba GiblePokedexEntry
-;	dba GabitePokedexEntry
-;	dba GarchompPokedexEntry
-;	dba BarboachPokedexEntry
-;	dba WhiscashPokedexEntry
+	dba GiblePokedexEntry
+	dba GabitePokedexEntry
+	dba GarchompPokedexEntry
 	dba BeldumPokedexEntry
 	dba MetangPokedexEntry
 	dba MetagrossPokedexEntry
@@ -298,8 +286,8 @@ PokedexDataPointerTable:
 	dba ImpidimpPokedexEntry
 	dba MorgremPokedexEntry
 	dba GrimmsnarlPokedexEntry
-;	dba SkittyPokedexEntry
-;	dba DelcattyPokedexEntry
+	dba SkittyPokedexEntry
+	dba DelcattyPokedexEntry
 ;	dba FeebasPokedexEntry
 ;	dba MiloticPokedexEntry
 	dba LarvestaPokedexEntry

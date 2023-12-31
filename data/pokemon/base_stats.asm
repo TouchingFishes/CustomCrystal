@@ -280,16 +280,6 @@ INCLUDE "data/pokemon/base_stats/lugia.asm"
 INCLUDE "data/pokemon/base_stats/ho_oh.asm"
 INCLUDE "data/pokemon/base_stats/celebi.asm"
 ;NEW
-;INCLUDE "data/pokemon/base_stats/treecko.asm"	;1
-;INCLUDE "data/pokemon/base_stats/grovyle.asm"	;2
-;INCLUDE "data/pokemon/base_stats/sceptile.asm"	;3
-;INCLUDE "data/pokemon/base_stats/torchic.asm"	;4
-;INCLUDE "data/pokemon/base_stats/combusken.asm";5
-;INCLUDE "data/pokemon/base_stats/blaziken.asm"	;6
-;INCLUDE "data/pokemon/base_stats/mudkip.asm"	;7
-;INCLUDE "data/pokemon/base_stats/marshtomp.asm";8
-;INCLUDE "data/pokemon/base_stats/swampert.asm"	;9
-;INCLUDE "data/pokemon/base_stats/cursola.asm"
 INCLUDE "data/pokemon/base_stats/weavile.asm"	;10
 INCLUDE "data/pokemon/base_stats/magnezone.asm"	;11
 INCLUDE "data/pokemon/base_stats/electivire.asm";12
@@ -313,9 +303,9 @@ INCLUDE "data/pokemon/base_stats/braviary.asm"
 INCLUDE "data/pokemon/base_stats/venipede.asm"
 INCLUDE "data/pokemon/base_stats/whirlipede.asm"
 INCLUDE "data/pokemon/base_stats/scolipede.asm"
-;INCLUDE "data/pokemon/base_stats/gible.asm"		;28
-;INCLUDE "data/pokemon/base_stats/gabite.asm"	;29
-;INCLUDE "data/pokemon/base_stats/garchomp.asm"	;30
+INCLUDE "data/pokemon/base_stats/gible.asm"		;28
+INCLUDE "data/pokemon/base_stats/gabite.asm"	;29
+INCLUDE "data/pokemon/base_stats/garchomp.asm"	;30
 ;INCLUDE "data/pokemon/base_stats/barboach.asm"
 ;INCLUDE "data/pokemon/base_stats/whiscash.asm"
 INCLUDE "data/pokemon/base_stats/beldum.asm"	;31
@@ -326,8 +316,8 @@ INCLUDE "data/pokemon/base_stats/claydol.asm"	;35
 INCLUDE "data/pokemon/base_stats/impidimp.asm"	;36
 INCLUDE "data/pokemon/base_stats/morgrem.asm"	;37
 INCLUDE "data/pokemon/base_stats/grimmsnarl.asm";38
-;INCLUDE "data/pokemon/base_stats/skitty.asm"	
-;INCLUDE "data/pokemon/base_stats/delcatty.asm"
+INCLUDE "data/pokemon/base_stats/skitty.asm"	
+INCLUDE "data/pokemon/base_stats/delcatty.asm"
 ;INCLUDE "data/pokemon/base_stats/feebas.asm"	;39
 ;INCLUDE "data/pokemon/base_stats/milotic.asm"	;40
 INCLUDE "data/pokemon/base_stats/larvesta.asm"	;41

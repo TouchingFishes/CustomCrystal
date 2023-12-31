@@ -295,24 +295,26 @@ DEF JOHTO_POKEMON EQU const_value
 	const VENIPEDE			;21
 	const WHIRLIPEDE		;22
 	const SCOLIPEDE			;23
-;	const GIBLE		 
-;	const GABITE	
-;	const GARCHOMP	 
-	const BELDUM	 		;24
-	const METANG	 		;25
-	const METAGROSS	 		;26
-	const BALTOY	 		;27
-	const CLAYDOL	 		;28
-	const IMPIDIMP	 		;29
-	const MORGREM	 		;30
-	const GRIMMSNARL 		;31
-;	const SKITTY
-;	const DELCATTY
-	const LARVESTA	 		;32
-	const VOLCARONA	 		;33 
-	const RIOLU		 		;34
-	const LUCARIO	 		;35
-	const SPIRITOMB	 		;36
+	const GIBLE		 		;24
+	const GABITE			;25
+	const GARCHOMP	 		;26
+	const BELDUM	 		;27
+	const METANG	 		;28
+	const METAGROSS	 		;29
+	const BALTOY	 		;30
+	const CLAYDOL	 		;31
+	const IMPIDIMP	 		;32
+	const MORGREM	 		;33
+	const GRIMMSNARL 		;34
+	const SKITTY			;35
+	const DELCATTY			;36
+	const LARVESTA	 		;37
+	const VOLCARONA	 		;38 
+	const RIOLU		 		;39
+	const LUCARIO	 		;40
+	const SPIRITOMB	 		;41
+	
+	;3 -> 295 248 + 41 = 289 -> 6
 	
 ;	const SNORUNT 
 ;	const GLALIE 

@@ -34,9 +34,9 @@ EvosAttacksPointers3::
 	dw VenipedeEvosAttacks
 	dw WhirlipedeEvosAttacks
 	dw ScolipedeEvosAttacks
-;	dw GibleEvosAttacks
-;	dw GabiteEvosAttacks
-;	dw GarchompEvosAttacks
+	dw GibleEvosAttacks
+	dw GabiteEvosAttacks
+	dw GarchompEvosAttacks
 ;	dw BarboachEvosAttacks
 ;	dw WhiscashEvosAttacks
 	dw BeldumEvosAttacks
@@ -47,8 +47,8 @@ EvosAttacksPointers3::
 	dw ImpidimpEvosAttacks
 	dw MorgremEvosAttacks
 	dw GrimmsnarlEvosAttacks
-;	dw SkittyEvosAttacks
-;	dw DelcattyEvosAttacks
+	dw SkittyEvosAttacks
+	dw DelcattyEvosAttacks
 ;	dw FeebasEvosAttacks
 ;	dw MiloticEvosAttacks
 	dw LarvestaEvosAttacks
@@ -625,42 +625,44 @@ ScolipedeEvosAttacks:
 	dbw 54, GUNK_SHOT
 	db 0 ; no more level-up moves
 
-;GibleEvosAttacks:
-;	dbbw EVOLVE_LEVEL, 38, GABITE
-;	dbw 1, SCRATCH
-;	dbw 7, LEER
-;	dbw 13, DRAGON_RAGE
-;	dbw 18, SCARY_FACE
-;	dbw 24, SLASH
-;	dbw 32, SWORDS_DANCE
-;	dbw 39, TAKE_DOWN
-;	db 0 ; no more level-up moves
+GibleEvosAttacks:
+	dbbw EVOLVE_LEVEL, 38, GABITE
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 7, LEER
+	dbw 13, DRAGON_RAGE
+	dbw 18, SCARY_FACE
+	dbw 24, SLASH
+	dbw 32, SWORDS_DANCE
+	dbw 39, TAKE_DOWN
+	db 0 ; no more level-up moves
 
-;GabiteEvosAttacks:
-;	dbbw EVOLVE_LEVEL, 48, GARCHOMP
-;	dbw 1, SCRATCH
-;	dbw 7, LEER
-;	dbw 13, DRAGON_RAGE
-;	dbw 18, SCARY_FACE
-;	dbw 24, SLASH
-;	dbw 32, SWORDS_DANCE
-;	dbw 38, DIG
-;	dbw 42, ROCK_SMASH
-;	db 0 ; no more level-up moves
+GabiteEvosAttacks:
+	dbbw EVOLVE_LEVEL, 48, GARCHOMP
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 7, LEER
+	dbw 13, DRAGON_RAGE
+	dbw 18, SCARY_FACE
+	dbw 24, SLASH
+	dbw 32, SWORDS_DANCE
+	dbw 38, DIG
+	dbw 42, ROCK_SMASH
+	db 0 ; no more level-up moves
 
-;GarchompEvosAttacks:
-;	db 0 ; no more evolutions
-;	dbw 1, SCRATCH
-;	dbw 7, LEER
-;	dbw 13, DRAGON_RAGE
-;	dbw 18, SCARY_FACE
-;	dbw 24, SLASH
-;	dbw 32, SWORDS_DANCE
-;	dbw 38, DIG
-;	dbw 42, ROCK_SMASH
-;	dbw 48, OUTRAGE
-;	dbw 56, EARTHQUAKE
-;	db 0 ; no more level-up moves
+GarchompEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 7, LEER
+	dbw 13, DRAGON_RAGE
+	dbw 18, SCARY_FACE
+	dbw 24, SLASH
+	dbw 32, SWORDS_DANCE
+	dbw 38, DIG
+	dbw 42, ROCK_SMASH
+	dbw 48, OUTRAGE
+	dbw 56, EARTHQUAKE
+	db 0 ; no more level-up moves
 
 ;BarboachEvosAttacks:;
 ;	dbbw EVOLVE_LEVEL, 30, WHISCASH
@@ -775,23 +777,24 @@ GrimmsnarlEvosAttacks:
 ;	dbw 48, NASTY_PLOT
 	db 0 ; no more level-up moves
 
-;SkittyEvosAttacks:
-;	dbbw EVOLVE_ITEM, MOON_STONE, DELCATTY
-;	dbw 1, FAIRY_WIND
-;	dbw 1, TAIL_WHIP
-;	dbw 7, ATTRACT
-;	dbw 15, SING
-;	dbw 19, DOUBLE_SLAP
-;	dbw 27, PIXIE_KISS
-;	dbw 38, MOON_BLAST
-;	db 0 ; no more level-up moves
+SkittyEvosAttacks:
+	dbbw EVOLVE_ITEM, MOON_STONE, DELCATTY
+	db 0 ; no more evolutions
+	dbw 1, FAIRY_WIND
+	dbw 1, TAIL_WHIP
+	dbw 7, ATTRACT
+	dbw 15, SING
+	dbw 19, DOUBLESLAP
+	dbw 27, PIXIE_KISS
+	dbw 38, MOON_BLAST
+	db 0 ; no more level-up moves
 
-;DelcattyEvosAttacks:
-;	db 0 ; no more evolutions
-;	dbw 1, ATTRACT
-;	dbw 1, SING
-;	dbw 1, FAIRY_WIND
-;	db 0 ; no more level-up moves
+DelcattyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, ATTRACT
+	dbw 1, SING
+	dbw 1, FAIRY_WIND
+	db 0 ; no more level-up moves
 
 ;FeebasEvosAttacks:
 ;	dbbw EVOLVE_ITEM, SHINY_STONE, MILOTIC

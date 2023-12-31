@@ -256,16 +256,6 @@ IconPointers:
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
-;	dw TreeckoIcon
-;	dw GrovyleIcon
-;	dw SceptileIcon
-;	dw TorchicIcon
-;	dw CombuskenIcon
-;	dw BlazikenIcon
-;	dw MudkipIcon
-;	dw MarshtompIcon
-;	dw SwampertIcon
-;	dw CursolaIcon
 	dw WeavileIcon
 	dw MagnezoneIcon
 	dw ElectivireIcon
@@ -289,11 +279,9 @@ IconPointers:
 	dw VenipedeIcon
 	dw WhirlipedeIcon
 	dw ScolipedeIcon
-;	dw GibleIcon
-;	dw GabiteIcon
-;	dw GarchompIcon
-;	dw BarboachIcon
-;	dw WhiscashIcon
+	dw GibleIcon
+	dw GabiteIcon
+	dw GarchompIcon
 	dw BeldumIcon
 	dw MetangIcon
 	dw MetagrossIcon
@@ -302,8 +290,8 @@ IconPointers:
 	dw ImpidimpIcon
 	dw MorgremIcon
 	dw GrimmsnarlIcon
-;	dw SkittyIcon
-;	dw DelcattyIcon
+	dw SkittyIcon
+	dw DelcattyIcon
 ;	dw FeebasIcon
 ;	dw MiloticIcon
 	dw LarvestaIcon

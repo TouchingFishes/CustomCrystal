@@ -518,26 +518,6 @@ PokemonPicPointers::
 	dba HoOhBackpic
 	dba CelebiFrontpic
 	dba CelebiBackpic
-;	dba TreeckoFrontpic
-;	dba TreeckoBackpic
-;	dba GrovyleFrontpic
-;	dba GrovyleBackpic
-;	dba SceptileFrontpic
-;	dba SceptileBackpic
-;	dba TorchicFrontpic
-;	dba TorchicBackpic
-;	dba CombuskenFrontpic
-;	dba CombuskenBackpic
-;	dba BlazikenFrontpic
-;	dba BlazikenBackpic
-;	dba MudkipFrontpic
-;	dba MudkipBackpic
-;	dba MarshtompFrontpic
-;	dba MarshtompBackpic
-;	dba SwampertFrontpic
-;	dba SwampertBackpic
-;	dba CursolaFrontpic
-;	dba CursolaBackpic
 	dba WeavileFrontpic
 	dba WeavileBackpic
 	dba MagnezoneFrontpic
@@ -584,16 +564,12 @@ PokemonPicPointers::
 	dba WhirlipedeBackpic
 	dba ScolipedeFrontpic
 	dba ScolipedeBackpic
-;	dba GibleFrontpic
-;	dba GibleBackpic
-;	dba GabiteFrontpic
-;	dba GabiteBackpic
-;	dba GarchompFrontpic
-;	dba GarchompBackpic
-;	dba BarboachFrontpic
-;	dba BarboachBackpic
-;	dba WhiscashFrontpic
-;	dba WhiscashBackpic
+	dba GibleFrontpic
+	dba GibleBackpic
+	dba GabiteFrontpic
+	dba GabiteBackpic
+	dba GarchompFrontpic
+	dba GarchompBackpic
 	dba BeldumFrontpic
 	dba BeldumBackpic
 	dba MetangFrontpic
@@ -610,10 +586,10 @@ PokemonPicPointers::
 	dba MorgremBackpic
 	dba GrimmsnarlFrontpic
 	dba GrimmsnarlBackpic
-;	dba SkittyFrontpic
-;	dba SkittyBackpic
-;	dba DelcattyFrontpic
-;	dba DelcattyBackpic
+	dba SkittyFrontpic
+	dba SkittyBackpic
+	dba DelcattyFrontpic
+	dba DelcattyBackpic
 ;	dba FeebasFrontpic
 ;	dba FeebasBackpic
 ;	dba MiloticFrontpic

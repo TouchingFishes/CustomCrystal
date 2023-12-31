@@ -266,15 +266,6 @@ FirstEvoStages::
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI
-;	dw TREECKO
-;	dw TREECKO
-;	dw TREECKO
-;	dw TORCHIC
-;	dw TORCHIC
-;	dw TORCHIC
-;	dw MUDKIP
-;	dw MUDKIP
-;	dw MUDKIP
 	dw SWABLU
 	dw SWABLU
 	dw ARON
@@ -285,11 +276,9 @@ FirstEvoStages::
 	dw VENIPEDE
 	dw VENIPEDE
 	dw VENIPEDE
-;	dw GIBLE
-;	dw GIBLE
-;	dw GIBLE
-;	dw BARBOACH
-;	dw BARBOACH
+	dw GIBLE
+	dw GIBLE
+	dw GIBLE
 	dw BELDUM
 	dw BELDUM
 	dw BELDUM
@@ -298,8 +287,8 @@ FirstEvoStages::
 	dw IMPIDIMP
 	dw IMPIDIMP
 	dw IMPIDIMP
-;	dw SKITTY
-;	dw SKITTY
+	dw SKITTY
+	dw SKITTY
 ;	dw FEEBAS
 ;	dw FEEBAS
 	dw LARVESTA

@@ -261,16 +261,6 @@ MonMenuIconPals:
 	icon_pals BLUE,   TEAL   ; LUGIA
 	icon_pals RED,    BROWN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI
-;	icon_pals GRAY,   GRAY   ; CURSOLA
-;	icon_pals GREEN,  GREEN  ; TREECKO
-;	icon_pals GREEN,  GREEN  ; GROVYLE
-;	icon_pals GRAY,   GRAY   ; SCEPTILE
-;	icon_pals RED,    BROWN  ; TORCHIC
-;	icon_pals RED,    BROWN  ; COMBUSKEN
-;	icon_pals RED,    BROWN  ; BLAZIKEN
-;	icon_pals BLUE,	  BROWN  ; MUDKIP
-;	icon_pals BLUE,	  BROWN  ; MARSHTOMP
-;	icon_pals BLUE,	  BROWN  ; SWAMPERT
 	icon_pals RED,    PURPLE ; WEAVILE
 	icon_pals GRAY,   GRAY   ; MAGNEZONE
 	icon_pals BROWN,  GRAY   ; ELECTIVIRE
@@ -294,11 +284,9 @@ MonMenuIconPals:
 	icon_pals RED,    PURPLE ; VENIPEDE
 	icon_pals PURPLE, GRAY   ; WHIRLIPEDE
 	icon_pals RED,    PURPLE ; SCOLIPEDE
-;	icon_pals RED,    BLUE   ; GIBLE
-;	icon_pals RED,    BLUE   ; GABITE
-;	icon_pals RED,    BLUE   ; GARCHOMP
-;	icon_pals BLUE,   GRAY   ; BARBOACH
-;	icon_pals BLUE,   BLUE   ; WHISCASH
+	icon_pals RED,    BLUE   ; GIBLE
+	icon_pals RED,    BLUE   ; GABITE
+	icon_pals RED,    BLUE   ; GARCHOMP
 	icon_pals BLUE,   GRAY   ; BELDUM
 	icon_pals BLUE,   GRAY   ; METANG
 	icon_pals BLUE,   GRAY   ; METAGROSS
@@ -307,8 +295,8 @@ MonMenuIconPals:
 	icon_pals PURPLE, PURPLE ; IMPIDIMP
 	icon_pals PURPLE, PURPLE ; MORGREM
 	icon_pals PURPLE, PURPLE ; GRIMSNARL
-;	icon_pals PINK,   PINK 	 ; SKITTY
-;	icon_pals PINK,   PURPLE ; DELCATTY
+	icon_pals PINK,   PINK 	 ; SKITTY
+	icon_pals PINK,   PURPLE ; DELCATTY
 ;	icon_pals BROWN,  BROWN  ; FEEBAS
 ;	icon_pals RED,    BLUE   ; MILOTIC
 	icon_pals RED,    RED    ; LARVESTA

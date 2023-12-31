@@ -50,7 +50,7 @@ AlphabeticalPokedexOrder:
 	dw CUBONE
 ;	dw CURSOLA
 	dw CYNDAQUIL
-	;dw DELCATTY
+	dw DELCATTY
 	dw DELIBIRD
 	dw DEWGONG
 	dw DIGLETT
@@ -83,12 +83,12 @@ AlphabeticalPokedexOrder:
 	dw FORRETRESS
 ;	dw FRAXURE
 	dw FURRET
-;	dw GABITE
-;	dw GARCHOMP
+	dw GABITE
+	dw GARCHOMP
 	dw GASTLY
 	dw GENGAR
 	dw GEODUDE
-;	dw GIBLE
+	dw GIBLE
 ;	dw GIRAFARIG
 	dw GLACEON
 	dw GLIGAR
@@ -245,7 +245,7 @@ AlphabeticalPokedexOrder:
 	dw SHUCKLE
 	dw SKARMORY
 	dw SKIPLOOM
-	;dw SKITTY
+	dw SKITTY
 	dw SLOWBRO
 	dw SLOWKING
 	dw SLOWPOKE

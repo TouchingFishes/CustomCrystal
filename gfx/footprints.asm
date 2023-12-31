@@ -252,16 +252,6 @@ INCBIN "gfx/footprints/tyranitar.1bpp"
 INCBIN "gfx/footprints/lugia.1bpp"
 INCBIN "gfx/footprints/ho_oh.1bpp"
 INCBIN "gfx/footprints/celebi.1bpp"
-;INCBIN "gfx/footprints/celebi.1bpp" ;Treecko
-;INCBIN "gfx/footprints/celebi.1bpp" ;Grovyle
-;INCBIN "gfx/footprints/celebi.1bpp" ;Sceptile
-;INCBIN "gfx/footprints/celebi.1bpp" ;Torchic
-;INCBIN "gfx/footprints/celebi.1bpp" ;Combusken
-;INCBIN "gfx/footprints/celebi.1bpp" ;Blaziken
-;INCBIN "gfx/footprints/celebi.1bpp" ;Mudkip
-;INCBIN "gfx/footprints/celebi.1bpp" ;Marshtomp
-;INCBIN "gfx/footprints/celebi.1bpp" ;Swampert
-;INCBIN "gfx/footprints/corsola.1bpp" ;Cursola
 INCBIN "gfx/footprints/weavile.1bpp"
 INCBIN "gfx/footprints/magnezone.1bpp"
 INCBIN "gfx/footprints/electivire.1bpp"
@@ -285,9 +275,9 @@ INCBIN "gfx/footprints/celebi.1bpp" ;Braviary
 INCBIN "gfx/footprints/celebi.1bpp" ;Venipede
 INCBIN "gfx/footprints/misdreavus.1bpp" ;Whirlipede
 INCBIN "gfx/footprints/celebi.1bpp" ;Scolipede
-;INCBIN "gfx/footprints/celebi.1bpp" ;Gible
-;INCBIN "gfx/footprints/celebi.1bpp" ;Gabite
-;INCBIN "gfx/footprints/celebi.1bpp" ;Garchomp
+INCBIN "gfx/footprints/celebi.1bpp" ;Gible
+INCBIN "gfx/footprints/celebi.1bpp" ;Gabite
+INCBIN "gfx/footprints/celebi.1bpp" ;Garchomp
 ;INCBIN "gfx/footprints/misdreavus.1bpp" ;Barboach
 ;INCBIN "gfx/footprints/misdreavus.1bpp" ;Whiscash
 INCBIN "gfx/footprints/celebi.1bpp" ;Beldum
@@ -298,8 +288,8 @@ INCBIN "gfx/footprints/misdreavus.1bpp" ;Claydol
 INCBIN "gfx/footprints/celebi.1bpp" ;Impidimp
 INCBIN "gfx/footprints/celebi.1bpp" ;Morgrem
 INCBIN "gfx/footprints/celebi.1bpp" ;Grimmsnarl
-;INCBIN "gfx/footprints/celebi.1bpp" ;Skitty
-;INCBIN "gfx/footprints/celebi.1bpp" ;Delcatty
+INCBIN "gfx/footprints/celebi.1bpp" ;Skitty
+INCBIN "gfx/footprints/celebi.1bpp" ;Delcatty
 ;INCBIN "gfx/footprints/misdreavus.1bpp" ;Feebas
 ;INCBIN "gfx/footprints/misdreavus.1bpp" ;Milotic
 INCBIN "gfx/footprints/celebi.1bpp" ;Larvesta

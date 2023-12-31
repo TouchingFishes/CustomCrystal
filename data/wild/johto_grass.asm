@@ -1237,27 +1237,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, ALTARIA
-	dbw 2, ALTARIA
-	dbw 3, ALTARIA
-	dbw 3, ALTARIA
-	dbw 2, RATTATA
+	dbw 2, WHIRLIPEDE
+	dbw 2, VENIPEDE
+	dbw 3, RUFFLET
+	dbw 3, BRAVIARY
+	dbw 2, SCOLIPEDE
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; day
-	dbw 2, ALTARIA
-	dbw 2, ALTARIA
-	dbw 3, ALTARIA
-	dbw 3, ALTARIA
-	dbw 2, RATTATA
+	dbw 2, WHIRLIPEDE
+	dbw 2, VENIPEDE
+	dbw 3, RUFFLET
+	dbw 3, BRAVIARY
+	dbw 2, SCOLIPEDE
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; nite
-	dbw 2, ALTARIA
-	dbw 2, ALTARIA
-	dbw 3, ALTARIA
-	dbw 3, ALTARIA
-	dbw 2, RATTATA
+	dbw 2, WHIRLIPEDE
+	dbw 2, VENIPEDE
+	dbw 3, RUFFLET
+	dbw 3, BRAVIARY
+	dbw 2, SCOLIPEDE
 	dbw 3, HOOTHOOT
 	dbw 3, HOOTHOOT
 	end_grass_wildmons
@@ -1265,29 +1265,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, LEDYBA
-	dbw 3, CATERPIE
-	dbw 4, CATERPIE
-	dbw 4, PIDGEY
-	dbw 3, WEEDLE
-	dbw 4, HOPPIP
-	dbw 4, HOPPIP
+	dbw 3, GIBLE
+	dbw 3, GABITE
+	dbw 4, SKITTY
+	dbw 4, DELCATTY
+	dbw 3, GARCHOMP
+	dbw 4, GARCHOMP
+	dbw 4, GARCHOMP
 	; day
-	dbw 3, PIDGEY
-	dbw 3, CATERPIE
-	dbw 4, CATERPIE
-	dbw 4, PIDGEY
-	dbw 3, WEEDLE
-	dbw 4, HOPPIP
-	dbw 4, HOPPIP
+	dbw 3, GIBLE
+	dbw 3, GABITE
+	dbw 4, SKITTY
+	dbw 4, DELCATTY
+	dbw 3, GARCHOMP
+	dbw 4, GARCHOMP
+	dbw 4, GARCHOMP
 	; nite
-	dbw 3, SPINARAK
-	dbw 3, HOOTHOOT
-	dbw 4, POLIWAG
-	dbw 4, HOOTHOOT
-	dbw 3, ZUBAT
-	dbw 4, HOOTHOOT
-	dbw 4, HOOTHOOT
+	dbw 3, GIBLE
+	dbw 3, GABITE
+	dbw 4, SKITTY
+	dbw 4, DELCATTY
+	dbw 3, GARCHOMP
+	dbw 4, GARCHOMP
+	dbw 4, GARCHOMP
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
