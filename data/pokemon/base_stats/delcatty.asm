@@ -1,9 +1,9 @@
 	db 0 ; species ID placeholder
 
-	db  70,  65,  65,  70,  55,  55
+	db  70,  85,  65, 100,  95,  65
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, PSYCHIC_TYPE ; type
 	db 60 ; catch rate
 	db 140 ; base exp
 	db PSNCUREBERRY, MYSTERYBERRY ; items
