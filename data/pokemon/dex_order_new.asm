@@ -41,7 +41,7 @@ NewPokedexOrder:
 	dw ZUBAT
 	dw GOLBAT
 	dw CROBAT
-	dw CLEFFA
+;	dw CLEFFA
 	dw CLEFAIRY
 	dw CLEFABLE
 	dw SKITTY

@@ -35,8 +35,8 @@ FirstEvoStages::
 	dw NIDORAN_M  ;20
 	dw NIDORAN_M
 	dw NIDORAN_M
-	dw CLEFFA
-	dw CLEFFA
+	dw CLEFAIRY
+	dw CLEFAIRY
 	dw VULPIX
 	dw VULPIX
 	dw IGGLYBUFF
@@ -180,7 +180,7 @@ FirstEvoStages::
 	dw CHINCHOU
 	dw CHINCHOU
 	dw PICHU
-	dw CLEFFA
+;	dw CLEFFA
 	dw IGGLYBUFF
 	dw TOGEPI
 	dw TOGEPI     ;b0

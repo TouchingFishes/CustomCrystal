@@ -176,7 +176,7 @@ PokemonNames::
 	db "CHINCHOU@@"
 	db "LANTURN@@@"
 	db "PICHU@@@@@"
-	db "CLEFFA@@@@"
+;	db "CLEFFA@@@@"
 	db "IGGLYBUFF@"
 	db "TOGEPI@@@@"
 	db "TOGETIC@@@"

@@ -177,7 +177,7 @@ IconPointers:
 	dw ChinchouIcon
 	dw LanturnIcon
 	dw PichuIcon
-	dw CleffaIcon
+;	dw CleffaIcon
 	dw IgglybuffIcon
 	dw TogepiIcon
 	dw TogeticIcon

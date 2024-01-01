@@ -22,7 +22,7 @@ EggMovePointers2::
 	dw ChinchouEggMoves
 	dw NoEggMoves2
 	dw PichuEggMoves
-	dw CleffaEggMoves
+;	dw CleffaEggMoves
 	dw IgglybuffEggMoves
 	dw TogepiEggMoves
 	dw NoEggMoves2
@@ -175,14 +175,14 @@ PichuEggMoves:
 	dw DOUBLESLAP
 	dw -1 ; end
 
-CleffaEggMoves:
-	dw PRESENT
-	dw METRONOME
-	dw AMNESIA
-	dw BELLY_DRUM
-	dw SPLASH
-	dw MIMIC
-	dw -1 ; end
+;CleffaEggMoves:
+;	dw PRESENT
+;	dw METRONOME
+;	dw AMNESIA
+;	dw BELLY_DRUM
+;	dw SPLASH
+;	dw MIMIC
+;	dw -1 ; end
 
 IgglybuffEggMoves:
 	dw PERISH_SONG

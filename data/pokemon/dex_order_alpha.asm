@@ -42,7 +42,7 @@ AlphabeticalPokedexOrder:
 	dw CLAYDOL
 	dw CLEFABLE
 	dw CLEFAIRY
-	dw CLEFFA
+;	dw CLEFFA
 ;	dw CLOYSTER
 ;	dw COMBUSKEN
 ;	dw CORSOLA

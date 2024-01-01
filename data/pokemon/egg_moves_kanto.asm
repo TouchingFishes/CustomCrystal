@@ -35,7 +35,7 @@ EggMovePointers1:
 	dw NidoranMEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
-	dw NoEggMoves1
+	dw ClefairyEggMoves
 	dw NoEggMoves1
 	dw VulpixEggMoves
 	dw NoEggMoves1
@@ -237,6 +237,15 @@ NidoranMEggMoves:
 	dw AMNESIA
 	dw COUNTER
 	dw BEAT_UP
+	dw -1 ; end
+
+ClefairyEggMoves:
+	dw PRESENT
+	dw METRONOME
+	dw AMNESIA
+	dw BELLY_DRUM
+	dw SPLASH
+	dw MIMIC
 	dw -1 ; end
 
 VulpixEggMoves:

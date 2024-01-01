@@ -22,7 +22,7 @@ EvosAttacksPointers2::
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
 	dw PichuEvosAttacks
-	dw CleffaEvosAttacks
+;	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks
 	dw TogepiEvosAttacks
 	dw TogeticEvosAttacks
@@ -402,15 +402,15 @@ PichuEvosAttacks:
 	dbw 11, SWEET_KISS
 	db 0 ; no more level-up moves
 
-CleffaEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, CLEFAIRY
-	db 0 ; no more evolutions
-	dbw 1, POUND
-	dbw 1, CHARM
-	dbw 4, ENCORE
-	dbw 8, SING
-	dbw 13, SWEET_KISS
-	db 0 ; no more level-up moves
+;CleffaEvosAttacks:
+;	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, CLEFAIRY
+;	db 0 ; no more evolutions
+;	dbw 1, POUND
+;	dbw 1, CHARM
+;	dbw 4, ENCORE
+;	dbw 8, SING
+;	dbw 13, SWEET_KISS
+;	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
 	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF

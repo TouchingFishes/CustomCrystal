@@ -182,7 +182,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   GRAY   ; CHINCHOU
 	icon_pals BLUE,   BLUE   ; LANTURN
 	icon_pals RED,    PINK   ; PICHU
-	icon_pals PINK,   GREEN  ; CLEFFA
+;	icon_pals PINK,   GREEN  ; CLEFFA
 	icon_pals PINK,   GREEN  ; IGGLYBUFF
 	icon_pals RED,    BLUE   ; TOGEPI
 	icon_pals RED,    BLUE   ; TOGETIC

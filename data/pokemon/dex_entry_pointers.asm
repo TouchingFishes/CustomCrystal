@@ -173,7 +173,7 @@ PokedexDataPointerTable:
 	dba ChinchouPokedexEntry
 	dba LanturnPokedexEntry
 	dba PichuPokedexEntry
-	dba CleffaPokedexEntry
+;	dba CleffaPokedexEntry
 	dba IgglybuffPokedexEntry
 	dba TogepiPokedexEntry
 	dba TogeticPokedexEntry
