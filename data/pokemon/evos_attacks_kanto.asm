@@ -90,8 +90,8 @@ EvosAttacksPointers1::
 	dw DewgongEvosAttacks
 	dw GrimerEvosAttacks
 	dw MukEvosAttacks
-	dw ShellderEvosAttacks
-	dw CloysterEvosAttacks
+;	dw ShellderEvosAttacks
+;	dw CloysterEvosAttacks
 	dw GastlyEvosAttacks
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
@@ -1347,28 +1347,28 @@ MukEvosAttacks:
 	dbw 60, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
-ShellderEvosAttacks:
-	dbbw EVOLVE_ITEM, WATER_STONE, CLOYSTER
-	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, WITHDRAW
-	dbw 9, SUPERSONIC
-	dbw 17, AURORA_BEAM
-	dbw 25, PROTECT
-	dbw 33, LEER
-	dbw 41, CLAMP
-	dbw 49, ICE_BEAM
-	db 0 ; no more level-up moves
+;ShellderEvosAttacks:
+;	dbbw EVOLVE_ITEM, WATER_STONE, CLOYSTER
+;	db 0 ; no more evolutions
+;	dbw 1, TACKLE
+;	dbw 1, WITHDRAW
+;	dbw 9, SUPERSONIC
+;	dbw 17, AURORA_BEAM
+;	dbw 25, PROTECT
+;	dbw 33, LEER
+;	dbw 41, CLAMP
+;	dbw 49, ICE_BEAM
+;	db 0 ; no more level-up moves
 
-CloysterEvosAttacks:
-	db 0 ; no more evolutions
-	dbw 1, WITHDRAW
-	dbw 1, SUPERSONIC
-	dbw 1, AURORA_BEAM
-	dbw 1, PROTECT
-	dbw 33, SPIKES
-	dbw 41, SPIKE_CANNON
-	db 0 ; no more level-up moves
+;CloysterEvosAttacks:
+;	db 0 ; no more evolutions
+;	dbw 1, WITHDRAW
+;	dbw 1, SUPERSONIC
+;	dbw 1, AURORA_BEAM
+;	dbw 1, PROTECT
+;	dbw 33, SPIKES
+;	dbw 41, SPIKE_CANNON
+;	db 0 ; no more level-up moves
 
 GastlyEvosAttacks:
 	dbbw EVOLVE_LEVEL, 25, HAUNTER

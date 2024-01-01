@@ -108,8 +108,8 @@
 	const DEWGONG    ; 57
 	const GRIMER     ; 58
 	const MUK        ; 59
-	const SHELLDER   ; 5a
-	const CLOYSTER   ; 5b
+;	const SHELLDER   ; 5a
+;	const CLOYSTER   ; 5b
 	const GASTLY     ; 5c
 	const HAUNTER    ; 5d
 	const GENGAR     ; 5e
@@ -241,7 +241,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const MAGCARGO   ; db
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
-	const CORSOLA    ; de
+;	const CORSOLA    ; de
 	const REMORAID   ; df
 	const OCTILLERY  ; e0
 	const DELIBIRD   ; e1
@@ -319,8 +319,11 @@ DEF JOHTO_POKEMON EQU const_value
 	const DUSKULL			;45
 	const DUSCLOPS			;46
 	const DUSKNOIR			;47
+	const CLAMPERL			;48
+	const HUNTAIL			;49
+	const GOREBYSS			;50
 	
-	;248 + 47 = 295 
+	;245 + 47 + 3 = 295 
 	
  
 ;	const MAWILE

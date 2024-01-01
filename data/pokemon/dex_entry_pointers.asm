@@ -90,8 +90,8 @@ PokedexDataPointerTable:
 	dba DewgongPokedexEntry
 	dba GrimerPokedexEntry
 	dba MukPokedexEntry
-	dba ShellderPokedexEntry
-	dba CloysterPokedexEntry
+;	dba ShellderPokedexEntry
+;	dba CloysterPokedexEntry
 	dba GastlyPokedexEntry
 	dba HaunterPokedexEntry
 	dba GengarPokedexEntry
@@ -222,7 +222,7 @@ PokedexDataPointerTable:
 	dba MagcargoPokedexEntry
 	dba SwinubPokedexEntry
 	dba PiloswinePokedexEntry
-	dba CorsolaPokedexEntry
+;	dba CorsolaPokedexEntry
 	dba RemoraidPokedexEntry
 	dba OctilleryPokedexEntry
 	dba DelibirdPokedexEntry
@@ -302,5 +302,8 @@ PokedexDataPointerTable:
 	dba DuskullPokedexEntry
 	dba DusclopsPokedexEntry
 	dba DusknoirPokedexEntry
+	dba ClamperlPokedexEntry
+	dba HuntailPokedexEntry
+	dba GorebyssPokedexEntry
 ;	dba LuvdiscPokedexEntry
 	assert_table_length NUM_POKEMON

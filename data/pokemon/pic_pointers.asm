@@ -191,10 +191,10 @@ PokemonPicPointers::
 	dba GrimerBackpic
 	dba MukFrontpic
 	dba MukBackpic
-	dba ShellderFrontpic
-	dba ShellderBackpic
-	dba CloysterFrontpic
-	dba CloysterBackpic
+;	dba ShellderFrontpic
+;	dba ShellderBackpic
+;	dba CloysterFrontpic
+;	dba CloysterBackpic
 	dba GastlyFrontpic
 	dba GastlyBackpic
 	dba HaunterFrontpic
@@ -458,8 +458,8 @@ PokemonPicPointers::
 	dba SwinubBackpic
 	dba PiloswineFrontpic
 	dba PiloswineBackpic
-	dba CorsolaFrontpic
-	dba CorsolaBackpic
+;	dba CorsolaFrontpic
+;	dba CorsolaBackpic
 	dba RemoraidFrontpic
 	dba RemoraidBackpic
 	dba OctilleryFrontpic
@@ -620,4 +620,10 @@ PokemonPicPointers::
 	dba DusclopsBackpic
 	dba DusknoirFrontpic
 	dba DusknoirBackpic
+	dba ClamperlFrontpic
+	dba ClamperlBackpic
+	dba HuntailFrontpic
+	dba HuntailBackpic
+	dba GorebyssFrontpic
+	dba GorebyssBackpic
 	assert_table_length NUM_POKEMON + 1

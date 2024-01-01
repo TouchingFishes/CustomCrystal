@@ -94,8 +94,8 @@ IconPointers:
 	dw DewgongIcon
 	dw GrimerIcon
 	dw MukIcon
-	dw ShellderIcon
-	dw CloysterIcon
+;	dw ShellderIcon
+;	dw CloysterIcon
 	dw GastlyIcon
 	dw HaunterIcon
 	dw GengarIcon
@@ -226,7 +226,7 @@ IconPointers:
 	dw MagcargoIcon
 	dw SwinubIcon
 	dw Piloswine
-	dw CorsolaIcon
+;	dw CorsolaIcon
 	dw RemoraidIcon
 	dw OctilleryIcon
 	dw DelibirdIcon
@@ -307,4 +307,7 @@ IconPointers:
 	dw DuskullIcon
 	dw DusclopsIcon
 	dw DusknoirIcon
+	dw ClamperlIcon
+	dw HuntailIcon
+	dw GorebyssIcon
 	assert_table_length NUM_POKEMON + 1

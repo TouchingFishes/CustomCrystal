@@ -99,8 +99,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   GRAY   ; DEWGONG
 	icon_pals PURPLE, GRAY   ; GRIMER
 	icon_pals PURPLE, GREEN  ; MUK
-	icon_pals PURPLE, BROWN  ; SHELLDER
-	icon_pals PURPLE, BLUE   ; CLOYSTER
+;	icon_pals PURPLE, BROWN  ; SHELLDER
+;	icon_pals PURPLE, BLUE   ; CLOYSTER
 	icon_pals PURPLE, BLUE   ; GASTLY
 	icon_pals RED,    BLUE   ; HAUNTER
 	icon_pals RED,    PURPLE ; GENGAR
@@ -231,7 +231,7 @@ MonMenuIconPals:
 	icon_pals RED,    BLUE   ; MAGCARGO
 	icon_pals BROWN,  BLUE   ; SWINUB
 	icon_pals BROWN,  BROWN  ; PILOSWINE
-	icon_pals GRAY,   GRAY   ; CORSOLA
+;	icon_pals GRAY,   GRAY   ; CORSOLA
 	icon_pals BLUE,   GRAY   ; REMORAID
 	icon_pals RED,    BROWN  ; OCTILLERY
 	icon_pals RED,    PURPLE ; DELIBIRD
@@ -312,4 +312,7 @@ MonMenuIconPals:
 	icon_pals RED,    RED 	 ; DUSKULL
 	icon_pals GRAY,   RED	 ; DUSCLOPS
 	icon_pals GRAY,   BLUE 	 ; DUSKNOIR
+	icon_pals BLUE,   PURPLE ; CLAMPERL
+	icon_pals BLUE,   GREEN  ; HUNTAIL
+	icon_pals PINK,   PINK   ; GOREBYSS
 	assert_table_length NUM_POKEMON

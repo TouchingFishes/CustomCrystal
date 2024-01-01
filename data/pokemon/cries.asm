@@ -95,8 +95,8 @@ PokemonCries::
 	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
 	mon_cry CRY_GRIMER,        0,  256 ; GRIMER
 	mon_cry CRY_MUK,         239,  383 ; MUK
-	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER
-	mon_cry CRY_FEAROW,      111,  352 ; CLOYSTER
+;	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER
+;	mon_cry CRY_FEAROW,      111,  352 ; CLOYSTER
 	mon_cry CRY_METAPOD,       0,  256 ; GASTLY
 	mon_cry CRY_METAPOD,      48,  192 ; HAUNTER
 	mon_cry CRY_MUK,           0,  383 ; GENGAR
@@ -227,7 +227,7 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,   -525,  448 ; MAGCARGO
 	mon_cry CRY_CYNDAQUIL,   510,  320 ; SWINUB
 	mon_cry CRY_MAGCARGO,   -265,  256 ; PILOSWINE
-	mon_cry CRY_MAGCARGO,    161,  232 ; CORSOLA
+;	mon_cry CRY_MAGCARGO,    161,  232 ; CORSOLA
 	mon_cry CRY_SUNFLORA,     13,  256 ; REMORAID
 	mon_cry CRY_TOTODILE,      0,  384 ; OCTILLERY
 	mon_cry CRY_TEDDIURSA,     2,  106 ; DELIBIRD
@@ -282,7 +282,7 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,    96,  256 ; SCOLIPEDE
 	mon_cry CRY_BULBASAUR,   128,  129 ; GIBLE
 	mon_cry CRY_BULBASAUR,   128,  129 ; GABITE
-	mon_cry CRY_BULBASAUR,   128,  129 ; GARCHOMP
+	mon_cry CRY_CATERPIE,    -16,  128 ; GARCHOMP
 	mon_cry CRY_BULBASAUR,   128,  129 ; BELDUM
 	mon_cry CRY_BULBASAUR,   128,  129 ; METANG
 	mon_cry CRY_BULBASAUR,   128,  129 ; METAGROSS
@@ -304,6 +304,9 @@ PokemonCries::
 	mon_cry CRY_PARAS,         0,  160 ; DUSKULL
 	mon_cry CRY_PARAS,         0,  256 ; DUSCLOPS
 	mon_cry CRY_PARAS,       -44,  192 ; DUSKNOIR
+	mon_cry CRY_FEAROW,       64,  160 ; CLAMPERL
+	mon_cry CRY_FEAROW,      111,  352 ; HUNTAIL
+	mon_cry CRY_MAGCARGO,    161,  232 ; GOREBYSS
 ;	mon_cry CRY_CHARMANDER,   96,  192 ; AXEW
 ;	mon_cry CRY_CHARMANDER,   32,  192 ; FRAXURE
 ;	mon_cry CRY_CHARMANDER,    0,  256 ; HAXORUS

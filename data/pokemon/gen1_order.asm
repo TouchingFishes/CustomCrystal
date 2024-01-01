@@ -22,7 +22,7 @@ Pokered_MonIndices:
 	db ARCANINE
 	db MEW
 	db GYARADOS
-	db SHELLDER
+;	db SHELLDER
 	db TENTACOOL
 	db GASTLY
 	db SCYTHER
@@ -78,7 +78,7 @@ Pokered_MonIndices:
 	db DITTO
 	db MEOWTH
 	db KRABBY
-	db CORSOLA ; MISSINGNO.
+	db FURRET ;CORSOLA ; MISSINGNO.
 	db REMORAID ; MISSINGNO.
 	db OCTILLERY ; MISSINGNO.
 	db VULPIX
@@ -138,7 +138,7 @@ Pokered_MonIndices:
 	db MUK
 	db SMEARGLE ; MISSINGNO.
 	db KINGLER
-	db CLOYSTER
+;	db CLOYSTER
 	db TYROGUE ; MISSINGNO.
 	db ELECTRODE
 	db CLEFABLE
@@ -190,7 +190,7 @@ Pokered_MonIndices:
 	db BELLSPROUT
 	db WEEPINBELL
 	db VICTREEBEL
-	assert_table_length 190 ; gen 1 mon indexes
+	assert_table_length 188 ;190 ; gen 1 mon indexes
 	db CHIKORITA
 	db BAYLEEF
 	db MEGANIUM

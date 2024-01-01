@@ -78,7 +78,7 @@ DecorationAttributePokemonNames:
 	dw TENTACOOL  ; 11
 	dw GEODUDE    ; 12
 	dw GRIMER     ; 13
-	dw SHELLDER   ; 14
+	;dw SHELLDER   ; 14
 	dw GENGAR     ; 15
 	dw ONIX       ; 16
 	dw VOLTORB    ; 17

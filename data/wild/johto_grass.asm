@@ -1265,29 +1265,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, GIBLE
+	dbw 3, CLAMPERL
 	dbw 3, SNORUNT
 	dbw 4, DUSKULL
-	dbw 4, DUSCLOPS
-	dbw 3, DUSKNOIR
-	dbw 4, DUSKNOIR
-	dbw 4, DUSKNOIR
+	dbw 4, HUNTAIL
+	dbw 3, GOREBYSS
+	dbw 4, GOREBYSS
+	dbw 4, GOREBYSS
 	; day
-	dbw 3, GIBLE
+	dbw 3, CLAMPERL
 	dbw 3, SNORUNT
 	dbw 4, DUSKULL
-	dbw 4, DUSCLOPS
-	dbw 3, DUSKNOIR
-	dbw 4, DUSKNOIR
-	dbw 4, DUSKNOIR
+	dbw 4, HUNTAIL
+	dbw 3, GOREBYSS
+	dbw 4, GOREBYSS
+	dbw 4, GOREBYSS
 	; nite
-	dbw 3, GIBLE
+	dbw 3, CLAMPERL
 	dbw 3, SNORUNT
 	dbw 4, DUSKULL
-	dbw 4, DUSCLOPS
-	dbw 3, DUSKNOIR
-	dbw 4, DUSKNOIR
-	dbw 4, DUSKNOIR
+	dbw 4, HUNTAIL
+	dbw 3, GOREBYSS
+	dbw 4, GOREBYSS
+	dbw 4, GOREBYSS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31

@@ -71,7 +71,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw SwinubEggMoves
 	dw NoEggMoves2
-	dw CorsolaEggMoves
+;	dw CorsolaEggMoves
 	dw RemoraidEggMoves
 	dw NoEggMoves2
 	dw DelibirdEggMoves
@@ -323,6 +323,7 @@ QwilfishEggMoves:
 	dw HAZE
 	dw BUBBLEBEAM
 	dw SUPERSONIC
+	dw TAKE_DOWN
 	dw -1 ; end
 
 ShuckleEggMoves:
@@ -364,13 +365,13 @@ SwinubEggMoves:
 	dw ANCIENTPOWER
 	dw -1 ; end
 
-CorsolaEggMoves:
-	dw ROCK_SLIDE
-	dw SAFEGUARD
-	dw SCREECH
-	dw MIST
-	dw AMNESIA
-	dw -1 ; end
+;CorsolaEggMoves:
+;	dw ROCK_SLIDE
+;	dw SAFEGUARD
+;	dw SCREECH
+;	dw MIST
+;	dw AMNESIA
+;	dw -1 ; end
 
 RemoraidEggMoves:
 	dw AURORA_BEAM

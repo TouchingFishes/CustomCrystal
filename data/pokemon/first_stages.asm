@@ -91,8 +91,8 @@ FirstEvoStages::
 	dw SEEL
 	dw GRIMER     ;58
 	dw GRIMER
-	dw SHELLDER
-	dw SHELLDER
+;	dw SHELLDER
+;	dw SHELLDER
 	dw GASTLY
 	dw GASTLY
 	dw GASTLY
@@ -234,7 +234,7 @@ FirstEvoStages::
 	dw SLUGMA
 	dw SWINUB
 	dw SWINUB
-	dw CORSOLA
+;	dw CORSOLA
 ;	dw CORSOLA
 	dw REMORAID
 	dw REMORAID   ;e0
@@ -303,5 +303,8 @@ FirstEvoStages::
 	dw DUSKULL
 	dw DUSKULL
 	dw DUSKULL
+	dw CLAMPERL
+	dw CLAMPERL
+	dw CLAMPERL
 ;	dw LUVDISC
 	assert_table_length NUM_POKEMON

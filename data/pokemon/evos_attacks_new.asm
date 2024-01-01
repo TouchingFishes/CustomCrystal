@@ -63,6 +63,9 @@ EvosAttacksPointers3::
 	dw DuskullEvosAttacks
 	dw DusclopsEvosAttacks
 	dw DusknoirEvosAttacks
+	dw ClamperlEvosAttacks
+	dw HuntailEvosAttacks
+	dw GorebyssEvosAttacks
 ;	dw SpiritombEvosAttacks
 ;	dw LuvdiscEvosAttacks
 ;	dw AxewEvosAttacks
@@ -965,6 +968,40 @@ DusknoirEvosAttacks:
 	dbw 1, CURSE
 	dbw 1, SHADOW_PUNCH
 	dbw 1, MEAN_LOOK
+	db 0 ; no more level-up moves
+
+ClamperlEvosAttacks:
+	dbbw EVOLVE_ITEM, WATER_STONE, HUNTAIL
+	dbbw EVOLVE_ITEM, SHINY_STONE, GOREBYSS
+	db 0 ; no more evolutions
+	dbw 1, WATER_GUN
+	dbw 1, TACKLE
+	dbw 1, WHIRLPOOL
+	dbw 1, BARRIER
+	db 0 ; no more level-up moves
+
+HuntailEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, WHIRLPOOL
+	dbw 8, BITE
+	dbw 15, SCREECH
+	dbw 22, BUBBLEBEAM
+	dbw 29, SCARY_FACE
+	dbw 36, CRUNCH
+	dbw 43, BATON_PASS
+	dbw 50, HYDRO_PUMP
+	db 0 ; no more level-up moves
+	
+GorebyssEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, WHIRLPOOL
+	dbw 8, FAIRY_WIND
+	dbw 15, AGILITY
+	dbw 22, BUBBLEBEAM
+	dbw 29, SWEET_KISS
+	dbw 36, PIXIE_KISS
+	dbw 43, RECOVER
+	dbw 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 ;LuvdiscEvosAttacks:

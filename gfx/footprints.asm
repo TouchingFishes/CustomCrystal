@@ -90,8 +90,8 @@ INCBIN "gfx/footprints/seel.1bpp"
 INCBIN "gfx/footprints/dewgong.1bpp"
 INCBIN "gfx/footprints/grimer.1bpp"
 INCBIN "gfx/footprints/muk.1bpp"
-INCBIN "gfx/footprints/shellder.1bpp"
-INCBIN "gfx/footprints/cloyster.1bpp"
+;INCBIN "gfx/footprints/shellder.1bpp"
+;INCBIN "gfx/footprints/cloyster.1bpp"
 INCBIN "gfx/footprints/gastly.1bpp"
 INCBIN "gfx/footprints/haunter.1bpp"
 INCBIN "gfx/footprints/gengar.1bpp"
@@ -222,7 +222,7 @@ INCBIN "gfx/footprints/slugma.1bpp"
 INCBIN "gfx/footprints/magcargo.1bpp"
 INCBIN "gfx/footprints/swinub.1bpp"
 INCBIN "gfx/footprints/piloswine.1bpp"
-INCBIN "gfx/footprints/corsola.1bpp"
+;INCBIN "gfx/footprints/corsola.1bpp"
 INCBIN "gfx/footprints/remoraid.1bpp"
 INCBIN "gfx/footprints/octillery.1bpp"
 INCBIN "gfx/footprints/delibird.1bpp"
@@ -304,5 +304,8 @@ INCBIN "gfx/footprints/misdreavus.1bpp" ;Froslass
 INCBIN "gfx/footprints/misdreavus.1bpp" ;Duskull
 INCBIN "gfx/footprints/misdreavus.1bpp" ;Dusclops
 INCBIN "gfx/footprints/misdreavus.1bpp" ;Dusknoir
+INCBIN "gfx/footprints/shellder.1bpp" ;Clamperl
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Huntail
+INCBIN "gfx/footprints/misdreavus.1bpp" ;Gorebyss
 ;INCBIN "gfx/footprints/misdreavus.1bpp" ;Luvdisc
 

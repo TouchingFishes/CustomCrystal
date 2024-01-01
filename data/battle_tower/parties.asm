@@ -140,9 +140,9 @@ BattleTowerMons:
 	bigdw 28 ; SDef
 	db "GARU-RA@@@@"
 
-	dw CORSOLA
+	dw GOREBYSS
 	db SCOPE_LENS
-	dw SURF, PSYCHIC_M, RECOVER, ANCIENTPOWER
+	dw SURF, PSYCHIC_M, RECOVER, ICE_BEAM
 
 	dw 0 ; OT ID
 	dt 1000 ; Exp
@@ -4646,9 +4646,9 @@ BattleTowerMons:
 	bigdw 236 ; SDef
 	db "SUTA-MI-@@@"
 
-	dw CLOYSTER
+	dw LAPRAS
 	db LEFTOVERS
-	dw EXPLOSION, BLIZZARD, SURF, ICY_WIND
+	dw THUNDER, BLIZZARD, SURF, ICY_WIND
 
 	dw 0 ; OT ID
 	dt 729000 ; Exp

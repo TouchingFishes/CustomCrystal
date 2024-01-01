@@ -38,13 +38,14 @@ AlphabeticalPokedexOrder:
 	dw CHARMELEON
 	dw CHIKORITA
 	dw CHINCHOU
+	dw CLAMPERL
 	dw CLAYDOL
 	dw CLEFABLE
 	dw CLEFAIRY
 	dw CLEFFA
-	dw CLOYSTER
+;	dw CLOYSTER
 ;	dw COMBUSKEN
-	dw CORSOLA
+;	dw CORSOLA
 	dw CROBAT
 	dw CROCONAW
 	dw CUBONE
@@ -103,6 +104,7 @@ AlphabeticalPokedexOrder:
 	dw GOLDEEN
 	dw GOLDUCK
 	dw GOLEM
+	dw GOREBYSS
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
@@ -123,6 +125,7 @@ AlphabeticalPokedexOrder:
 	dw HORSEA
 	dw HOUNDOOM
 	dw HOUNDOUR
+	dw HUNTAIL
 	dw HYPNO
 	dw IGGLYBUFF
 	dw IMPIDIMP
@@ -246,7 +249,7 @@ AlphabeticalPokedexOrder:
 	dw SEAKING
 	dw SEEL
 	dw SENTRET
-	dw SHELLDER
+;	dw SHELLDER
 	dw SHUCKLE
 	dw SKARMORY
 	dw SKIPLOOM

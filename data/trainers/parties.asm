@@ -1546,9 +1546,9 @@ CooltrainerFGroup:
 	next_list_item ; COOLTRAINERF (5)
 	db "KATE@", TRAINERTYPE_NORMAL
 	db 26
-	dw SHELLDER
+	dw CLAMPERL
 	db 28
-	dw CLOYSTER
+	dw HUNTAIL
 	db -1 ; end
 
 	next_list_item ; COOLTRAINERF (6)
@@ -1828,8 +1828,8 @@ BeautyGroup:
 
 	next_list_item ; BEAUTY (17)
 	db "OLIVIA@", TRAINERTYPE_NORMAL
-	db 19
-	dw CORSOLA
+	db 20
+	dw SKITTY
 	db -1 ; end
 
 	end_list_items
@@ -2568,13 +2568,13 @@ FisherGroup:
 	next_list_item ; FISHER (12)
 	db "JONAH@", TRAINERTYPE_NORMAL
 	db 25
-	dw SHELLDER
+	dw TENTACOOL
 	db 29
 	dw OCTILLERY
 	db 25
 	dw REMORAID
-	db 29
-	dw CLOYSTER
+	db 30
+	dw TENTACRUEL
 	db -1 ; end
 
 	next_list_item ; FISHER (13)
@@ -2723,17 +2723,17 @@ SwimmerMGroup:
 	next_list_item ; SWIMMERM (3)
 	db "RANDALL@", TRAINERTYPE_NORMAL
 	db 18
-	dw SHELLDER
+	dw CHINCHOU
 	db 20
 	dw WARTORTLE
 	db 18
-	dw SHELLDER
+	dw REMORAID
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (4)
 	db "CHARLIE@", TRAINERTYPE_NORMAL
 	db 21
-	dw SHELLDER
+	dw CHINCHOU
 	db 19
 	dw TENTACOOL
 	db 19
@@ -2797,11 +2797,11 @@ SwimmerMGroup:
 	next_list_item ; SWIMMERM (11)
 	db "DARYL@", TRAINERTYPE_NORMAL
 	db 24
-	dw SHELLDER
+	dw REMORAID
 	db 25
-	dw CLOYSTER
+	dw MANTINE
 	db 24
-	dw SHELLDER
+	dw REMORAID
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (12)
@@ -2839,9 +2839,9 @@ SwimmerMGroup:
 	next_list_item ; SWIMMERM (15)
 	db "TUCKER@", TRAINERTYPE_NORMAL
 	db 30
-	dw SHELLDER
+	dw CLAMPERL
 	db 34
-	dw CLOYSTER
+	dw GOREBYSS
 	db -1 ; end
 
 	next_list_item ; SWIMMERM (16)
@@ -2914,7 +2914,7 @@ SwimmerFGroup:
 	db 19
 	dw STARYU
 	db 19
-	dw SHELLDER
+	dw SEEL
 	db -1 ; end
 
 	next_list_item ; SWIMMERF (3)
@@ -4811,11 +4811,11 @@ BoarderGroup:
 	next_list_item ; BOARDER (3)
 	db "DOUGLAS@", TRAINERTYPE_NORMAL
 	db 24
-	dw SHELLDER
+	dw SEEL
 	db 25
-	dw CLOYSTER
+	dw SWINUB
 	db 24
-	dw SHELLDER
+	dw SEEL
 	db -1 ; end
 
 	end_list_items

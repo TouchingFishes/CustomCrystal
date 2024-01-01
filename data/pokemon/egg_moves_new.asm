@@ -54,6 +54,9 @@ EggMovePointers3::
 	dw DuskullEggMoves
 	dw NoEggMoves2 ;Dusclops
 	dw NoEggMoves2 ;Dusknoir
+	dw ClamperlEggMoves
+	dw NoEggMoves2 ;Huntail
+	dw NoEggMoves2 ;Gorebyss
 .IndirectEnd::
 
 ;TreeckoEggMoves:
@@ -163,4 +166,10 @@ DuskullEggMoves:
 	dw DESTINY_BOND
 	dw PAIN_SPLIT
 	dw -1 ; end
+
+ClamperlEggMoves:
+	dw BODY_SLAM
+	dw CONFUSE_RAY
+	dw SUPERSONIC
+	dw -1 ;end
 	

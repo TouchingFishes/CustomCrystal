@@ -71,7 +71,7 @@ EvosAttacksPointers2::
 	dw MagcargoEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
-	dw CorsolaEvosAttacks
+;	dw CorsolaEvosAttacks
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
 	dw DelibirdEvosAttacks
@@ -880,7 +880,7 @@ QwilfishEvosAttacks:
 	dbw 10, MINIMIZE
 	dbw 19, WATER_GUN
 	dbw 28, PIN_MISSILE
-	dbw 37, TAKE_DOWN
+	dbw 37, RAPID_SPIN
 	dbw 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -1018,17 +1018,17 @@ PiloswineEvosAttacks:
 	dbw 70, AMNESIA
 	db 0 ; no more level-up moves
 
-CorsolaEvosAttacks:
-	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 7, HARDEN
-	dbw 13, SPITE
-	dbw 19, NIGHT_SHADE
-	dbw 25, SPIKE_CANNON
-	dbw 31, HEX
-	dbw 37, MIRROR_COAT
-	dbw 43, ANCIENTPOWER
-	db 0 ; no more level-up moves
+;CorsolaEvosAttacks:
+;	db 0 ; no more evolutions
+;	dbw 1, TACKLE
+;	dbw 7, HARDEN
+;	dbw 13, SPITE
+;	dbw 19, NIGHT_SHADE
+;	dbw 25, SPIKE_CANNON
+;	dbw 31, HEX
+;	dbw 37, MIRROR_COAT
+;	dbw 43, ANCIENTPOWER
+;	db 0 ; no more level-up moves
 
 RemoraidEvosAttacks:
 	dbbw EVOLVE_LEVEL, 25, OCTILLERY

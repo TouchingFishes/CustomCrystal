@@ -91,8 +91,8 @@ KantoMonSpecials:
 	db  95 ; DEWGONG
 	db  40 ; GRIMER
 	db  65 ; MUK
-	db  45 ; SHELLDER
-	db  85 ; CLOYSTER
+;	db  45 ; SHELLDER
+;	db  85 ; CLOYSTER
 	db 100 ; GASTLY
 	db 115 ; HAUNTER
 	db 130 ; GENGAR

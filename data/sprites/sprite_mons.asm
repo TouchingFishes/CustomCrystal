@@ -5,7 +5,7 @@ SpriteMons:
 	dw GEODUDE
 	dw GROWLITHE
 	dw WEEDLE
-	dw SHELLDER
+	dw CLAMPERL
 	dw ODDISH
 	dw GENGAR
 	dw ZUBAT

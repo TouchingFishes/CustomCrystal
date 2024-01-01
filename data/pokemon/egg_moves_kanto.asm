@@ -90,8 +90,8 @@ EggMovePointers1:
 	dw NoEggMoves1
 	dw GrimerEggMoves
 	dw NoEggMoves1
-	dw ShellderEggMoves
-	dw NoEggMoves1
+;	dw ShellderEggMoves
+;	dw NoEggMoves1
 	dw GastlyEggMoves
 	dw NoEggMoves1
 	dw NoEggMoves1
@@ -410,13 +410,13 @@ GrimerEggMoves:
 	dw LICK
 	dw -1 ; end
 
-ShellderEggMoves:
-	dw BUBBLEBEAM
-	dw TAKE_DOWN
-	dw BARRIER
-	dw RAPID_SPIN
-	dw SCREECH
-	dw -1 ; end
+;ShellderEggMoves:
+;	dw BUBBLEBEAM
+;	dw TAKE_DOWN
+;	dw BARRIER
+;	dw RAPID_SPIN
+;	dw SCREECH
+;	dw -1 ; end
 
 GastlyEggMoves:
 	dw PSYWAVE
